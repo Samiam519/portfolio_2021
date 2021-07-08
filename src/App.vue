@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <HelloWorld v-show="false"/>
-    <Test/>
+    <Carousel/>
+    <Test v-show="false"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Carousel from './components/Carousel.vue'
 import Test from './components/Test.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Carousel,
     Test
   }
 }
