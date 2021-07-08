@@ -6,28 +6,40 @@
   @font-face {
     font-family: "Abside";
     src: url("./fonts/Abside-Round1.ttf") format("ttf");
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
   }
 }
+@mixin font-face() {
+  @font-face {
+    font-family: "Abside";
+    src: url("./fonts/Abside-ObliqueRound1.ttf") format("ttf");
+    font-weight: bold;
+    font-style: italic;
+  }
+}
+// see if you can make kerning (letter-spacing) smaller
+// figure out importing lighter style for
 
 // Set your brand colors
-$purple: #8A4D76;
-$pink: #FA7C91;
-$red: #e60b14;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
+$yellow: #FEF373;
+$cyan: #3ECCED;
+$red: #ff4d6e;
+$grey-light: #EDEFE8;
+$grey-dark: #272B1E;
+$black: #181914;
 
 // Update some of Bulma's component variables
 $family-sans-serif: "Abside", Arial, Helvetica Nueue, sans-serif;
-$family-sans-serif: "Nunito", sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-$primary: $purple;
-$secondary: $pink;
-$link: $pink;
+$primary: $red;
+$secondary: $cyan;
+$link: $cyan;
 $danger: $red;
+$scheme-main: $grey-light;
+$background: $grey-light;
+$scheme-invert: $grey-dark;
+$radius-small: 20px;
+$radius: 35px;
 
 // Import Bulma and Buefy styles
 @import "../../node_modules/bulma/bulma.sass";

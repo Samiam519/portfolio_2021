@@ -1,5 +1,11 @@
 # portfolio_2021
 
+## Theme Changes
+To watch changes to `theme.scss` and output the full theme css file, run
+```
+npm run css-watch
+```
+
 ## Project setup
 ```
 npm install
