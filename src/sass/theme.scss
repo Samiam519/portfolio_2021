@@ -24,6 +24,7 @@
 // Set your brand colors
 $yellow: #FEF373;
 $cyan: #3ECCED;
+$blue: #4a5cdd;
 $red: #ff4d6e;
 $grey-light: #EDEFE8;
 $grey-dark: #272B1E;
@@ -35,11 +36,20 @@ $primary: $red;
 $secondary: $cyan;
 $link: $cyan;
 $danger: $red;
+$dark: $grey-dark;
+$text-strong: $grey-dark;
 $scheme-main: $grey-light;
 $background: $grey-light;
 $scheme-invert: $grey-dark;
+$text-invert: $grey-light;
+$text-light: $grey-light;
 $radius-small: 20px;
 $radius: 35px;
+$carousel-arrow-background: $black;
+$carousel-arrow-color: $scheme-main;
+$carousel-indicator-background: $black;
+$carousel-indicator-border: $scheme-main;
+$carousel-indicator-color: $black;
 
 // Import Bulma and Buefy styles
 @import "../../node_modules/bulma/bulma.sass";
