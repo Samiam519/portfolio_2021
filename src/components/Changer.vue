@@ -21,11 +21,6 @@
       </g>
 
     </svg>
-    <!--    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
-          <path id="path" fill="none" stroke="white" stroke-width="4"
-                d="M100.8 149.2s74.8-114.7 185.3-85.4 56.5 157.9 165.2 200.9c132.5 52.4 247.8-144 247.8-144"/>
-          <rect id="drag" width="50" height="50" fill="#88ce03"/>
-        </svg>-->
   </div>
 </template>
 
@@ -76,18 +71,15 @@ export default {
           if (progress !== self.prevProgress) {
             self.tl.progress(progress);
             self.prevProgress = progress;
-
-            console.log(progress);
             // if whole number, change slide and reset to middle
-            /*if (progress % 1 === 0) {
+            if (progress % 1 === 0) {
               if (progress === 0) {
                 self.prev()
               }
               if (progress === 1) {
                 self.next()
               }
-              self.prevProgress = 0.5
-            }*/
+            }
           } else {
             return false;
           }
