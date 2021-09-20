@@ -51,6 +51,7 @@ body {
   margin: 0;
   animation: animate-background 0.5s forwards;
   animation-delay: 0.75s;
+  overflow: hidden;
 }
 
 #app {
@@ -93,24 +94,19 @@ body {
 /*-----------------
 Standardized colors
 -----------------*/
+
+.red {
+  fill: #ed5959;
+}
+.blue{
+  fill: #40c6ee;
+}
 .yellow {
   fill: #FDF388;
 }
 
 .dark-yellow {
   fill: #e0d580;
-}
-
-.black-stroke {
-  fill: none;
-  stroke: #181914;
-  stroke-miterlimit: 10;
-  stroke-width: 4px;
-}
-
-.cls-text {
-  font-size: 12px;
-  font-family: Abside-Round1, Abside;
 }
 
 .cls-text {
@@ -125,11 +121,62 @@ Standardized colors
   fill: #30332a;
 }
 
+.white{
+  fill: #EFEAE4;
+}
+
 .black, .cls-text{
   fill: #181914;
 }
 
-.red {
-  fill: #ed5959;
+.black-stroke {
+  fill: none;
+  stroke: #181914;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.dark-grey-stroke {
+  stroke: #30332a;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.white-stroke {
+  fill: none;
+  stroke: #EFEAE4;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.blue-stroke {
+  fill: none;
+  stroke: #40c6ee;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.no-stroke {
+  fill: none;
+  stroke: transparent;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.large-stroke{
+  stroke-width: 4px;
+}
+
+.cls-text {
+  font-size: 12px;
+  font-family: Abside-Round1, Abside;
+}
+
+.logo-name-text > text{
+  font-family: Streamster;
+  font-size: 170px;
+}
+.logo-subtitle-text{
+  font-size: 20px;
 }
 </style>

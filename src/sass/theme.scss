@@ -18,6 +18,14 @@
     font-style: italic;
   }
 }
+@mixin font-face() {
+  @font-face {
+    font-family: "Streamster";
+    src: url("./fonts/Streamster.ttf") format("ttf");
+    font-weight: bold;
+    font-style: normal;
+  }
+}
 // see if you can make kerning (letter-spacing) smaller
 // figure out importing lighter style for
 
