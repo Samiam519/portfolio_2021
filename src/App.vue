@@ -1,26 +1,32 @@
 <template>
   <div id="app">
-    <Carousel v-if="!showIntro"/>
-    <Test v-show="false"/>
     <Intro v-if="showIntro" @hide="hide"/>
+    <div v-show="!showIntro" class="site-content">
+      <Carousel :carousel-index="carouselIndex"/>
+      <Navigation @change="changeSlide"/>
+      <Changer @change="changeSlide" :carousel-index="carouselIndex"/>
+    </div>
   </div>
 </template>
 
 <script>
-import Carousel from './components/Carousel.vue'
-import Test from './components/Test.vue'
 import Intro from './components/Intro.vue'
+import Carousel from './components/Carousel.vue'
+import Navigation from "@/components/Navigation";
+import Changer from "@/components/Changer";
 
 export default {
   name: 'App',
   components: {
+    Changer,
+    Intro,
     Carousel,
-    Test,
-    Intro
+    Navigation
   },
   data() {
     return {
-      showIntro: true
+      showIntro: true,
+      carouselIndex: 2
     }
   },
   mounted() {
@@ -29,6 +35,9 @@ export default {
   methods:{
     hide(){
       this.showIntro = false
+    },
+    changeSlide(ind){
+      this.carouselIndex = ind
     }
   }
 }
@@ -56,6 +65,17 @@ body {
   }
   to {
     background-color: #30332A;
+  }
+}
+.site-content{
+  animation: fade-in 0.5s forwards;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
   }
 }
 </style>
