@@ -18,7 +18,7 @@
       </audio>
     </div>
     <b-carousel
-        v-model="carouselIndex"
+        v-model="index"
         :autoplay="false"
         @change="slideChange"
         :indicator="false"
@@ -147,8 +147,15 @@ export default {
   props: {
     carouselIndex: Number
   },
-  data() {
-    return {}
+  computed: {
+    index: {
+      get(){
+        return this.carouselIndex
+      },
+      set(val){
+        this.$emit('change', val)
+      }
+    }
   },
   methods: {
     slideChange() {

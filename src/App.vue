@@ -2,7 +2,7 @@
   <div id="app">
     <Intro v-if="showIntro" @hide="hide"/>
     <div v-show="!showIntro" class="site-content">
-      <Carousel :carousel-index="carouselIndex"/>
+      <Carousel @change="changeSlide" :carousel-index="carouselIndex"/>
       <Navigation @change="changeSlide"/>
       <Changer @change="changeSlide" :carousel-index="carouselIndex"/>
     </div>
