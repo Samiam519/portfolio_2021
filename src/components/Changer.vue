@@ -8,7 +8,7 @@
       </g>
       <g id="end2">
         <path class="white-stroke"
-              d="M191.7,171.21a31.53,31.53,0,0,1-5.64,10.23,40.17,40.17,0,0,1-9.28,7.24,46.43,46.43,0,0,1-45.12,0,40.21,40.21,0,0,1-9.28-7.25,32.46,32.46,0,0,1-5.64-10.22,34.87,34.87,0,0,0,7.1,8.85,37.72,37.72,0,0,0,8.81,6.88,44.41,44.41,0,0,0,43.14,0,37.46,37.46,0,0,0,8.8-6.88A36.55,36.55,0,0,0,191.7,171.21Z"/>
+              d="M191.7,170.21a31.53,31.53,0,0,1-5.64,10.23,40.17,40.17,0,0,1-9.28,7.24,46.43,46.43,0,0,1-45.12,0,40.21,40.21,0,0,1-9.28-7.25,32.46,32.46,0,0,1-5.64-10.22,34.87,34.87,0,0,0,7.1,8.85,37.72,37.72,0,0,0,8.81,6.88,44.41,44.41,0,0,0,43.14,0,37.46,37.46,0,0,0,8.8-6.88A36.55,36.55,0,0,0,191.7,170.21Z"/>
       </g>
       <g id="drag">
         <path class="yellow"
@@ -19,7 +19,6 @@
               d="M16.88,51.92h0a26.41,26.41,0,1,1,32,19.31A26.42,26.42,0,0,1,16.88,51.92Zm6.38-1.57v0a19.88,19.88,0,1,0,14.49-24.1A19.88,19.88,0,0,0,23.27,50.39Z"/>
         <circle class="yellow" cx="42.52" cy="45.59" r="23.14"/>
       </g>
-
     </svg>
   </div>
 </template>
@@ -36,58 +35,69 @@ export default {
   },
   data() {
     return {
-      target: null,
+      drag: null,
       path: null,
       knob: null,
       bounds: null,
       clamp: null,
       prevProgress: 0,
-      tl: null
+      tl: null,
+      knobDisabled: false
     }
   },
   mounted() {
     gsap.registerPlugin(MotionPathPlugin, Draggable);
     setTimeout(() => {
-      this.target = document.getElementById("drag");
+      this.drag = document.getElementById("drag");
       this.path = document.getElementById("path");
       this.knob = document.getElementById("knob");
       this.bounds = this.path.getBBox();
       this.clamp = gsap.utils.clamp(0, 1);
 
       this.tl = gsap.timeline({paused: true})
-          .to(this.target, {
+          .to(this.drag, {
             motionPath: {
               path: this.path,
               align: this.path,
               autoRotate: true,
               alignOrigin: [0.56, 0.228],
+              type: "x,y"
             }, immediateRender: true, ease: "none"
           })
 
+      this.resetKnobPosition(this.drag);
       let self = this;
-      Draggable.create(self.target, {
-        type: "x", onDrag: function () {
+      Draggable.create(self.drag, {
+        type: "x",
+        onDrag: function () {
           let progress = self.clamp((this.x - self.bounds.x) / self.bounds.width);
           if (progress !== self.prevProgress) {
             self.tl.progress(progress);
             self.prevProgress = progress;
             // if whole number, change slide and reset to middle
             if (progress % 1 === 0) {
+              self.knobDisabled = true;
               if (progress === 0) {
                 self.prev()
               }
               if (progress === 1) {
                 self.next()
               }
+              // reset animation triggers when unclick
             }
           } else {
             return false;
           }
+        },
+        onDragEnd: function () {
+          // a page changed, reset position
+          if(self.knobDisabled){
+            self.resetKnobPosition(this.target);
+            self.knobDisabled = false;
+          }
         }
       });
-    }, 1500);
-
-
+    }, 1250);
   },
   methods: {
     prev() {
@@ -103,6 +113,14 @@ export default {
       } else {
         this.$emit('change', this.carouselIndex + 1)
       }
+    },
+    resetKnobPosition(target){
+      gsap.set(target, {
+        duration: 1,
+        x: 74,
+        y: 31,
+        rotation: 45}
+      )
     }
   }
 }
