@@ -32,11 +32,11 @@ export default {
   mounted() {
 
   },
-  methods:{
-    hide(){
+  methods: {
+    hide() {
       this.showIntro = false
     },
-    changeSlide(ind){
+    changeSlide(ind) {
       this.carouselIndex = ind
     }
   }
@@ -48,15 +48,17 @@ html,
 body {
   width: 100%;
   height: 100%;
-  margin:  0;
+  margin: 0;
   animation: animate-background 0.5s forwards;
   animation-delay: 0.75s;
 }
-#app{
+
+#app {
   height: 100%;
 }
-.hidden{
-  display: none;
+
+.site-content {
+  animation: fade-in 0.5s forwards;
 }
 
 @keyframes animate-background {
@@ -67,9 +69,7 @@ body {
     background-color: #30332A;
   }
 }
-.site-content{
-  animation: fade-in 0.5s forwards;
-}
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -77,5 +77,41 @@ body {
   to {
     opacity: 100%;
   }
+}
+
+.yellow {
+  fill: #fdf388;
+}
+
+.dark-yellow {
+  fill: #e0d580;
+}
+
+.white-stroke {
+  fill: none;
+  stroke: #efe7dc;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.cls-text {
+  font-size: 12px;
+  font-family: Abside-Round1, Abside;
+}
+
+.cls-text, .white {
+  fill: #efe7dc;
+}
+
+.pure-white {
+  fill: #ffffff;
+}
+
+.dark-grey {
+  fill: #30332a;
+}
+
+.red {
+  fill: #ed5959;
 }
 </style>
