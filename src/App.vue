@@ -62,11 +62,6 @@ body {
   animation: fade-in 0.5s forwards;
 }
 
-.viewmaster-filler{
-  fill: #EFEAE4;
-  animation: animate-fill 0.5s forwards;
-}
-
 .notification{
   filter:drop-shadow(10px 10px 0 #30332A);
   border: 4px solid #30332A;
@@ -88,15 +83,6 @@ body {
   }
   to {
     fill: #30332A;
-  }
-}
-
-@keyframes animate-fill {
-  from {
-    background-color: #EFEAE4;
-  }
-  to {
-    background-color: #30332A;
   }
 }
 
@@ -163,7 +149,7 @@ Standardized colors
   fill: none;
   stroke: #EFEAE4;
   stroke-miterlimit: 10;
-  stroke-width: 4px;
+  stroke-width: 2px;
 }
 
 .blue-stroke {

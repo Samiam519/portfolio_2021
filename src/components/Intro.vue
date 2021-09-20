@@ -81,6 +81,21 @@ export default {
   position: relative;
 }
 
+.logo-bottom {
+  animation-duration: 1.5s;
+  animation-name: logo-anim-bottom;
+}
+
+.logo-top {
+  animation-duration: 1.5s;
+  animation-name: logo-anim-top;
+}
+
+.viewmaster-filler{
+  fill: #EFEAE4;
+  animation: animate-fill 0.5s forwards;
+}
+
 @keyframes logo-anim-bottom {
   from {
     top: 0;
@@ -121,18 +136,17 @@ export default {
   }
 }
 
+@keyframes animate-fill {
+  from {
+    background-color: #EFEAE4;
+  }
+  to {
+    background-color: #30332A;
+  }
+}
+
 /*@keyframes zoom-in {
   from{transform: scale(1,1)}
   to{transform: scale(50,50)  translateY(-15%)}
 }*/
-
-.logo-bottom {
-  animation-duration: 1.5s;
-  animation-name: logo-anim-bottom;
-}
-
-.logo-top {
-  animation-duration: 1.5s;
-  animation-name: logo-anim-top;
-}
 </style>
