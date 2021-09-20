@@ -61,13 +61,21 @@ body {
 .site-content {
   animation: fade-in 0.5s forwards;
 }
+
+.viewmaster-filler{
+  fill: #EFEAE4;
+  animation: animate-fill 0.5s forwards;
+}
+
 .notification{
   filter:drop-shadow(10px 10px 0 #30332A);
   border: 4px solid #30332A;
 }
+
 .is-absolute{
   position: absolute;
 }
+
 .is-fullwidth, .is-ancestor{
   width: 100%;
 }
@@ -75,6 +83,15 @@ body {
 ---------Animations
 -----------------*/
 @keyframes animate-background {
+  from {
+    fill: #EFEAE4;
+  }
+  to {
+    fill: #30332A;
+  }
+}
+
+@keyframes animate-fill {
   from {
     background-color: #EFEAE4;
   }
