@@ -22,10 +22,10 @@
 // figure out importing lighter style for
 
 // Set your brand colors
-$yellow: #FEF373;
-$cyan: #3ECCED;
+$yellow: #FDF388;
+$cyan: #40C6EE;
 $blue: #4a5cdd;
-$red: #ff4d6e;
+$red: #ED5959;
 $grey-light: #EFEAE4;
 $grey: #5a5b55;
 $grey-dark: #30332A;
@@ -48,7 +48,9 @@ $scheme-invert: $grey-dark;
 $text-invert: $grey-light;
 $text-light: $grey-light;
 $radius-small: 20px;
-$radius: 35px;
+$radius: 3px;
+$notification-radius: 0;
+
 $carousel-arrow-background: $black;
 $carousel-arrow-color: $scheme-main;
 

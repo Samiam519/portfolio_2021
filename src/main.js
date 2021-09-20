@@ -5,10 +5,10 @@ import BulmaTheme from '@/assets/dist_theme.css'
 import AnimateCss from 'animate.css'
 import { library } from '@fortawesome/fontawesome-svg-core';
 // internal icons
-import { faCheck, faCheckCircle, faArrowUp, faAngleRight, faAngleLeft, faAngleDown, faCaretUp} from "@fortawesome/free-solid-svg-icons";
+import { faCheck, faCheckCircle, faArrowUp, faAngleRight, faAngleLeft, faAngleDown, faCaretUp, faExclamationCircle} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faCheck, faCheckCircle, faArrowUp, faAngleRight, faAngleLeft, faAngleDown, faCaretUp);
+library.add(faCheck, faCheckCircle, faArrowUp, faAngleRight, faAngleLeft, faAngleDown, faCaretUp, faExclamationCircle);
 Vue.component('vue-fontawesome', FontAwesomeIcon);
 
 Vue.use(Buefy, {

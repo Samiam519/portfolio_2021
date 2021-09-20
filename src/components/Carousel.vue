@@ -27,7 +27,31 @@
         <section class="hero is-fullheight is-dark">
           <div class="hero-body has-text-centered slide-body has-text-black">
             <h1 class="title is-1 has-text-grey-dark">Contact</h1>
-            <p>test</p>
+            <p>Thanks for taking the time to check out my work!
+            </p>
+            <p>
+              Have an idea for a new logo or have any questions about my past works? Hit me up!</p>
+            <form action="https://formspree.io/f/mbjqwakb" method="POST" target="_blank" class="is-fullwidth">
+              <div>
+                <b-field label="Name" horizontal>
+                  <b-input required>
+                  </b-input>
+                </b-field>
+                <b-field label="Email" horizontal>
+                  <b-input
+                      type="email"
+                      required
+                      name="_replyto"
+                      validation-message="Email address invalid">
+                  </b-input>
+                </b-field>
+
+                <b-field label="Message" horizontal>
+                  <b-input maxlength="200" type="textarea" required></b-input>
+                </b-field>
+                <b-button type="submit" class="is-primary">Submit</b-button>
+              </div>
+            </form>
           </div>
         </section>
       </b-carousel-item>
@@ -35,29 +59,53 @@
         <section class="hero is-fullheight is-dark">
           <div class="hero-body has-text-centered slide-body has-text-black">
             <h1 class="title is-1 has-text-grey-dark">About Me</h1>
-            <p>
-              Born and raised in Miami Beach by parents in tech-adjacent fields, while growing up I naturally gravitated
-              toward computers. I started designing t-shirts in MS Paint while in elementary school.
-              Throughout high school and college, I continued to cultivate these skills, mostly through freelance jobs
-              designing logos, websites, and app mockups. Since graduating from the University of Miami with a
-              bachelor’s degree in Computer Science, I’ve found a place on the R&D team at MAXIMUS, working officially
-              as a Software Engineer, and unofficially as the team’s resident UI/UX specialist.
-            </p>
-            <p>
-              I try to reinvent my personal website around once a year, to accommodate changes in my personal aesthetic
-              tastes, stay current on design trends, and to challenge myself to incorporate a new frontend feature that
-              requires skills I don't have yet. In this iteration of my portfolio, I wanted to reimagine what a showcase
-              could look like without adding to the bevy of single page scroller portfolios out there (if you're looking
-              at this on mobile, I promise it looks cooler on desktop). I was inspired by the 90s fashion
-              trending right now and hit the ground running with this viewmaster concept.
-            </p>
-            <p>I strive for all of the
-              products I create to be intuitive and innovative in an out-of-the-div way and I hope that the lasting mark
-              I make on my small corner of the web reflects that goal. My current favorite frameworks are <a
-                  href="https://vuejs.org/v2/guide/" target="_blank" class="has-text-link">Vue js</a> and <a
-                  href="https://bulma.io/documentation/" target="_blank" class="has-text-link">Bulma</a> for CSS. That's
-              what I used for this
-              site.</p>
+            <div class="tile is-ancestor">
+              <div class="tile">
+                <div class="tile is-parent is-vertical">
+                  <article class="tile is-child notification is-warning has-text-dark">
+                    <p>I strive for all of the
+                      products I create to be intuitive and innovative in an out-of-the-div way and I hope that the
+                      lasting mark
+                      I make on my small corner of the web reflects that goal. My current favorite frameworks are <a
+                          href="https://vuejs.org/v2/guide/" target="_blank">Vue js</a> and <a
+                          href="https://bulma.io/documentation/" target="_blank">Bulma</a> for
+                      CSS. That's
+                      what I used for this
+                      site.</p>
+                  </article>
+                  <article class="tile is-child notification is-link has-text-dark">
+                    <p>
+                      I try to reinvent my personal website around once a year, to accommodate changes in my personal
+                      aesthetic
+                      tastes, stay current on design trends, and to challenge myself to incorporate a new frontend
+                      feature that
+                      requires skills I don't have yet. In this iteration of my portfolio, I wanted to reimagine what a
+                      showcase
+                      could look outside of a single page scroller layout (if you're
+                      looking
+                      at this on mobile, I promise it looks cooler on desktop).
+                    </p>
+                  </article>
+                </div>
+              </div>
+              <div class="tile">
+                <div class="tile is-parent is-vertical">
+                  <article class="tile is-child">
+                    <img src="../assets/avi_daria.png" width="80%">
+                  </article>
+                  <article class="tile is-child notification is-primary">
+                    <p>
+                      Born and raised in Miami Beach by parents in tech-adjacent fields, while growing up I naturally
+                      gravitated
+                      toward computers. I started designing t-shirts in MS Paint while in elementary school.
+                      Throughout high school and college, I continued to cultivate these skills, mostly through
+                      freelance jobs
+                      designing logos, websites, and app mockups.
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
             <div id="social-icons">
 
             </div>
@@ -83,8 +131,13 @@
               <div class="tile">
                 <div class="tile is-parent is-vertical">
                   <article class="tile is-child notification is-primary">
-                    <p class="title">Vertical...</p>
-                    <p class="subtitle">Top tile</p>
+                    <p>Since graduating from the University of Miami with a
+                      bachelor’s degree in Computer Science, I’ve found a place on the R&D team at MAXIMUS, working
+                      officially
+                      as a Software Engineer, and unofficially as the team’s resident UI/UX specialist.</p>
+                  </article>
+                  <article class="tile is-child notification is-white has-text-dark">
+                    <p>Catapult</p>
                   </article>
                   <article class="tile is-child notification is-warning has-text-dark">
                     <p class="title">...tiles</p>
@@ -147,12 +200,15 @@ export default {
   props: {
     carouselIndex: Number
   },
+  data() {
+    return {}
+  },
   computed: {
     index: {
-      get(){
+      get() {
         return this.carouselIndex
       },
-      set(val){
+      set(val) {
         this.$emit('change', val)
       }
     }
@@ -185,5 +241,9 @@ export default {
 
 .landing-logo {
   max-width: 77%;
+}
+
+.hero-body {
+  text-align: left;
 }
 </style>

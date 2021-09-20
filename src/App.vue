@@ -3,7 +3,7 @@
     <Intro v-if="showIntro" @hide="hide"/>
     <div v-show="!showIntro" class="site-content">
       <Carousel @change="changeSlide" :carousel-index="carouselIndex"/>
-      <Navigation @change="changeSlide"/>
+      <Navigation @change="changeSlide" :carousel-index="carouselIndex"/>
       <Changer @change="changeSlide" :carousel-index="carouselIndex"/>
     </div>
   </div>
@@ -60,8 +60,15 @@ body {
 .site-content {
   animation: fade-in 0.5s forwards;
 }
+.notification{
+  filter:drop-shadow(10px 10px 0 #30332A);
+  border: 4px solid #30332A;
+}
 .is-absolute{
   position: absolute;
+}
+.is-fullwidth, .is-ancestor{
+  width: 100%;
 }
 /*-----------------
 ---------Animations
@@ -87,7 +94,7 @@ body {
 Standardized colors
 -----------------*/
 .yellow {
-  fill: #fdf388;
+  fill: #FDF388;
 }
 
 .dark-yellow {
