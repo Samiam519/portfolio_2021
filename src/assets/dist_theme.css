@@ -8091,7 +8091,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     align-items: center;
     justify-content: center; }
     .carousel .carousel-indicator.has-background {
-      background: #181914; }
+      background: rgba(48, 51, 42, 0.5); }
     .carousel .carousel-indicator.has-custom {
       flex-wrap: nowrap;
       justify-content: flex-start;
@@ -8112,11 +8112,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
       margin-right: 0.5rem; }
     .carousel .carousel-indicator .indicator-item.is-active .indicator-style,
     .carousel .carousel-indicator .indicator-item .indicator-style:hover {
-      background: #181914;
+      background: #ff4d6e;
       border: 1px solid #EFEAE4; }
     .carousel .carousel-indicator .indicator-item .indicator-style {
       display: block;
-      border: 1px solid #181914;
+      border: 1px solid #ff4d6e;
       background: #EFEAE4;
       outline: none;
       transition: 150ms ease-out; }

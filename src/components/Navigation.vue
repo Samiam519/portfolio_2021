@@ -1,5 +1,5 @@
 <template>
-  <div id="navigation-wrapper">
+  <div id="navigation-wrapper" class="is-absolute">
     <svg id="navigation-items" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 225">
       <g id="navigation-names">
         <text class="cls-text" transform="translate(20.52 73.28) rotate(-90)" @click="change(0)">Contact</text>
@@ -12,20 +12,20 @@
         <text class="cls-text" transform="translate(150.06 213.99)" @click="change(7)">LunchLaunch</text>
       </g>
       <g id="navigation-boxes">
-        <rect class="white" x="5.37" y="79.91" width="21.09" height="21.09" rx="6.26" @click="change(0)"/>
-        <rect class="white" x="31.79" y="82.14" width="21.09" height="21.09" rx="6.26"
+        <rect class="black" x="5.37" y="79.91" width="21.09" height="21.09" rx="6.26" @click="change(0)"/>
+        <rect class="black" x="31.79" y="82.14" width="21.09" height="21.09" rx="6.26"
               transform="translate(72.02 190.18) rotate(-172.38)" @click="change(1)"/>
-        <rect class="white" x="57.94" y="89.9" width="21.09" height="21.09" rx="6.26"
+        <rect class="black" x="57.94" y="89.9" width="21.09" height="21.09" rx="6.26"
               transform="translate(187.38 75.07) rotate(112.24)" @click="change(2)"/>
-        <rect class="white" x="81.25" y="104.09" width="21.09" height="21.09" rx="6.26"
+        <rect class="black" x="81.25" y="104.09" width="21.09" height="21.09" rx="6.26"
               transform="translate(238.58 119.28) rotate(130.5)" @click="change(3)"/>
-        <rect class="white" x="99.82" y="122.96" width="21.09" height="21.09" rx="6.26"
+        <rect class="black" x="99.82" y="122.96" width="21.09" height="21.09" rx="6.26"
               transform="translate(281 163.35) rotate(139.5)" @click="change(4)"/>
-        <rect class="white" x="114" y="146.27" width="21.09" height="21.09" rx="6.26"
+        <rect class="black" x="114" y="146.27" width="21.09" height="21.09" rx="6.26"
               transform="translate(299.19 254.84) rotate(157.76)" @click="change(5)"/>
-        <rect class="white" x="121.76" y="172.42" width="21.09" height="21.09" rx="6.26"
+        <rect class="black" x="121.76" y="172.42" width="21.09" height="21.09" rx="6.26"
               transform="translate(296.12 27.58) rotate(82.38)" @click="change(6)"/>
-        <rect class="white" x="123.99" y="198.85" width="21.09" height="21.09" rx="6.26"
+        <rect class="black" x="123.99" y="198.85" width="21.09" height="21.09" rx="6.26"
               transform="translate(-74.86 343.94) rotate(-90)" @click="change(7)"/>
       </g>
     </svg>
@@ -44,9 +44,6 @@ export default {
 </script>
 
 <style>
-.white {
-  fill: #EFEAE4;
-}
 
 #navigation-wrapper {
   position: absolute;
@@ -56,7 +53,7 @@ export default {
   min-width: 15em;
 }
 #navigation-boxes rect:hover{
-  fill: #181914;
+  fill: #EFEAE4;
   cursor: pointer;
   /*animation: enlarge 0.5s;*/
 }

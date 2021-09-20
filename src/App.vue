@@ -60,7 +60,12 @@ body {
 .site-content {
   animation: fade-in 0.5s forwards;
 }
-
+.is-absolute{
+  position: absolute;
+}
+/*-----------------
+---------Animations
+-----------------*/
 @keyframes animate-background {
   from {
     background-color: #EFEAE4;
@@ -78,7 +83,9 @@ body {
     opacity: 100%;
   }
 }
-
+/*-----------------
+Standardized colors
+-----------------*/
 .yellow {
   fill: #fdf388;
 }
@@ -87,9 +94,9 @@ body {
   fill: #e0d580;
 }
 
-.white-stroke {
+.black-stroke {
   fill: none;
-  stroke: #efe7dc;
+  stroke: #181914;
   stroke-miterlimit: 10;
   stroke-width: 4px;
 }
@@ -99,7 +106,7 @@ body {
   font-family: Abside-Round1, Abside;
 }
 
-.cls-text, .white {
+.cls-text {
   fill: #efe7dc;
 }
 
@@ -109,6 +116,10 @@ body {
 
 .dark-grey {
   fill: #30332a;
+}
+
+.black, .cls-text{
+  fill: #181914;
 }
 
 .red {
