@@ -94,6 +94,7 @@ export default {
 .viewmaster-filler{
   fill: #EFEAE4;
   animation: animate-fill 0.5s forwards;
+  animation-delay: 0.75s;
 }
 
 @keyframes logo-anim-bottom {
@@ -138,10 +139,10 @@ export default {
 
 @keyframes animate-fill {
   from {
-    background-color: #EFEAE4;
+    fill: #EFEAE4;
   }
   to {
-    background-color: #30332A;
+    fill: #30332A;
   }
 }
 

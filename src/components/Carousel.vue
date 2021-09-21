@@ -25,8 +25,8 @@
         icon-size="is-large">
       <b-carousel-item>
         <section class="hero is-fullheight is-dark">
-          <div class="hero-body has-text-centered slide-body has-text-black">
-            <h1 class="title is-1 has-text-grey-dark">Contact</h1>
+          <div class="hero-body slide-body has-text-black">
+            <h1 class="title is-1 has-text-grey-dark is-highlighted blue-highlight">contact</h1>
             <p>Thanks for taking the time to check out my work!
             </p>
             <p>
@@ -49,7 +49,7 @@
                 <b-field label="Message" horizontal>
                   <b-input maxlength="200" type="textarea" required></b-input>
                 </b-field>
-                <b-button type="submit" class="is-primary">Submit</b-button>
+                <b-button type="submit" class="is-primary is-pulled-right">Submit</b-button>
               </div>
             </form>
           </div>
@@ -57,8 +57,8 @@
       </b-carousel-item>
       <b-carousel-item>
         <section class="hero is-fullheight is-dark">
-          <div class="hero-body has-text-centered slide-body has-text-black">
-            <h1 class="title is-1 has-text-grey-dark">About Me</h1>
+          <div class="hero-body slide-body has-text-black">
+            <h1 class="title is-1 has-text-grey-dark is-highlighted red-highlight">about me</h1>
             <div class="tile is-ancestor">
               <div class="tile">
                 <div class="tile is-parent is-vertical">
@@ -114,7 +114,7 @@
       </b-carousel-item>
       <b-carousel-item>
         <section class="hero is-fullheight is-dark">
-          <div class="hero-body has-text-centered slide-body has-text-black">
+          <div class="hero-body slide-body has-text-black">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 823.61 684">
             <g id="name">
               <g id="grid2">
@@ -313,8 +313,8 @@
       </b-carousel-item>
       <b-carousel-item>
         <section class="hero is-fullheight is-dark">
-          <div class="hero-body has-text-centered slide-body has-text-black">
-            <h1 class="title is-1 has-text-grey-dark">Maximus</h1>
+          <div class="hero-body slide-body has-text-black">
+            <h1 class="title is-1 has-text-grey-dark is-highlighted white-highlight">maximus</h1>
             <div class="tile is-ancestor">
               <div class="tile">
                 <div class="tile is-parent is-vertical">
@@ -348,32 +348,32 @@
       </b-carousel-item>
       <b-carousel-item>
         <section class="hero is-fullheight is-dark">
-          <div class="hero-body has-text-centered slide-body has-text-black">
-            <h1 class="title is-1 has-text-grey-dark">DSA</h1>
+          <div class="hero-body slide-body has-text-black">
+            <h1 class="title is-1 has-text-grey-dark is-highlighted red-highlight">DSA</h1>
 
           </div>
         </section>
       </b-carousel-item>
       <b-carousel-item>
         <section class="hero is-fullheight is-dark">
-          <div class="hero-body has-text-centered slide-body has-text-black">
-            <h1 class="title is-1 has-text-grey-dark">Quidditch</h1>
+          <div class="hero-body slide-body has-text-black">
+            <h1 class="title is-1 has-text-grey-dark is-highlighted blue-highlight">quidditch</h1>
 
           </div>
         </section>
       </b-carousel-item>
       <b-carousel-item>
         <section class="hero is-fullheight is-dark">
-          <div class="hero-body has-text-centered slide-body has-text-black">
-            <h1 class="title is-1 has-text-grey-dark">Accomplish</h1>
+          <div class="hero-body slide-body has-text-black">
+            <h1 class="title is-1 has-text-grey-dark is-highlighted yellow-highlight">accomplish</h1>
 
           </div>
         </section>
       </b-carousel-item>
       <b-carousel-item>
         <section class="hero is-fullheight is-dark">
-          <div class="hero-body has-text-centered slide-body has-text-black">
-            <h1 class="title is-1 has-text-grey-dark">LunchLaunch</h1>
+          <div class="hero-body slide-body has-text-black">
+            <h1 class="title is-1 has-text-grey-dark is-highlighted white-highlight">lunch launch</h1>
 
           </div>
         </section>

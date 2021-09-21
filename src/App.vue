@@ -62,6 +62,10 @@ body {
   animation: fade-in 0.5s forwards;
 }
 
+.hero-body h1 {
+  align-self: end;
+}
+
 .notification{
   filter:drop-shadow(10px 10px 0 #30332A);
   border: 4px solid #30332A;
@@ -79,10 +83,10 @@ body {
 -----------------*/
 @keyframes animate-background {
   from {
-    fill: #EFEAE4;
+    background-color: #EFEAE4;
   }
   to {
-    fill: #30332A;
+    background-color: #30332A;
   }
 }
 
@@ -93,6 +97,19 @@ body {
   to {
     opacity: 100%;
   }
+}
+
+@keyframes highlight {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  50% {
+    width: 100%;
+    opacity: 1;
+  }
+
 }
 /*-----------------
 Standardized colors
@@ -170,6 +187,40 @@ Standardized colors
   stroke-width: 4px;
 }
 
+.is-highlighted{
+  position: relative;
+  z-index: 0;
+  text-decoration: none;
+}
+
+.is-highlighted::before {
+  filter: opacity(0.5);
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 100%;
+  z-index: -1;
+  bottom: 0;
+  transform: translate(10px, -4px);
+  animation: highlight 0.5 forwards;
+}
+
+.blue-highlight::before {
+  background-color: #40c6ee;
+}
+
+.red-highlight::before {
+  background-color: #ed5959;
+}
+
+.yellow-highlight::before {
+  background-color: #FDF388;
+}
+
+.white-highlight::before {
+  background-color: #fff;
+}
+
 .cls-text {
   font-size: 12px;
   font-family: Abside-Round1, Abside;
@@ -179,6 +230,7 @@ Standardized colors
   font-family: Streamster;
   font-size: 170px;
 }
+
 .logo-subtitle-text{
   font-size: 20px;
 }

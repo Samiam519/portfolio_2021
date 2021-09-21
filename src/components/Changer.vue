@@ -91,10 +91,10 @@ export default {
         },
         onDragEnd: function () {
           // a page changed, reset position
-          if(self.knobDisabled){
-            self.resetKnobPosition(this.target);
+          self.resetKnobPosition(this.target);
+          setTimeout(()=>{
             self.knobDisabled = false;
-          }
+          }, 125)
         }
       });
     }, 1250);
@@ -115,12 +115,12 @@ export default {
       }
     },
     resetKnobPosition(target){
-      gsap.set(target, {
-        duration: 1,
+      gsap.to(target, {
+        duration: 0.1,
         x: 74,
         y: 31,
-        rotation: 45}
-      )
+        rotation: 45
+      })
     }
   }
 }
