@@ -181,12 +181,12 @@
                            points="151.23 42.45 287.36 594.48 606.56 318.46 151.23 42.45"/>
                 </g>
                 <g id="Sam" class="logo-name-text">
-                  <text class="dark-grey large-stroke" transform="matrix(0.98, -0.19, 0.19, 0.98, 176.84, 317.86)">Sam
+                  <text class="dark-grey text-stroke" transform="matrix(0.98, -0.19, 0.19, 0.98, 176.84, 317.86)">Sam
                   </text>
                   <text class="red" transform="matrix(0.98, -0.19, 0.19, 0.98, 174.32, 311.81)">Sam</text>
                 </g>
                 <g id="Jimenez" class="logo-name-text animate__fadeInTopRight animate__delay-2s">
-                  <text class="dark-grey large-stroke" transform="translate(151.3 412.77) rotate(-10.96)">Jimenez</text>
+                  <text class="dark-grey text-stroke" transform="translate(151.3 412.77) rotate(-10.96)">Jimenez</text>
                   <text class="red" transform="translate(149.08 407.77) rotate(-10.96)">Jimenez</text>
                 </g>
                 <g id="underline">
@@ -356,7 +356,7 @@
         </section>
       </b-carousel-item>
       <b-carousel-item>
-        <section is="dsa" class="hero is-fullheight is-dark">
+        <section id="dsa" class="hero is-fullheight is-dark">
           <div class="hero-body slide-body has-text-black">
             <h1 class="title is-1 has-text-grey-dark is-highlighted red-highlight">dsa</h1>
 

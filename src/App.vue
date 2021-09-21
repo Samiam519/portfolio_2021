@@ -338,6 +338,14 @@ Standardized colors
   stroke-width: 4px;
 }
 
+.text-stroke{
+  paint-order: stroke;
+  stroke: #30332a;
+  stroke-width: 5px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+}
+
 .is-highlighted{
   position: relative;
   z-index: 0;
