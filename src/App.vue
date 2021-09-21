@@ -4,7 +4,7 @@
     <div v-show="!showIntro" class="site-content">
       <Carousel @change="changeSlide" :carousel-index="carouselIndex"/>
       <Navigation @change="changeSlide" :carousel-index="carouselIndex"/>
-      <Changer @change="changeSlide" :carousel-index="carouselIndex"/>
+      <Changer @prev="prev" @next="next" :carousel-index="carouselIndex"/>
     </div>
   </div>
 </template>
@@ -30,7 +30,14 @@ export default {
     }
   },
   mounted() {
-
+    // add listeners for keys
+    window.addEventListener('keydown', (e) => {
+      if (e.key === "ArrowLeft" || e.key === "ArrowDown") {
+        this.prev()
+      }else if(e.key === "ArrowRight" || e.key === "ArrowUp"){
+        this.next()
+      }
+    });
   },
   methods: {
     hide() {
@@ -38,6 +45,20 @@ export default {
     },
     changeSlide(ind) {
       this.carouselIndex = ind
+    },
+    prev() {
+      if (this.carouselIndex === 0) {
+        this.changeSlide(7)
+      } else {
+        this.changeSlide(this.carouselIndex - 1)
+      }
+    },
+    next() {
+      if (this.carouselIndex === 7) {
+        this.changeSlide( 0)
+      } else {
+        this.changeSlide(this.carouselIndex + 1)
+      }
     }
   }
 }
@@ -52,6 +73,8 @@ body {
   animation: animate-background 0.5s forwards;
   animation-delay: 0.75s;
   overflow: hidden;
+  font-size: 16px;
+  background-color: #EFEAE4;
 }
 
 #app {
@@ -66,9 +89,22 @@ body {
   align-self: end;
 }
 
+.field{
+  font-size: 1em;
+}
+.field.label{
+  margin: 0;
+}
+
 .notification{
   filter:drop-shadow(10px 10px 0 #30332A);
   border: 4px solid #30332A;
+}
+
+.button{
+  filter:drop-shadow(5px 5px 0 #30332A);
+  border: 2px solid #30332A !important;
+  border-radius: 0 !important;
 }
 
 .is-absolute{

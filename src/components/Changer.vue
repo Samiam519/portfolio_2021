@@ -100,19 +100,11 @@ export default {
     }, 1250);
   },
   methods: {
-    prev() {
-      if (this.carouselIndex === 0) {
-        this.$emit('change', 7)
-      } else {
-        this.$emit('change', this.carouselIndex - 1)
-      }
+    prev(){
+      this.$emit('prev')
     },
-    next() {
-      if (this.carouselIndex === 7) {
-        this.$emit('change', 0)
-      } else {
-        this.$emit('change', this.carouselIndex + 1)
-      }
+    next(){
+      this.$emit('next')
     },
     resetKnobPosition(target){
       gsap.to(target, {

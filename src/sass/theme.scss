@@ -34,6 +34,7 @@ $yellow: #FDF388;
 $cyan: #40C6EE;
 $blue: #4a5cdd;
 $red: #ED5959;
+$white: #ffffff;
 $grey-light: #EFEAE4;
 $grey: #5a5b55;
 $grey-dark: #30332A;
@@ -57,7 +58,14 @@ $text-invert: $grey-light;
 $text-light: $grey-light;
 $radius-small: 20px;
 $radius: 3px;
+$border: $grey-dark;
+$control-border-width: 2px;
+
 $notification-radius: 0;
+
+$input-background-color: $white;
+$input-hover-border-color: $grey-dark;
+
 
 $carousel-arrow-background: $black;
 $carousel-arrow-color: $scheme-main;
