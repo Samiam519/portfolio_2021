@@ -25,13 +25,13 @@ body {
 
 #volumeWrapper{
     position: absolute;
-    bottom: 0.5em;
-    right: 0.5em;
+    bottom: 1em;
+    right: 1em;
     width: auto;
 }
 
-#volumeWrapper > button:hover{
-    background-color: #5a5b55;
+button.has-white-stroke:hover{
+    background-color: #5a5b55 !important;
 }
 
 .site-content {
@@ -131,7 +131,7 @@ body {
     left: 0.5em;
     bottom: 0;
     width: 15vw;
-    min-width: 15em;
+    min-width: 18em;
 }
 
 .activeNavigation {
@@ -142,11 +142,16 @@ body {
 #navigation-boxes rect:hover {
     fill: #EFEAE4;
     cursor: pointer;
-    /*animation: enlarge 0.5s;*/
 }
 
-#navigation-names > text:hover{
+#navigation-names > *:hover{
     cursor: pointer;
+}
+
+#navigation-toggle{
+    position: absolute;
+    bottom: 2em;
+    left: 1em;
 }
 
 /*-----------------
@@ -168,6 +173,11 @@ body {
 .button{
     filter:drop-shadow(5px 5px 0 #30332A);
     border: 2px solid #30332A !important;
+    border-radius: 0;
+}
+.button.has-white-stroke{
+    filter:drop-shadow(5px 5px 0 #EFEAE4);
+    border: 2px solid #EFEAE4 !important;
     border-radius: 0;
 }
 
@@ -577,46 +587,6 @@ Screen Size Compatibility
   to{transform: scale(50,50)  translateY(-15%)}
 }*/
 
-@-webkit-keyframes enlarge
-{
-    from {
-        transform: scale(1, 1)
-    }
-    to {
-        transform: scale(2, 2)
-    }
-}
-
-@-moz-keyframes enlarge
-{
-    from {
-        transform: scale(1, 1)
-    }
-    to {
-        transform: scale(2, 2)
-    }
-}
-
-@-ms-keyframes enlarge
-{
-    from {
-        transform: scale(1, 1)
-    }
-    to {
-        transform: scale(2, 2)
-    }
-}
-
-@keyframes enlarge
-{
-    from {
-        transform: scale(1, 1)
-    }
-    to {
-        transform: scale(2, 2)
-    }
-}
-
 /*-----------------
 Standardized colors
 -----------------*/
@@ -669,7 +639,6 @@ Standardized colors
 }
 
 .white-stroke {
-    fill: none;
     stroke: #EFEAE4;
     stroke-miterlimit: 10;
     stroke-width: 2px;

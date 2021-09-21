@@ -7,7 +7,7 @@
       <Changer @prev="prev" @next="next" :carousel-index="carouselIndex"/>
       <div id="volumeWrapper">
         <b-button
-            class="is-rounded is-black is-large"
+            class="is-dark has-white-stroke is-large"
             :icon-right="soundOn ? 'volume-up' : 'volume-mute'"
             @click="changeSound"
             aria-label="Change volume"

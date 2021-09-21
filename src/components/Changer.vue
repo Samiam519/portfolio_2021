@@ -63,7 +63,7 @@ export default {
               alignOrigin: [0.56, 0.228],
               type: "x,y"
             }, immediateRender: true, ease: "none"
-          })
+          });
 
       this.resetKnobPosition(this.drag);
       let self = this;
