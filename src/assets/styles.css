@@ -1,0 +1,717 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    animation: animate-background 0.5s forwards;
+    animation-delay: 0.75s;
+    overflow: hidden;
+    font-size: 16px;
+    background-color: #EFEAE4;
+}
+
+/*-----------------
+---Element Specific
+-----------------*/
+
+/* Main App */
+
+#app {
+    height: 100%;
+}
+
+#volumeWrapper{
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    width: auto;
+}
+
+#volumeWrapper > button:hover{
+    background-color: #5a5b55;
+}
+
+.site-content {
+    animation: fade-in 0.5s forwards;
+}
+
+/* Carousel */
+
+.hero-body h1 {
+    align-self: end;
+}
+
+.slide-body {
+    background-color: #efe7dc;
+    border-radius: 50px;
+    margin: 4em auto;
+    width: 100vh;
+    max-width: 100vw;
+    flex-direction: column;
+}
+
+.carousel-arrow .icon:hover {
+    border: none !important;
+    background-color: #5a5b55 !important;
+}
+
+.landing-logo {
+    max-width: 77%;
+}
+
+.hero-body {
+    text-align: left;
+}
+
+/* Changer Knob */
+
+#changer-wrapper {
+    right: 0.5em;
+    top: 0.5em;
+    width: 12em;
+}
+
+#knob {
+    transform-origin: 10% 90%;
+}
+
+/* Intro */
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+.logo {
+    margin-bottom: 1em;
+    animation: fade-out 0.5s forwards;
+    animation-delay: 0.75s;
+}
+
+.logo-bottom,
+.logo-top {
+    display: inline-block;
+    position: relative;
+}
+
+.logo-bottom {
+    animation-duration: 1.5s;
+    animation-name: logo-anim-bottom;
+}
+
+.logo-top {
+    animation-duration: 1.5s;
+    animation-name: logo-anim-top;
+}
+
+.viewmaster-filler{
+    fill: #EFEAE4;
+    animation: animate-fill 0.5s forwards;
+    animation-delay: 0.75s;
+}
+
+/* Navigation */
+
+#navigation-wrapper {
+    position: absolute;
+    left: 0.5em;
+    bottom: 0;
+    width: 15vw;
+    min-width: 15em;
+}
+
+.activeNavigation {
+    fill: #EFEAE4 !important;
+    opacity: 1 !important;
+}
+
+#navigation-boxes rect:hover {
+    fill: #EFEAE4;
+    cursor: pointer;
+    /*animation: enlarge 0.5s;*/
+}
+
+#navigation-names text {
+    opacity: 0.1;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}
+
+#navigation-names text:hover {
+    opacity: 1.0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+/*-----------------
+------------Helpers
+-----------------*/
+
+.field{
+    font-size: 1em;
+}
+.field.label{
+    margin: 0;
+}
+
+.notification{
+    filter:drop-shadow(10px 10px 0 #30332A);
+    border: 4px solid #30332A;
+}
+
+.button{
+    filter:drop-shadow(5px 5px 0 #30332A);
+    border: 2px solid #30332A !important;
+    border-radius: 0;
+}
+
+.is-absolute{
+    position: absolute;
+}
+
+.is-fullwidth, .is-ancestor{
+    width: 100%;
+}
+
+.w-80{
+    max-width: 80%;
+}
+
+/*-----------------------
+Screen Size Compatibility
+-----------------------*/
+
+@media screen and (max-width: 1024px){
+    html,body{
+        overflow-y: auto;
+    }
+    .hero-body{
+        padding: 1em !important
+    }
+    .slide-body{
+        margin: 2em auto;
+    }
+}
+
+/*-----------------
+---------Animations
+-----------------*/
+.rotateOut{
+    animation: rotateOut 0.5 forwards;
+}
+
+@-webkit-keyframes animate-background
+{
+    from {
+        background-color: #EFEAE4;
+    }
+    to {
+        background-color: #30332A;
+    }
+}
+@-moz-keyframes animate-background
+{
+    from {
+        background-color: #EFEAE4;
+    }
+    to {
+        background-color: #30332A;
+    }
+}
+@-ms-keyframes animate-background
+{
+    from {
+        background-color: #EFEAE4;
+    }
+    to {
+        background-color: #30332A;
+    }
+}
+@keyframes animate-background
+{
+    from {
+        background-color: #EFEAE4;
+    }
+    to {
+        background-color: #30332A;
+    }
+}
+
+@-webkit-keyframes fade-in
+{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+@-moz-keyframes fade-in
+{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+@-ms-keyframes fade-in
+{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+@keyframes fade-in
+{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@-webkit-keyframes highlight
+{
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+
+    50% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+@-moz-keyframes highlight
+{
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+
+    50% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+@-ms-keyframes highlight
+{
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+
+    50% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+@keyframes highlight
+{
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+
+    50% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes rotateOut
+{
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(-500%, 500%) rotate(-45deg);
+    }
+}
+
+@-webkit-keyframes logo-anim-bottom
+{
+    from {
+        top: 0;
+    }
+    26% {
+        top: 0;
+    }
+    29% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+@-moz-keyframes logo-anim-bottom
+{
+    from {
+        top: 0;
+    }
+    26% {
+        top: 0;
+    }
+    29% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+@-ms-keyframes logo-anim-bottom
+{
+    from {
+        top: 0;
+    }
+    26% {
+        top: 0;
+    }
+    29% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+@keyframes logo-anim-bottom
+{
+    from {
+        top: 0;
+    }
+    26% {
+        top: 0;
+    }
+    29% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+
+@-webkit-keyframes logo-anim-top
+{
+    from {
+        top: -55px;
+    }
+    25% {
+        top: -75px;
+    }
+    30% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+@-moz-keyframes logo-anim-top
+{
+    from {
+        top: -55px;
+    }
+    25% {
+        top: -75px;
+    }
+    30% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+@-ms-keyframes logo-anim-top
+{
+    from {
+        top: -55px;
+    }
+    25% {
+        top: -75px;
+    }
+    30% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+@keyframes logo-anim-top
+{
+    from {
+        top: -55px;
+    }
+    25% {
+        top: -75px;
+    }
+    30% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+
+@-webkit-keyframes fade-out
+{
+    from {
+        opacity: 100%;
+    }
+    to {
+        display: none;
+        opacity: 0;
+    }
+}
+@-moz-keyframes fade-out
+{
+    from {
+        opacity: 100%;
+    }
+    to {
+        display: none;
+        opacity: 0;
+    }
+}
+@-ms-keyframes fade-out
+{
+    from {
+        opacity: 100%;
+    }
+    to {
+        display: none;
+        opacity: 0;
+    }
+}
+@keyframes fade-out
+{
+    from {
+        opacity: 100%;
+    }
+    to {
+        display: none;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes animate-fill
+{
+    from {
+        fill: #EFEAE4;
+    }
+    to {
+        fill: #30332A;
+    }
+}
+@-moz-keyframes animate-fill
+{
+    from {
+        fill: #EFEAE4;
+    }
+    to {
+        fill: #30332A;
+    }
+}
+@-ms-keyframes animate-fill
+{
+    from {
+        fill: #EFEAE4;
+    }
+    to {
+        fill: #30332A;
+    }
+}
+@keyframes animate-fill
+{
+    from {
+        fill: #EFEAE4;
+    }
+    to {
+        fill: #30332A;
+    }
+}
+
+/*@keyframes zoom-in {
+  from{transform: scale(1,1)}
+  to{transform: scale(50,50)  translateY(-15%)}
+}*/
+
+@-webkit-keyframes enlarge
+{
+    from {
+        transform: scale(1, 1)
+    }
+    to {
+        transform: scale(2, 2)
+    }
+}
+
+@-moz-keyframes enlarge
+{
+    from {
+        transform: scale(1, 1)
+    }
+    to {
+        transform: scale(2, 2)
+    }
+}
+
+@-ms-keyframes enlarge
+{
+    from {
+        transform: scale(1, 1)
+    }
+    to {
+        transform: scale(2, 2)
+    }
+}
+
+@keyframes enlarge
+{
+    from {
+        transform: scale(1, 1)
+    }
+    to {
+        transform: scale(2, 2)
+    }
+}
+
+/*-----------------
+Standardized colors
+-----------------*/
+
+.red {
+    fill: #ed5959;
+}
+.blue{
+    fill: #40c6ee;
+}
+.yellow {
+    fill: #FDF388;
+}
+
+.dark-yellow {
+    fill: #e0d580;
+}
+
+.cls-text {
+    fill: #efe7dc;
+}
+
+.pure-white {
+    fill: #ffffff;
+}
+
+.dark-grey {
+    fill: #30332a;
+}
+
+.white{
+    fill: #EFEAE4;
+}
+
+.black, .cls-text{
+    fill: #181914;
+}
+
+.black-stroke {
+    fill: none;
+    stroke: #181914;
+    stroke-miterlimit: 10;
+    stroke-width: 4px;
+}
+
+.dark-grey-stroke {
+    stroke: #30332a;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+.white-stroke {
+    fill: none;
+    stroke: #EFEAE4;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+.blue-stroke {
+    fill: none;
+    stroke: #40c6ee;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+.no-stroke {
+    fill: none;
+    stroke: transparent;
+    stroke-miterlimit: 10;
+    stroke-width: 4px;
+}
+
+.large-stroke{
+    stroke-width: 4px;
+}
+
+.text-stroke{
+    paint-order: stroke;
+    stroke: #30332a;
+    stroke-width: 5px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+}
+
+.is-highlighted{
+    position: relative;
+    z-index: 0;
+    text-decoration: none;
+}
+
+.is-highlighted::before {
+    filter: opacity(0.5);
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 100%;
+    z-index: -1;
+    bottom: 0;
+    transform: translate(10px, -4px);
+    animation: highlight 0.5 forwards;
+}
+
+.blue-highlight::before {
+    background-color: #40c6ee;
+}
+
+.red-highlight::before {
+    background-color: #ed5959;
+}
+
+.yellow-highlight::before {
+    background-color: #FDF388;
+}
+
+.white-highlight::before {
+    background-color: #fff;
+}
+
+.cls-text {
+    font-size: 12px;
+    font-family: Abside-Round1, Abside;
+}
+
+.logo-name-text > text{
+    font-family: Streamster;
+    font-size: 170px;
+}
+
+.logo-subtitle-text{
+    font-size: 20px;
+}

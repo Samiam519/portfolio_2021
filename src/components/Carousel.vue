@@ -22,6 +22,7 @@
         :autoplay="false"
         @change="playSound"
         :indicator="false"
+        animated="rotateOut"
         icon-size="is-large">
       <b-carousel-item>
         <section id="contact" class="hero is-fullheight is-dark">
@@ -81,9 +82,7 @@
                       feature that
                       requires skills I don't have yet. In this iteration of my portfolio, I wanted to reimagine what a
                       showcase
-                      could look outside of a single page scroller layout (if you're
-                      looking
-                      at this on mobile, I promise it looks cooler on desktop).
+                      could look outside of a single page scroller layout.
                     </p>
                   </article>
                 </div>
@@ -184,7 +183,7 @@
                   </text>
                   <text class="red" transform="matrix(0.98, -0.19, 0.19, 0.98, 174.32, 311.81)">Sam</text>
                 </g>
-                <g id="Jimenez" class="logo-name-text animate__fadeInTopRight animate__delay-2s">
+                <g id="Jimenez" class="logo-name-text">
                   <text class="dark-grey text-stroke" transform="translate(151.3 412.77) rotate(-10.96)">Jimenez</text>
                   <text class="red" transform="translate(149.08 407.77) rotate(-10.96)">Jimenez</text>
                 </g>
@@ -422,35 +421,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.slide-body {
-  background-color: #efe7dc;
-  border-radius: 50px;
-  margin: 4em auto;
-  width: 100vh;
-  max-width: 100vw;
-  flex-direction: column;
-}
-
-.carousel-arrow .icon:hover {
-  border: none !important;
-  background-color: #5a5b55 !important;
-}
-
-.landing-logo {
-  max-width: 77%;
-}
-
-.hero-body {
-  text-align: left;
-}
-@media screen and (max-width: 1024px){
-  .hero-body{
-    padding: 1em !important
-  }
-  .slide-body{
-    margin: 2em auto;
-  }
-}
-</style>

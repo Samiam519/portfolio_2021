@@ -117,15 +117,3 @@ export default {
   }
 }
 </script>
-
-<style>
-#changer-wrapper {
-  right: 0.5em;
-  top: 0.5em;
-  width: 12em;
-}
-
-#knob {
-  transform-origin: 10% 90%;
-}
-</style>
