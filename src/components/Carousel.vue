@@ -64,7 +64,7 @@
             <div class="tile is-ancestor">
               <div class="tile">
                 <div class="tile is-parent is-vertical">
-                  <article class="tile is-child notification is-warning has-text-dark">
+                  <article class="tile is-block-tablet is-block-mobile is-child notification is-warning has-text-dark">
                     <p>I strive for all of the
                       products I create to be intuitive and innovative in an out-of-the-div way and I hope that the
                       lasting mark
@@ -74,7 +74,7 @@
                       CSS. This site uses <a href="https://buefy.org/documentation" target="_blank">Buefy</a>, a
                       convenient combination of the two.</p>
                   </article>
-                  <article class="tile is-child notification is-link has-text-dark">
+                  <article class="tile is-block-tablet is-block-mobile is-child notification is-link has-text-dark">
                     <p>
                       I try to reinvent my personal website around once a year, to accommodate changes in my personal
                       aesthetic
@@ -89,10 +89,10 @@
               </div>
               <div class="tile">
                 <div class="tile is-parent is-vertical">
-                  <article class="tile is-child">
+                  <article class="tile is-block-tablet is-block-mobile is-child">
                     <img src="../assets/avi_daria.png" class="w-80">
                   </article>
-                  <article class="tile is-child notification is-primary">
+                  <article class="tile is-block-tablet is-block-mobile is-child notification is-primary">
                     <p>
                       Born and raised in Miami Beach by parents in tech-adjacent fields, while growing up I naturally
                       gravitated
@@ -113,7 +113,7 @@
       </b-carousel-item>
       <b-carousel-item>
         <section id="home" class="hero is-fullheight is-dark">
-          <div class="hero-body slide-body has-text-black">
+          <div class="hero-body slide-body has-text-black is-justify-content-center">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 823.61 684">
               <g id="name">
                 <g id="grid2">
@@ -325,23 +325,23 @@
             <div class="tile is-ancestor">
               <div class="tile">
                 <div class="tile is-parent is-vertical">
-                  <article class="tile is-child notification is-primary">
+                  <article class="tile is-block-tablet is-block-mobile is-child notification is-primary">
                     <p>Since graduating from the University of Miami with a
                       bachelor’s degree in Computer Science, I’ve found a place on the R&D team at MAXIMUS, working
                       officially
                       as a Software Engineer, and unofficially as the team’s resident UI/UX specialist.</p>
                   </article>
-                  <article class="tile is-child notification is-white has-text-dark">
+                  <article class="tile is-block-tablet is-block-mobile is-child notification is-white has-text-dark">
                     <p>Catapult</p>
                   </article>
-                  <article class="tile is-child notification is-warning has-text-dark">
+                  <article class="tile is-block-tablet is-block-mobile is-child notification is-warning has-text-dark">
                     <p class="title">...tiles</p>
                     <p class="subtitle">Bottom tile</p>
                   </article>
                 </div>
               </div>
               <div class="tile is-parent">
-                <article class="tile is-child notification is-link">
+                <article class="tile is-block-tablet is-block-mobile is-child notification is-link">
                   <p class="title">Wide tile</p>
                   <p class="subtitle">Aligned with the right tile</p>
                   <div class="content">
