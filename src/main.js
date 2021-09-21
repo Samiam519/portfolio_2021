@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import Buefy from 'buefy'
 import BulmaTheme from '@/assets/dist_theme.css'
-import AnimateCss from 'animate.css'
+import 'animate.css'
 import { library } from '@fortawesome/fontawesome-svg-core';
 // internal icons
 import {
@@ -26,7 +26,6 @@ Vue.use(Buefy, {
   defaultIconPack: 'fas',
 })
 Vue.use(BulmaTheme)
-Vue.use(AnimateCss)
 Vue.config.productionTip = false
 
 new Vue({

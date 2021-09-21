@@ -3,6 +3,9 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
+    font-family: Abside-Round1, "Helvetica Neue", sans-serif;
+    -webkit-animation: animate-background 0.5s forwards;
+    -moz-animation: animate-background 0.5s forwards;
     animation: animate-background 0.5s forwards;
     animation-delay: 0.75s;
     overflow: hidden;
@@ -32,6 +35,8 @@ body {
 }
 
 .site-content {
+    -webkit-animation: fade-in 0.5s forwards;
+    -moz-animation: fade-in 0.5s forwards;
     animation: fade-in 0.5s forwards;
 }
 
@@ -89,6 +94,8 @@ body {
 }
 .logo {
     margin-bottom: 1em;
+    -webkit-animation: fade-out 0.5s forwards;
+    -moz-animation: fade-out 0.5s forwards;
     animation: fade-out 0.5s forwards;
     animation-delay: 0.75s;
 }
@@ -111,6 +118,8 @@ body {
 
 .viewmaster-filler{
     fill: #EFEAE4;
+    -webkit-animation: animate-fill 0.5s forwards;
+    -moz-animation: animate-fill 0.5s forwards;
     animation: animate-fill 0.5s forwards;
     animation-delay: 0.75s;
 }
@@ -136,18 +145,8 @@ body {
     /*animation: enlarge 0.5s;*/
 }
 
-#navigation-names text {
-    opacity: 0.1;
-    transition: opacity .5s ease-in-out;
-    -moz-transition: opacity .5s ease-in-out;
-    -webkit-transition: opacity .5s ease-in-out;
-}
-
-#navigation-names text:hover {
-    opacity: 1.0;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
+#navigation-names > text:hover{
+    cursor: pointer;
 }
 
 /*-----------------
@@ -204,6 +203,8 @@ Screen Size Compatibility
 ---------Animations
 -----------------*/
 .rotateOut{
+    -moz-animation: rotateOut 0.5s forwards;
+    -webkit-animation: rotateOut 0.5s forwards;
     animation: rotateOut 0.5 forwards;
 }
 
@@ -330,6 +331,36 @@ Screen Size Compatibility
     }
 }
 
+@-ms-keyframes rotateOut
+{
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(-500%, 500%) rotate(-45deg);
+    }
+}
+@-webkit-keyframes rotateOut
+{
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(-500%, 500%) rotate(-45deg);
+    }
+}
+@-moz-keyframes rotateOut
+{
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(-500%, 500%) rotate(-45deg);
+    }
+}
 @keyframes rotateOut
 {
     from {
@@ -620,7 +651,7 @@ Standardized colors
     fill: #EFEAE4;
 }
 
-.black, .cls-text{
+.black{
     fill: #181914;
 }
 
@@ -689,6 +720,8 @@ Standardized colors
     z-index: -1;
     bottom: 0;
     transform: translate(10px, -4px);
+    -webkit-animation: highlight 0.5 forwards;
+    -moz-animation: highlight 0.5 forwards;
     animation: highlight 0.5 forwards;
 }
 
@@ -710,11 +743,11 @@ Standardized colors
 
 .cls-text {
     font-size: 12px;
-    font-family: Abside-Round1, Abside;
+    font-family: Abside-Round1, Abside, sans-serif;
 }
 
 .logo-name-text > text{
-    font-family: Streamster;
+    font-family: Streamster, Helvetica, serif;
     font-size: 170px;
 }
 

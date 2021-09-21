@@ -178,12 +178,12 @@
                   <polygon class="yellow dark-grey-stroke large-stroke"
                            points="151.23 42.45 287.36 594.48 606.56 318.46 151.23 42.45"/>
                 </g>
-                <g id="Sam" class="logo-name-text">
+                <g id="Sam" class="logo-name-text animate__animated animate__fadeInTopRight animate__fast">
                   <text class="dark-grey text-stroke" transform="matrix(0.98, -0.19, 0.19, 0.98, 176.84, 317.86)">Sam
                   </text>
                   <text class="red" transform="matrix(0.98, -0.19, 0.19, 0.98, 174.32, 311.81)">Sam</text>
                 </g>
-                <g id="Jimenez" class="logo-name-text">
+                <g id="Jimenez" class="logo-name-text animate__animated animate__fadeInBottomLeft animate__fast">
                   <text class="dark-grey text-stroke" transform="translate(151.3 412.77) rotate(-10.96)">Jimenez</text>
                   <text class="red" transform="translate(149.08 407.77) rotate(-10.96)">Jimenez</text>
                 </g>

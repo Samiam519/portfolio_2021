@@ -82,5 +82,5 @@ export default {
 </script>
 
 <style>
-@import './assets/styles.css';
+@import './css/styles.css';
 </style>
