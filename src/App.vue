@@ -2,9 +2,12 @@
   <div id="app">
     <Intro v-if="showIntro" @hide="hide"/>
     <div v-show="!showIntro" class="site-content">
-      <Carousel @change="changeSlide" :carousel-index="carouselIndex"/>
+      <Carousel @change="changeSlide" :carousel-index="carouselIndex" :soundOn="soundOn"/>
       <Navigation @change="changeSlide" :carousel-index="carouselIndex"/>
       <Changer @prev="prev" @next="next" :carousel-index="carouselIndex"/>
+      <div id="volumeWrapper">
+        <b-button class="is-rounded is-dark is-large" :icon-right="soundOn ? 'volume-up' : 'volume-mute'" @click="changeSound"/>
+      </div>
     </div>
   </div>
 </template>
@@ -26,7 +29,8 @@ export default {
   data() {
     return {
       showIntro: true,
-      carouselIndex: 2
+      carouselIndex: 2,
+      soundOn: true
     }
   },
   mounted() {
@@ -42,6 +46,9 @@ export default {
   methods: {
     hide() {
       this.showIntro = false
+    },
+    changeSound(){
+      this.soundOn = !this.soundOn
     },
     changeSlide(ind) {
       this.carouselIndex = ind
@@ -81,6 +88,13 @@ body {
   height: 100%;
 }
 
+#volumeWrapper{
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  width: auto;
+}
+
 .site-content {
   animation: fade-in 0.5s forwards;
 }
@@ -104,7 +118,7 @@ body {
 .button{
   filter:drop-shadow(5px 5px 0 #30332A);
   border: 2px solid #30332A !important;
-  border-radius: 0 !important;
+  border-radius: 0;
 }
 
 .is-absolute{

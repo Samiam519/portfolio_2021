@@ -20,7 +20,7 @@
     <b-carousel
         v-model="index"
         :autoplay="false"
-        @change="slideChange"
+        @change="playSound"
         :indicator="false"
         icon-size="is-large">
       <b-carousel-item>
@@ -395,7 +395,8 @@
 export default {
   name: "Carousel",
   props: {
-    carouselIndex: Number
+    carouselIndex: Number,
+    soundOn: Boolean
   },
   data() {
     return {}
@@ -411,11 +412,13 @@ export default {
     }
   },
   methods: {
-    slideChange() {
-      // play random click sound out of 5 options
-      let allSounds = document.getElementById('click-sounds').children;
-      let randomClickSound = allSounds[Math.floor(Math.random() * allSounds.length)];
-      randomClickSound.play();
+    playSound() {
+      if(this.soundOn){
+        // play random click sound out of 5 options
+        let allSounds = document.getElementById('click-sounds').children;
+        let randomClickSound = allSounds[Math.floor(Math.random() * allSounds.length)];
+        randomClickSound.play();
+      }
     }
   }
 }
