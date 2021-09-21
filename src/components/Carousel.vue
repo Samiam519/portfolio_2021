@@ -24,7 +24,7 @@
         :indicator="false"
         icon-size="is-large">
       <b-carousel-item>
-        <section class="hero is-fullheight is-dark">
+        <section id="contact" class="hero is-fullheight is-dark">
           <div class="hero-body slide-body has-text-black">
             <h1 class="title is-1 has-text-grey-dark is-highlighted blue-highlight">contact</h1>
             <p>Thanks for taking the time to check out my work!
@@ -57,7 +57,7 @@
         </section>
       </b-carousel-item>
       <b-carousel-item>
-        <section class="hero is-fullheight is-dark">
+        <section id="about-me" class="hero is-fullheight is-dark">
           <div class="hero-body slide-body has-text-black">
             <h1 class="title is-1 has-text-grey-dark is-highlighted red-highlight">about me</h1>
             <div class="tile is-ancestor">
@@ -114,7 +114,7 @@
         </section>
       </b-carousel-item>
       <b-carousel-item>
-        <section class="hero is-fullheight is-dark">
+        <section id="home" class="hero is-fullheight is-dark">
           <div class="hero-body slide-body has-text-black">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 823.61 684">
               <g id="name">
@@ -321,7 +321,7 @@
         </section>
       </b-carousel-item>
       <b-carousel-item>
-        <section class="hero is-fullheight is-dark">
+        <section id="maximus" class="hero is-fullheight is-dark">
           <div class="hero-body slide-body has-text-black">
             <h1 class="title is-1 has-text-grey-dark is-highlighted white-highlight">maximus</h1>
             <div class="tile is-ancestor">
@@ -356,7 +356,7 @@
         </section>
       </b-carousel-item>
       <b-carousel-item>
-        <section class="hero is-fullheight is-dark">
+        <section is="dsa" class="hero is-fullheight is-dark">
           <div class="hero-body slide-body has-text-black">
             <h1 class="title is-1 has-text-grey-dark is-highlighted red-highlight">dsa</h1>
 
@@ -364,7 +364,7 @@
         </section>
       </b-carousel-item>
       <b-carousel-item>
-        <section class="hero is-fullheight is-dark">
+        <section id="quidditch" class="hero is-fullheight is-dark">
           <div class="hero-body slide-body has-text-black">
             <h1 class="title is-1 has-text-grey-dark is-highlighted blue-highlight">quidditch</h1>
 
@@ -372,7 +372,7 @@
         </section>
       </b-carousel-item>
       <b-carousel-item>
-        <section class="hero is-fullheight is-dark">
+        <section id="accomplish" class="hero is-fullheight is-dark">
           <div class="hero-body slide-body has-text-black">
             <h1 class="title is-1 has-text-grey-dark is-highlighted yellow-highlight">accomplish</h1>
 
@@ -380,7 +380,7 @@
         </section>
       </b-carousel-item>
       <b-carousel-item>
-        <section class="hero is-fullheight is-dark">
+        <section id="lunch-launch" class="hero is-fullheight is-dark">
           <div class="hero-body slide-body has-text-black">
             <h1 class="title is-1 has-text-grey-dark is-highlighted white-highlight">lunch launch</h1>
 

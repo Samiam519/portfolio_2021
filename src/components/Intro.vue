@@ -97,7 +97,53 @@ export default {
   animation-delay: 0.75s;
 }
 
-@keyframes logo-anim-bottom {
+@-webkit-keyframes logo-anim-bottom
+{
+  from {
+    top: 0;
+  }
+  26% {
+    top: 0;
+  }
+  29% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+@-moz-keyframes logo-anim-bottom
+{
+  from {
+    top: 0;
+  }
+  26% {
+    top: 0;
+  }
+  29% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+@-ms-keyframes logo-anim-bottom
+{
+  from {
+    top: 0;
+  }
+  26% {
+    top: 0;
+  }
+  29% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+@keyframes logo-anim-bottom
+{
   from {
     top: 0;
   }
@@ -112,7 +158,53 @@ export default {
   }
 }
 
-@keyframes logo-anim-top {
+@-webkit-keyframes logo-anim-top
+{
+  from {
+    top: -55px;
+  }
+  25% {
+    top: -75px;
+  }
+  30% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+@-moz-keyframes logo-anim-top
+{
+  from {
+    top: -55px;
+  }
+  25% {
+    top: -75px;
+  }
+  30% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+@-ms-keyframes logo-anim-top
+{
+  from {
+    top: -55px;
+  }
+  25% {
+    top: -75px;
+  }
+  30% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+@keyframes logo-anim-top
+{
   from {
     top: -55px;
   }
@@ -127,7 +219,38 @@ export default {
   }
 }
 
-@keyframes fade-out {
+@-webkit-keyframes fade-out
+{
+  from {
+    opacity: 100%;
+  }
+  to {
+    display: none;
+    opacity: 0;
+  }
+}
+@-moz-keyframes fade-out
+{
+  from {
+    opacity: 100%;
+  }
+  to {
+    display: none;
+    opacity: 0;
+  }
+}
+@-ms-keyframes fade-out
+{
+  from {
+    opacity: 100%;
+  }
+  to {
+    display: none;
+    opacity: 0;
+  }
+}
+@keyframes fade-out
+{
   from {
     opacity: 100%;
   }
@@ -137,7 +260,35 @@ export default {
   }
 }
 
-@keyframes animate-fill {
+@-webkit-keyframes animate-fill
+{
+  from {
+    fill: #EFEAE4;
+  }
+  to {
+    fill: #30332A;
+  }
+}
+@-moz-keyframes animate-fill
+{
+  from {
+    fill: #EFEAE4;
+  }
+  to {
+    fill: #30332A;
+  }
+}
+@-ms-keyframes animate-fill
+{
+  from {
+    fill: #EFEAE4;
+  }
+  to {
+    fill: #30332A;
+  }
+}
+@keyframes animate-fill
+{
   from {
     fill: #EFEAE4;
   }

@@ -6,7 +6,12 @@
       <Navigation @change="changeSlide" :carousel-index="carouselIndex"/>
       <Changer @prev="prev" @next="next" :carousel-index="carouselIndex"/>
       <div id="volumeWrapper">
-        <b-button class="is-rounded is-dark is-large" :icon-right="soundOn ? 'volume-up' : 'volume-mute'" @click="changeSound"/>
+        <b-button
+            class="is-rounded is-black is-large"
+            :icon-right="soundOn ? 'volume-up' : 'volume-mute'"
+            @click="changeSound"
+            aria-label="Change volume"
+        />
       </div>
     </div>
   </div>
@@ -95,6 +100,10 @@ body {
   width: auto;
 }
 
+#volumeWrapper > button:hover{
+  background-color: #5a5b55;
+}
+
 .site-content {
   animation: fade-in 0.5s forwards;
 }
@@ -131,7 +140,35 @@ body {
 /*-----------------
 ---------Animations
 -----------------*/
-@keyframes animate-background {
+@-webkit-keyframes animate-background
+{
+  from {
+    background-color: #EFEAE4;
+  }
+  to {
+    background-color: #30332A;
+  }
+}
+@-moz-keyframes animate-background
+{
+  from {
+    background-color: #EFEAE4;
+  }
+  to {
+    background-color: #30332A;
+  }
+}
+@-ms-keyframes animate-background
+{
+  from {
+    background-color: #EFEAE4;
+  }
+  to {
+    background-color: #30332A;
+  }
+}
+@keyframes animate-background
+{
   from {
     background-color: #EFEAE4;
   }
@@ -140,7 +177,35 @@ body {
   }
 }
 
-@keyframes fade-in {
+@-webkit-keyframes fade-in
+{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@-moz-keyframes fade-in
+{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@-ms-keyframes fade-in
+{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes fade-in
+{
   from {
     opacity: 0;
   }
@@ -149,7 +214,8 @@ body {
   }
 }
 
-@keyframes highlight {
+@-webkit-keyframes highlight
+{
   0% {
     width: 0;
     opacity: 0;
@@ -159,7 +225,42 @@ body {
     width: 100%;
     opacity: 1;
   }
+}
+@-moz-keyframes highlight
+{
+  0% {
+    width: 0;
+    opacity: 0;
+  }
 
+  50% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+@-ms-keyframes highlight
+{
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  50% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+@keyframes highlight
+{
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  50% {
+    width: 100%;
+    opacity: 1;
+  }
 }
 /*-----------------
 Standardized colors

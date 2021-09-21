@@ -105,7 +105,35 @@ export default {
   -webkit-transition: opacity .25s ease-in-out;
 }
 
-@keyframes enlarge {
+@-webkit-keyframes enlarge
+{
+  from {
+    transform: scale(1, 1)
+  }
+  to {
+    transform: scale(2, 2)
+  }
+}
+@-moz-keyframes enlarge
+{
+  from {
+    transform: scale(1, 1)
+  }
+  to {
+    transform: scale(2, 2)
+  }
+}
+@-ms-keyframes enlarge
+{
+  from {
+    transform: scale(1, 1)
+  }
+  to {
+    transform: scale(2, 2)
+  }
+}
+@keyframes enlarge
+{
   from {
     transform: scale(1, 1)
   }
