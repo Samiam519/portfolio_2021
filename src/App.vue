@@ -47,6 +47,11 @@ export default {
         this.next()
       }
     });
+    setTimeout(()=> {
+      if(window.innerHeight > window.innerWidth){
+        this.$buefy.dialog.alert("I promise this site looks a lot cooler in landscape mode")
+      }
+    }, 1250)
   },
   methods: {
     hide() {
@@ -137,6 +142,11 @@ body {
 .is-fullwidth, .is-ancestor{
   width: 100%;
 }
+
+.w-80{
+  max-width: 80%;
+}
+
 /*-----------------
 ---------Animations
 -----------------*/

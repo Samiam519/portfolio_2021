@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "css-build": "node-sass --omit-source-map-url src/sass/theme.scss src/assets/dist_theme.css",
-    "css-watch": "npm run css-build -- --watch"
+    "css-watch": "npm run css-build -- --watch",
+    "postinstall": "npx patch-package buefy"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",

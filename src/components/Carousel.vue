@@ -91,7 +91,7 @@
               <div class="tile">
                 <div class="tile is-parent is-vertical">
                   <article class="tile is-child">
-                    <img src="../assets/avi_daria.png" width="80%">
+                    <img src="../assets/avi_daria.png" class="w-80">
                   </article>
                   <article class="tile is-child notification is-primary">
                     <p>
@@ -444,5 +444,13 @@ export default {
 
 .hero-body {
   text-align: left;
+}
+@media screen and (max-width: 1024px){
+  .hero-body{
+    padding: 1em !important
+  }
+  .slide-body{
+    margin: 2em auto;
+  }
 }
 </style>
