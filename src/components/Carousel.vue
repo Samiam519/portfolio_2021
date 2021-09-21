@@ -70,9 +70,8 @@
                       I make on my small corner of the web reflects that goal. My current favorite frameworks are <a
                           href="https://vuejs.org/v2/guide/" target="_blank">Vue js</a> and <a
                           href="https://bulma.io/documentation/" target="_blank">Bulma</a> for
-                      CSS. That's
-                      what I used for this
-                      site.</p>
+                      CSS. This site uses <a href="https://buefy.org/documentation" target="_blank">Buefy</a>, a
+                      convenient combination of the two.</p>
                   </article>
                   <article class="tile is-child notification is-link has-text-dark">
                     <p>
@@ -413,7 +412,7 @@ export default {
   },
   methods: {
     playSound() {
-      if(this.soundOn){
+      if (this.soundOn) {
         // play random click sound out of 5 options
         let allSounds = document.getElementById('click-sounds').children;
         let randomClickSound = allSounds[Math.floor(Math.random() * allSounds.length)];

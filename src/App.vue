@@ -95,8 +95,8 @@ body {
 
 #volumeWrapper{
   position: absolute;
-  top: 0.5em;
-  left: 0.5em;
+  bottom: 0.5em;
+  right: 0.5em;
   width: auto;
 }
 
