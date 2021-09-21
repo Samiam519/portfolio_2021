@@ -20,7 +20,7 @@
     <b-carousel
         v-model="index"
         :autoplay="false"
-        @change="playSound"
+        @change="slideChanged"
         :indicator="false"
         animated="rotateOut"
         icon-size="is-large">
@@ -410,6 +410,11 @@ export default {
     }
   },
   methods: {
+    slideChanged(val){
+      this.playSound();
+      // hijack animation
+      console.log(val, this.index)
+    },
     playSound() {
       if (this.soundOn) {
         // play random click sound out of 5 options

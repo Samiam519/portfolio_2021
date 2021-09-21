@@ -7,7 +7,7 @@
         aria-label="Toggle Navigation"
     >nav
     </b-button>
-    <svg id="navigation-items" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.02 216.46">
+    <svg id="navigation-items" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.02 216.46">
       <g id="navigation-boxes">
         <g>
           <rect class="white dark-grey-stroke navigation-box" aria-label="contact" @click="change(0)" x="12.08" y="106.81"
@@ -204,28 +204,6 @@
                 d="M222.45,199.71v3.62a.25.25,0,0,1-.25.25h-1.14a.25.25,0,0,1-.25-.25v-8.28a.25.25,0,0,1,.25-.25h1.14a.25.25,0,0,1,.25.25V198a.13.13,0,0,0,.21.1,2,2,0,0,1,1.2-.36,2.14,2.14,0,0,1,2.27,2.22v3.38a.24.24,0,0,1-.25.25h-1.14a.25.25,0,0,1-.25-.25v-3a1.09,1.09,0,0,0-1.11-1.24h-.06a1.14,1.14,0,0,0-.81.44A.44.44,0,0,0,222.45,199.71Z"/>
         </g>
       </g>
-      <g id="large" class="is-hidden">
-        <rect class="white dark-grey-stroke" x="8.77" y="69.5" width="21.09" height="21.09" rx="6.26"/>
-        transform="translate(-45.88 108.92) rotate(-49.5)"/>
-        <rect class="white dark-grey-stroke" x="84.65" y="93.68" width="21.09" height="21.09" rx="6.26"
-              transform="translate(-45.88 108.92) rotate(-49.5)"/>
-        transform="translate(-41.88 116.72) rotate(-82.38)"/>
-        <rect class="white dark-grey-stroke" x="35.2" y="71.74" width="21.09" height="21.09" rx="6.26"
-              transform="translate(-41.88 116.72) rotate(-82.38)"/>
-        transform="translate(-38.66 122.51) rotate(-67.76)"/>
-        <rect class="white dark-grey-stroke" x="61.34" y="79.49" width="21.09" height="21.09" rx="6.26"
-              transform="translate(-38.66 122.51) rotate(-67.76)"/>
-        <rect class="white dark-grey-stroke" x="127.4" y="188.44" width="21.09" height="21.09" rx="6.26"/>
-        transform="translate(-52.69 103.39) rotate(-40.5)"/>
-        <rect class="white dark-grey-stroke" x="103.22" y="112.56" width="21.09" height="21.09" rx="6.26"
-              transform="translate(-52.69 103.39) rotate(-40.5)"/>
-        transform="translate(-21.68 19.51) rotate(-7.62)"/>
-        <rect class="white dark-grey-stroke" x="125.16" y="162.02" width="21.09" height="21.09" rx="6.26"
-              transform="translate(-21.68 19.51) rotate(-7.62)"/>
-        transform="translate(-45.9 59.32) rotate(-22.24)"/>
-        <rect class="white dark-grey-stroke" x="117.41" y="135.87" width="21.09" height="21.09" rx="6.26"
-              transform="translate(-45.9 59.32) rotate(-22.24)"/>
-      </g>
     </svg>
   </div>
 </template>
@@ -259,7 +237,6 @@ export default {
               path: e.nextElementSibling,
               align: e.nextElementSibling,
               autoRotate: true,
-              scale: 1.5,
               alignOrigin: [0.5, 0.5]
             },
             immediateRender: true,

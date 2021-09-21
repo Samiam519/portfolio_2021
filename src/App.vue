@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <Intro v-if="showIntro" @hide="hide"/>
-    <div v-show="!showIntro" class="site-content">
+    <div v-show="!showIntro" class="animate__animated animate__fadeIn animate__slow">
       <Carousel @change="changeSlide" :carousel-index="carouselIndex" :soundOn="soundOn"/>
       <Navigation @change="changeSlide" :carousel-index="carouselIndex"/>
       <Changer @prev="prev" @next="next" :carousel-index="carouselIndex"/>
-      <div id="volumeWrapper">
+      <div id="volume-wrapper">
         <b-button
             class="is-dark has-white-stroke is-large"
             :icon-right="soundOn ? 'volume-up' : 'volume-mute'"

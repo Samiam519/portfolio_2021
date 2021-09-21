@@ -3,8 +3,8 @@
     <audio id="click" class="hidden">
       <source src="../assets/sounds/partial.wav" type="audio/wav">
     </audio>
-    <div class="logo">
-      <svg width="250px" height="350px" viewBox="0 0 250 350" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    <div class="animate__animated animate__fadeOut animate__fast animate__delay-1s">
+      <svg width="250px" height="350px" viewBox="0 0 250 350" xmlns="http://www.w3.org/2000/svg"
            xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="slide" class="logo-top">
           <circle class="pure-white" cx="126.01" cy="205.99" r="61.21"/>
