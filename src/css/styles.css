@@ -176,6 +176,8 @@ button:hover{
 }
 
 button:hover::before {
+    -webkit-animation: diagonal-stripes linear 1.5s;
+    -moz-animation: diagonal-stripes linear 1.5s;
     animation: diagonal-stripes linear 1.5s;
     animation-delay: 0s;
     animation-direction: normal;
@@ -206,15 +208,6 @@ button:hover::after{
     height: 110%;
     border: inherit;
     background-size: 100%;
-}
-
-@keyframes diagonal-stripes {
-    0% {
-        background-position-x: 0
-    }
-    to {
-        background-position-x: 65px
-    }
 }
 
 .is-absolute {
@@ -320,54 +313,6 @@ Screen Size Compatibility
     }
     to {
         background-color: #30332A;
-    }
-}
-
-@-webkit-keyframes highlight {
-    0% {
-        width: 0;
-        opacity: 0;
-    }
-
-    50% {
-        width: 100%;
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes highlight {
-    0% {
-        width: 0;
-        opacity: 0;
-    }
-
-    50% {
-        width: 100%;
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes highlight {
-    0% {
-        width: 0;
-        opacity: 0;
-    }
-
-    50% {
-        width: 100%;
-        opacity: 1;
-    }
-}
-
-@keyframes highlight {
-    0% {
-        width: 0;
-        opacity: 0;
-    }
-
-    50% {
-        width: 100%;
-        opacity: 1;
     }
 }
 
@@ -527,6 +472,36 @@ Screen Size Compatibility
     }
 }
 
+@-webkit-keyframes diagonal-stripes
+{
+    0% {
+        background-position-x: 0
+    }
+    to {
+        background-position-x: 65px
+    }
+}
+
+@-moz-keyframes diagonal-stripes
+{
+    0% {
+        background-position-x: 0
+    }
+    to {
+        background-position-x: 65px
+    }
+}
+
+@keyframes diagonal-stripes
+{
+    0% {
+        background-position-x: 0
+    }
+    to {
+        background-position-x: 65px
+    }
+}
+
 /*@keyframes zoom-in {
   from{transform: scale(1,1)}
   to{transform: scale(50,50)  translateY(-15%)}
@@ -636,9 +611,11 @@ Standardized colors
     z-index: -1;
     bottom: 0;
     transform: translate(10px, -4px);
-    -webkit-animation: highlight 0.5 forwards;
-    -moz-animation: highlight 0.5 forwards;
-    animation: highlight 0.5 forwards;
+    transition: width 275ms ease;
+}
+
+.is-highlighted:hover::before{
+    width: 0;
 }
 
 .blue-highlight::before {
