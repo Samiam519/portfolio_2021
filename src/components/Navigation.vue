@@ -245,36 +245,36 @@ export default {
               scale: 1.5
             }))
       });
-    },1250);
+    },1250); // wait for animation to finish before trying to find dom elements
   },
   methods: {
     change(ind) {
-      this.$emit('change', ind)
+      this.$emit('change', ind);
     },
     onHover() {
-      this.names.classList.remove('animate__fadeOut')
-      this.names.classList.add('animate__fadeIn')
       this.tl.forEach((e)=>{
         e.play()
-      })
+      });
+      this.names.classList.remove('animate__fadeOut');
+      this.names.classList.add('animate__fadeIn');
     },
     onMouseOut() {
-      this.names.classList.remove('animate__fadeIn')
-      this.names.classList.add('animate__fadeOut')
       this.tl.forEach((e)=>{
         e.reverse()
-      })
+      });
+      this.names.classList.remove('animate__fadeIn');
+      this.names.classList.add('animate__fadeOut');
     },
     toggleMenu() {
-      this.names.classList.toggle('animate__fadeIn')
-      this.names.classList.toggle('animate__fadeOut')
       this.tl.forEach((e)=>{
-        if(e.reversed()){
+        if(e.reversed() || (!e.reversed() && this.names.classList.contains('animate__fadeOut'))){
           e.play()
         } else {
           e.reverse()
         }
-      })
+      });
+      this.names.classList.toggle('animate__fadeIn');
+      this.names.classList.toggle('animate__fadeOut');
     }
   }
 }

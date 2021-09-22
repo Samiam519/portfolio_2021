@@ -97,7 +97,7 @@ export default {
           }, 125)
         }
       });
-    }, 1250);
+    }, 1250); // wait for animation to finish before trying to find dom elements
   },
   methods: {
     prev(){
