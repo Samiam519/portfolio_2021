@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Sam Jimenez: UI Designer & Frontend Engineer",
+    "short_name": "Sam Jimenez",
     "icons": [
         {
             "src": "/public/android-chrome-192x192.png",
@@ -13,7 +13,9 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#efe7dc",
+    "theme_color": "#30332A",
     "background_color": "#efe7dc",
-    "display": "standalone"
+    "display": "browser",
+    "scope": ".",
+    "start_url": "./"
 }
