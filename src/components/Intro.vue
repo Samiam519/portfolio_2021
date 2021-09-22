@@ -88,8 +88,9 @@
 export default {
   name: "Intro",
   mounted() {
+    // check local storage from source rather than prop bc prop is undefined at this point
     setTimeout(function () {
-      if(localStorage.sound){
+      if(localStorage.sound === 'true'){
         let click = document.getElementById("click");
         click.play();
       }

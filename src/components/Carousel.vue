@@ -31,6 +31,9 @@
 
 export default {
   name: "Carousel",
+  props: {
+    soundOn: Boolean
+  },
   mounted() {
     // bc router is controlling the carousel, need to emit when carousel arrows are used for App.vue to handle
     document.querySelector('.carousel-arrow > .has-icons-left').addEventListener('click', () => {
@@ -42,7 +45,8 @@ export default {
   },
   methods: {
     playSound() {
-      if (localStorage.sound) {
+      // take sound setting as prop bc it gets passed properly now
+      if (this.soundOn) {
         // play random click sound out of 5 options
         let allSounds = document.getElementById('click-sounds').children;
         let randomClickSound = allSounds[Math.floor(Math.random() * allSounds.length)];
