@@ -226,24 +226,26 @@ export default {
   },
   mounted() {
     gsap.registerPlugin(MotionPathPlugin);
-    this.boxes = Array.prototype.slice.call(document.getElementsByClassName('navigation-box'));
-    this.names = document.getElementById('navigation-names')
-    this.names.classList.add('animate__fadeOut')
+    setTimeout(()=>{
+      this.boxes = Array.prototype.slice.call(document.getElementsByClassName('navigation-box'));
+      this.names = document.getElementById('navigation-names');
+      this.names.classList.add('animate__fadeOut');
 
-    this.boxes.forEach((e)=>{
-      this.tl.push(gsap.timeline({paused: true})
-          .to( e, {
-            motionPath: {
-              path: e.nextElementSibling,
-              align: e.nextElementSibling,
-              autoRotate: true,
-              alignOrigin: [0.5, 0.5]
-            },
-            immediateRender: true,
-            duration: 0.35,
-            scale: 1.5
-          }))
-    });
+      this.boxes.forEach((e)=>{
+        this.tl.push(gsap.timeline({paused: true})
+            .to( e, {
+              motionPath: {
+                path: e.nextElementSibling,
+                align: e.nextElementSibling,
+                autoRotate: true,
+                alignOrigin: [0.5, 0.5]
+              },
+              immediateRender: true,
+              duration: 0.35,
+              scale: 1.5
+            }))
+      });
+    },1250);
   },
   methods: {
     change(ind) {

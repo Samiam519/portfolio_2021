@@ -35,11 +35,11 @@
             </p>
             <form action="https://formspree.io/f/mbjqwakb" method="POST" target="_blank" class="is-fullwidth">
               <div>
-                <b-field label="Name" horizontal class="m-0">
+                <b-field label="name" horizontal class="m-0">
                   <b-input required expanded class="is-fullwidth p-1">
                   </b-input>
                 </b-field>
-                <b-field label="Email" horizontal class="m-0">
+                <b-field label="email" horizontal class="m-0">
                   <b-input
                       type="email"
                       required
@@ -48,10 +48,10 @@
                       validation-message="Email address invalid">
                   </b-input>
                 </b-field>
-                <b-field label="Message" horizontal class="m-0">
+                <b-field label="message" horizontal class="m-0">
                   <b-input maxlength="200" type="textarea" required class="is-fullwidth p-1"></b-input>
                 </b-field>
-                <b-button type="submit" class="is-primary is-pulled-right">Submit</b-button>
+                <b-button type="submit" class="is-primary is-pulled-right">submit</b-button>
               </div>
             </form>
           </div>

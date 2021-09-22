@@ -23,14 +23,14 @@ body {
     height: 100%;
 }
 
-#volume-wrapper{
+#volume-wrapper {
     position: absolute;
     bottom: 2em;
     right: 2em;
     width: auto;
 }
 
-button.has-white-stroke:hover{
+button.has-white-stroke:hover {
     background-color: #5a5b55 !important;
 }
 
@@ -42,8 +42,8 @@ button.has-white-stroke:hover{
 
 .slide-body {
     background-color: #efe7dc; /*for browsers that dont support gradients*/
-    background-image: radial-gradient(circle, rgba(240,235,230,1) 10%, rgba(239,231,220,1) 75%, rgba(48,51,42,0.3) );
-    box-shadow: 0 0 30px rgba(239,231,220,0.6);
+    background-image: radial-gradient(circle, rgba(240, 235, 230, 1) 10%, rgba(239, 231, 220, 1) 75%, rgba(48, 51, 42, 0.3));
+    box-shadow: 0 0 30px rgba(239, 231, 220, 0.6);
     border-radius: 50px;
     margin: 4em auto;
     width: 100vh;
@@ -103,7 +103,7 @@ button.has-white-stroke:hover{
     animation-name: logo-anim-top;
 }
 
-.viewmaster-filler{
+.viewmaster-filler {
     fill: #EFEAE4;
     -webkit-animation: animate-fill 0.5s forwards;
     -moz-animation: animate-fill 0.5s forwards;
@@ -131,11 +131,11 @@ button.has-white-stroke:hover{
     cursor: pointer;
 }
 
-#navigation-names > *:hover{
+#navigation-names > *:hover {
     cursor: pointer;
 }
 
-#navigation-toggle{
+#navigation-toggle {
     position: absolute;
     bottom: 2em;
     left: 1em;
@@ -145,38 +145,87 @@ button.has-white-stroke:hover{
 ------------Helpers
 -----------------*/
 
-.field{
+.field {
     font-size: 1em;
 }
-.field.label{
+
+.field.label {
     margin: 0;
 }
 
-.notification{
-    filter:drop-shadow(10px 10px 0 #30332A);
+.notification {
+    filter: drop-shadow(10px 10px 0 #30332A);
     border: 4px solid #30332A;
 }
 
-.button{
-    filter:drop-shadow(5px 5px 0 #30332A);
+button {
+    filter: drop-shadow(5px 5px 0 #30332A);
     border: 2px solid #30332A !important;
-    border-radius: 0;
+    border-radius: 0 !important;
+    z-index: 10;
 }
-.button.has-white-stroke{
-    filter:drop-shadow(5px 5px 0 #EFEAE4);
+
+button.has-white-stroke {
+    filter: drop-shadow(5px 5px 0 #EFEAE4);
     border: 2px solid #EFEAE4 !important;
     border-radius: 0;
 }
 
-.is-absolute{
+button:hover{
+    filter: none
+}
+
+button:hover::before {
+    animation: diagonal-stripes linear 1.5s;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    position: absolute;
+    content: '';
+    z-index: -1;
+    display: block;
+    top: 2px;
+    left: 4px;
+    width: 105%;
+    height: 110%;
+    background: url(../assets/stripes.png) 50%;
+}
+
+button:hover::after{
+    position: absolute;
+    content: '';
+    background: inherit;
+    background-size: auto;
+    z-index: -1;
+    top: -2px;
+    left: -2px;
+    display: block;
+    width: 105%;
+    height: 110%;
+    border: inherit;
+    background-size: 100%;
+}
+
+@keyframes diagonal-stripes {
+    0% {
+        background-position-x: 0
+    }
+    to {
+        background-position-x: 65px
+    }
+}
+
+.is-absolute {
     position: absolute;
 }
 
-.is-fullwidth, .is-ancestor{
+.is-fullwidth, .is-ancestor {
     width: 100%;
 }
 
-.w-80{
+.w-80 {
     max-width: 80%;
 }
 
@@ -184,43 +233,52 @@ button.has-white-stroke:hover{
 Screen Size Compatibility
 -----------------------*/
 
-@media screen and (max-width: 1024px){
-    html,body{
+@media screen and (max-width: 1024px) {
+    html, body {
         overflow-y: auto;
     }
-    .hero-body{
+
+    .hero-body {
         padding: 1em !important
     }
-    .slide-body{
+
+    .slide-body {
         margin: 1em auto;
     }
-    #volume-wrapper{
+
+    #volume-wrapper {
         margin: 0;
     }
-    #navigation-wrapper{
+
+    #navigation-wrapper {
         margin: 0;
         width: 14em;
     }
-    #changer-wrapper{
+
+    #changer-wrapper {
         max-width: 9em;
     }
 }
 
-@media screen and (min-width: 1408px){
-    #volume-wrapper{
+@media screen and (min-width: 1408px) {
+    #volume-wrapper {
         margin: 0 3em 3em 0;
     }
-    #navigation-wrapper{
+
+    #navigation-wrapper {
         margin: 0 0 3em 3em;
         width: 20em;
     }
-    #changer-wrapper{
+
+    #changer-wrapper {
         margin: 3em 3em 0 0
     }
-    .carousel-arrow > .has-icons-left{
+
+    .carousel-arrow > .has-icons-left {
         margin-left: 3em;
     }
-    .carousel-arrow > .has-icons-right{
+
+    .carousel-arrow > .has-icons-right {
         margin-right: 3em;
     }
 }
@@ -229,35 +287,7 @@ Screen Size Compatibility
 ---------Animations
 -----------------*/
 
-@-webkit-keyframes animate-background
-{
-    from {
-        background-color: #EFEAE4;
-    }
-    to {
-        background-color: #30332A;
-    }
-}
-@-moz-keyframes animate-background
-{
-    from {
-        background-color: #EFEAE4;
-    }
-    to {
-        background-color: #30332A;
-    }
-}
-@-ms-keyframes animate-background
-{
-    from {
-        background-color: #EFEAE4;
-    }
-    to {
-        background-color: #30332A;
-    }
-}
-@keyframes animate-background
-{
+@-webkit-keyframes animate-background {
     from {
         background-color: #EFEAE4;
     }
@@ -266,44 +296,34 @@ Screen Size Compatibility
     }
 }
 
-@-webkit-keyframes highlight
-{
-    0% {
-        width: 0;
-        opacity: 0;
+@-moz-keyframes animate-background {
+    from {
+        background-color: #EFEAE4;
     }
-
-    50% {
-        width: 100%;
-        opacity: 1;
+    to {
+        background-color: #30332A;
     }
 }
-@-moz-keyframes highlight
-{
-    0% {
-        width: 0;
-        opacity: 0;
-    }
 
-    50% {
-        width: 100%;
-        opacity: 1;
+@-ms-keyframes animate-background {
+    from {
+        background-color: #EFEAE4;
+    }
+    to {
+        background-color: #30332A;
     }
 }
-@-ms-keyframes highlight
-{
-    0% {
-        width: 0;
-        opacity: 0;
-    }
 
-    50% {
-        width: 100%;
-        opacity: 1;
+@keyframes animate-background {
+    from {
+        background-color: #EFEAE4;
+    }
+    to {
+        background-color: #30332A;
     }
 }
-@keyframes highlight
-{
+
+@-webkit-keyframes highlight {
     0% {
         width: 0;
         opacity: 0;
@@ -315,53 +335,43 @@ Screen Size Compatibility
     }
 }
 
-@-webkit-keyframes logo-anim-bottom
-{
-    from {
-        top: 0;
+@-moz-keyframes highlight {
+    0% {
+        width: 0;
+        opacity: 0;
     }
-    26% {
-        top: 0;
-    }
-    29% {
-        top: 15px;
-    }
-    40% {
-        top: 0;
+
+    50% {
+        width: 100%;
+        opacity: 1;
     }
 }
-@-moz-keyframes logo-anim-bottom
-{
-    from {
-        top: 0;
+
+@-ms-keyframes highlight {
+    0% {
+        width: 0;
+        opacity: 0;
     }
-    26% {
-        top: 0;
-    }
-    29% {
-        top: 15px;
-    }
-    40% {
-        top: 0;
+
+    50% {
+        width: 100%;
+        opacity: 1;
     }
 }
-@-ms-keyframes logo-anim-bottom
-{
-    from {
-        top: 0;
+
+@keyframes highlight {
+    0% {
+        width: 0;
+        opacity: 0;
     }
-    26% {
-        top: 0;
-    }
-    29% {
-        top: 15px;
-    }
-    40% {
-        top: 0;
+
+    50% {
+        width: 100%;
+        opacity: 1;
     }
 }
-@keyframes logo-anim-bottom
-{
+
+@-webkit-keyframes logo-anim-bottom {
     from {
         top: 0;
     }
@@ -376,53 +386,52 @@ Screen Size Compatibility
     }
 }
 
-@-webkit-keyframes logo-anim-top
-{
+@-moz-keyframes logo-anim-bottom {
     from {
-        top: -55px;
+        top: 0;
     }
-    25% {
-        top: -75px;
+    26% {
+        top: 0;
     }
-    30% {
+    29% {
         top: 15px;
     }
     40% {
         top: 0;
     }
 }
-@-moz-keyframes logo-anim-top
-{
+
+@-ms-keyframes logo-anim-bottom {
     from {
-        top: -55px;
+        top: 0;
     }
-    25% {
-        top: -75px;
+    26% {
+        top: 0;
     }
-    30% {
+    29% {
         top: 15px;
     }
     40% {
         top: 0;
     }
 }
-@-ms-keyframes logo-anim-top
-{
+
+@keyframes logo-anim-bottom {
     from {
-        top: -55px;
+        top: 0;
     }
-    25% {
-        top: -75px;
+    26% {
+        top: 0;
     }
-    30% {
+    29% {
         top: 15px;
     }
     40% {
         top: 0;
     }
 }
-@keyframes logo-anim-top
-{
+
+@-webkit-keyframes logo-anim-top {
     from {
         top: -55px;
     }
@@ -437,8 +446,52 @@ Screen Size Compatibility
     }
 }
 
-@-webkit-keyframes animate-fill
-{
+@-moz-keyframes logo-anim-top {
+    from {
+        top: -55px;
+    }
+    25% {
+        top: -75px;
+    }
+    30% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+
+@-ms-keyframes logo-anim-top {
+    from {
+        top: -55px;
+    }
+    25% {
+        top: -75px;
+    }
+    30% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+
+@keyframes logo-anim-top {
+    from {
+        top: -55px;
+    }
+    25% {
+        top: -75px;
+    }
+    30% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+
+@-webkit-keyframes animate-fill {
     from {
         fill: #EFEAE4;
     }
@@ -446,8 +499,8 @@ Screen Size Compatibility
         fill: #30332A;
     }
 }
-@-moz-keyframes animate-fill
-{
+
+@-moz-keyframes animate-fill {
     from {
         fill: #EFEAE4;
     }
@@ -455,8 +508,8 @@ Screen Size Compatibility
         fill: #30332A;
     }
 }
-@-ms-keyframes animate-fill
-{
+
+@-ms-keyframes animate-fill {
     from {
         fill: #EFEAE4;
     }
@@ -464,8 +517,8 @@ Screen Size Compatibility
         fill: #30332A;
     }
 }
-@keyframes animate-fill
-{
+
+@keyframes animate-fill {
     from {
         fill: #EFEAE4;
     }
@@ -486,9 +539,11 @@ Standardized colors
 .red {
     fill: #ed5959;
 }
-.blue{
+
+.blue {
     fill: #40c6ee;
 }
+
 .yellow {
     fill: #FDF388;
 }
@@ -509,11 +564,11 @@ Standardized colors
     fill: #30332a;
 }
 
-.white{
+.white {
     fill: #EFEAE4;
 }
 
-.black{
+.black {
     fill: #181914;
 }
 
@@ -543,7 +598,7 @@ Standardized colors
     stroke-width: 2px;
 }
 
-.small-stroke{
+.small-stroke {
     stroke-width: 0.5;
 }
 
@@ -554,11 +609,11 @@ Standardized colors
     stroke-width: 4px;
 }
 
-.large-stroke{
+.large-stroke {
     stroke-width: 4px;
 }
 
-.text-stroke{
+.text-stroke {
     paint-order: stroke;
     stroke: #30332a;
     stroke-width: 5px;
@@ -566,7 +621,7 @@ Standardized colors
     stroke-linejoin: miter;
 }
 
-.is-highlighted{
+.is-highlighted {
     position: relative;
     z-index: 0;
     text-decoration: none;
@@ -607,11 +662,11 @@ Standardized colors
     font-family: Abside-Round1, Abside, sans-serif;
 }
 
-.logo-name-text > text{
+.logo-name-text > text {
     font-family: Streamster, Helvetica, serif;
     font-size: 170px;
 }
 
-.logo-subtitle-text{
+.logo-subtitle-text {
     font-size: 20px;
 }
