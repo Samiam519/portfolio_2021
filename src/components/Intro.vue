@@ -89,8 +89,10 @@ export default {
   name: "Intro",
   mounted() {
     setTimeout(function () {
-      let click = document.getElementById("click");
-      click.play();
+      if(localStorage.sound){
+        let click = document.getElementById("click");
+        click.play();
+      }
     }, 250);
     setTimeout(()=> {
       this.$emit('hide')

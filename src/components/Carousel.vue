@@ -18,11 +18,11 @@
       </audio>
     </div>
     <b-carousel
-        @change="slideChanged"
+        @change="playSound"
         :autoplay="false"
         :indicator="false"
         icon-size="is-large">
-      <router-view/>
+        <router-view/>
     </b-carousel>
   </div>
 </template>
@@ -31,9 +31,6 @@
 
 export default {
   name: "Carousel",
-  props: {
-    soundOn: Boolean
-  },
   mounted() {
     // bc router is controlling the carousel, need to emit when carousel arrows are used for App.vue to handle
     document.querySelector('.carousel-arrow > .has-icons-left').addEventListener('click', () => {
@@ -44,12 +41,8 @@ export default {
     }, false);
   },
   methods: {
-    slideChanged(){
-      this.playSound();
-      // hijack animation
-    },
     playSound() {
-      if (this.soundOn) {
+      if (localStorage.sound) {
         // play random click sound out of 5 options
         let allSounds = document.getElementById('click-sounds').children;
         let randomClickSound = allSounds[Math.floor(Math.random() * allSounds.length)];

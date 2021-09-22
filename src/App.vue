@@ -2,13 +2,13 @@
   <div id="app">
     <Intro v-if="showIntro" @hide="hideIntro"/>
     <div v-show="!showIntro" class="animate__animated animate__fadeIn animate__slow">
-      <Carousel @prev="prev" @next="next" :soundOn="soundOn"/>
+      <Carousel @prev="prev" @next="next"/>
       <Navigation @change="changeSlide"/>
       <Changer @prev="prev" @next="next"/>
       <div id="volume-wrapper">
         <b-button
             class="is-dark has-white-stroke is-large"
-            :icon-right="soundOn ? 'volume-up' : 'volume-mute'"
+            :icon-right="soundIcon"
             @click="changeSound"
             aria-label="Change volume"
         />
@@ -34,10 +34,13 @@ export default {
   data() {
     return {
       showIntro: true,
-      soundOn: true
+      soundIcon: 'volume-up'
     }
   },
   mounted() {
+    if(!this.soundOn){
+      this.soundIcon = 'volume-mute'
+    }
     // add listeners for keyboard
     window.addEventListener('keydown', (e) => {
       if (e.key === "ArrowLeft" || e.key === "ArrowDown") {
@@ -59,6 +62,9 @@ export default {
       // if there isnt a current slide yet bc intro animation is still playing,
       // then return the default: 3
       return this.$route ? parseInt(this.$route.meta.slide) : 3
+    },
+    soundOn(){
+      return localStorage.sound === 'true'
     }
   },
   methods: {
@@ -66,7 +72,13 @@ export default {
       this.showIntro = false
     },
     changeSound(){
-      this.soundOn = !this.soundOn
+      if(this.soundOn){
+        localStorage.sound = ''
+        this.soundIcon = 'volume-mute'
+      }else{
+        localStorage.sound = 'true'
+        this.soundIcon = 'volume-up'
+      }
     },
     changeSlide(ind) {
       // match desired slide index to route in paths array
