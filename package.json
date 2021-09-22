@@ -8,7 +8,6 @@
     "lint": "vue-cli-service lint",
     "css-build": "node-sass --omit-source-map-url src/sass/theme.scss src/assets/dist_theme.css",
     "css-watch": "npm run css-build -- --watch",
-    "postinstall": "npx patch-package buefy",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
