@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Intro v-if="showIntro" @hide="hide"/>
+    <Intro v-if="showIntro" @hide="hideIntro"/>
     <div v-show="!showIntro" class="animate__animated animate__fadeIn animate__slow">
       <Carousel @prev="prev" @next="next" :soundOn="soundOn"/>
       <Navigation @change="changeSlide"/>
@@ -57,12 +57,12 @@ export default {
     carouselIndex(){
       // return current slide number
       // if there isnt a current slide yet bc intro animation is still playing,
-      // then return the default: 2
+      // then return the default: 3
       return this.$route ? parseInt(this.$route.meta.slide) : 3
     }
   },
   methods: {
-    hide() {
+    hideIntro() {
       this.showIntro = false
     },
     changeSound(){
@@ -75,6 +75,7 @@ export default {
       this.$router.push(this.$router.options.routes[ind+1].path).catch(()=>{});
     },
     prev() {
+      // if at the beginning of array, send to end
       if (this.carouselIndex === 0) {
         this.changeSlide(7)
       } else {
@@ -82,6 +83,7 @@ export default {
       }
     },
     next() {
+      // if at end of array, send to beginning
       if (this.carouselIndex === 7) {
         this.changeSlide( 0)
       } else {
