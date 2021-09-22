@@ -42,7 +42,7 @@ button.has-white-stroke:hover {
 
 .slide-body {
     background-color: #efe7dc; /*for browsers that dont support gradients*/
-    background-image: radial-gradient(circle, rgba(240, 235, 230, 1) 10%, rgba(239, 231, 220, 1) 75%, rgba(48, 51, 42, 0.3));
+    background-image: radial-gradient(circle, rgb(246, 241, 238) 10%, rgba(239, 231, 220, 1) 75%, rgba(48, 51, 42, 0.3));
     box-shadow: 0 0 30px rgba(239, 231, 220, 0.6);
     border-radius: 50px;
     margin: 4em auto;

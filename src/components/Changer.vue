@@ -30,9 +30,6 @@ import {Draggable} from "gsap/Draggable"
 
 export default {
   name: "Changer",
-  props: {
-    carouselIndex: Number
-  },
   data() {
     return {
       drag: null,

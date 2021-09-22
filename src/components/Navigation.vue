@@ -214,9 +214,6 @@ import {MotionPathPlugin} from "gsap/MotionPathPlugin"
 
 export default {
   name: "Navigation",
-  props: {
-    carouselIndex: Number
-  },
   data() {
     return {
       boxes: null,

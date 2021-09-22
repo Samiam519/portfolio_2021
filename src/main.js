@@ -17,6 +17,7 @@ import {
   faVolumeUp, faVolumeMute
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import router from './router'
 
 library.add(faCheck, faCheckCircle, faArrowUp, faAngleRight, faAngleLeft, faAngleDown, faCaretUp, faExclamationCircle, faVolumeUp, faVolumeMute);
 Vue.component('vue-fontawesome', FontAwesomeIcon);
@@ -29,5 +30,6 @@ Vue.use(BulmaTheme)
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  router,
+  render: h => h(App)
 }).$mount('#app')
