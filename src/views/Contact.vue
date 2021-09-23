@@ -8,26 +8,55 @@
         <p class="mb-5">
           Have an idea for a new logo or have any questions about my past works? Hit me up!
         </p>
-        <form action="https://formspree.io/f/mbjqwakb" method="POST" target="_blank" class="is-fullwidth">
-          <div>
+        <form
+            id="contact-form"
+            accept-charset="utf-8"
+            class="is-fullwidth"
+        >
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_subject" value="Portfolio Website Contact Form Submission">
+          <fieldset>
             <b-field label="name" horizontal class="m-0">
-              <b-input required expanded class="is-fullwidth p-1">
-              </b-input>
+              <b-input
+                  required
+                  v-model="name"
+                  name="name"
+                  type="text"
+                  class="is-fullwidth p-1"/>
             </b-field>
             <b-field label="email" horizontal class="m-0">
               <b-input
-                  type="email"
                   required
-                  name="_replyto"
+                  v-model="email"
+                  type="email"
+                  name="email"
                   class="is-fullwidth p-1"
-                  validation-message="Email address invalid">
-              </b-input>
+                  validation-message="Email address invalid"/>
             </b-field>
             <b-field label="message" horizontal class="m-0">
-              <b-input maxlength="200" type="textarea" required class="is-fullwidth p-1"></b-input>
+              <b-input
+                  required
+                  v-model="message"
+                  name="Message"
+                  maxlength="200"
+                  type="textarea"
+                  class="is-fullwidth p-1"
+              />
             </b-field>
-            <b-button type="submit" class="is-primary is-pulled-right">submit</b-button>
-          </div>
+          </fieldset>
+          <b-tooltip
+              label="Fill out all fields before submitting"
+              class="is-pulled-right is-radiusless"
+              :active="formIncomplete"
+              type="is-dark">
+            <b-button
+                class="is-primary"
+                @click="submitForm"
+                :disabled="formIncomplete"
+                :loading="loading"
+            >submit
+            </b-button>
+          </b-tooltip>
         </form>
       </div>
     </section>
@@ -35,7 +64,51 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
-  name: "Contact"
+  name: "Contact",
+  data(){
+    return {
+      name: '',
+      email: '',
+      message: '',
+      loading: false
+    }
+  },
+  computed: {
+    formIncomplete(){
+      return !this.name || !this.email || !this.message
+    }
+  },
+  methods: {
+    submitForm() {
+      this.loading = true;
+      axios.defaults.headers.post['Content-Type'] = 'application/json';
+      axios.post('https://formsubmit.co/ajax/sam.jimenez519@gmail.com', {
+        name: this.name,
+        email: this.email,
+        message: this.message
+      })
+          .then((response) => {
+            this.loading = false;
+            this.$buefy.toast.open({
+              duration: 5000,
+              message: "Hey " + response.config.data.split('"')[3] + ", thank you for reaching out! I'll be in touch soon",
+              position: 'is-bottom',
+              type: 'is-success'
+            })
+          })
+          .catch(error => {
+            this.loading = false;
+            this.$buefy.toast.open({
+              duration: 5000,
+              message: error.data.message + " I've received this error and will look into it.",
+              position: 'is-bottom',
+              type: 'is-danger'
+            })
+          });
+    }
+  }
 }
 </script>

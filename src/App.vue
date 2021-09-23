@@ -44,10 +44,13 @@ export default {
   mounted() {
     // add listeners for keyboard
     window.addEventListener('keydown', (e) => {
-      if (e.key === "ArrowLeft" || e.key === "ArrowDown") {
-        this.prev()
-      }else if(e.key === "ArrowRight" || e.key === "ArrowUp"){
-        this.next()
+      // ignore keystrokes while an input field is focused
+      if(document.activeElement.tagName.toLowerCase() !== "input"){
+        if (e.key === "ArrowLeft" || e.key === "ArrowDown") {
+          this.prev()
+        }else if(e.key === "ArrowRight" || e.key === "ArrowUp"){
+          this.next()
+        }
       }
     });
     setTimeout(()=> {

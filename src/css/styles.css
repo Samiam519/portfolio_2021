@@ -153,9 +153,10 @@ button.has-white-stroke:hover {
     margin: 0;
 }
 
-.notification {
+.notification, .toast {
     filter: drop-shadow(10px 10px 0 #30332A);
     border: 4px solid #30332A;
+    border-radius: 0;
 }
 
 button {

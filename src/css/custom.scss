@@ -1,0 +1,646 @@
+@import './theme.scss'
+
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Abside-Round1', "Helvetica Neue", sans-serif;
+  -webkit-animation: animate-background 0.5s forwards;
+  -moz-animation: animate-background 0.5s forwards;
+  animation: animate-background 0.5s forwards;
+  animation-delay: 0.75s;
+  overflow: hidden;
+  font-size: 16px;
+  background-color: $grey-light;
+}
+
+/*-----------------
+---Element Specific
+-----------------*/
+
+/* Main App */
+
+#app {
+  height: 100%;
+}
+
+#volume-wrapper {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+  width: auto;
+}
+
+button.has-white-stroke:hover {
+  background-color: $grey !important;
+}
+
+/* Carousel */
+
+.hero-body h1 {
+  align-self: end;
+}
+
+.slide-body {
+  background-color: $grey-light; /*for browsers that dont support gradients*/
+  background-image: radial-gradient(circle, rgb(246, 241, 238) 10%, rgba(239, 231, 220, 1) 75%, rgba(48, 51, 42, 0.3));
+  box-shadow: 0 0 30px rgba(239, 231, 220, 0.6);
+  border-radius: 50px;
+  margin: 4em auto;
+  width: 100vh;
+  max-width: 100vw;
+  flex-direction: column;
+}
+
+.carousel-arrow .icon:hover {
+  border: none !important;
+  background-color: $grey !important;
+}
+
+.landing-logo {
+  max-width: 77%;
+}
+
+.hero-body {
+  text-align: left;
+}
+
+/* Changer Knob */
+
+#changer-wrapper {
+  right: 0.5em;
+  top: 0.5em;
+  width: 12em;
+}
+
+#knob {
+  transform-origin: 10% 90%;
+}
+
+/* Intro */
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+}
+
+.logo-bottom,
+.logo-top {
+  display: inline-block;
+  position: relative;
+}
+
+.logo-bottom {
+  animation-duration: 1.5s;
+  animation-name: logo-anim-bottom;
+}
+
+.logo-top {
+  animation-duration: 1.5s;
+  animation-name: logo-anim-top;
+}
+
+.viewmaster-filler {
+  fill: $grey-light;
+  -webkit-animation: animate-fill 0.5s forwards;
+  -moz-animation: animate-fill 0.5s forwards;
+  animation: animate-fill 0.5s forwards;
+  animation-delay: 0.75s;
+}
+
+/* Navigation */
+
+#navigation-wrapper {
+  position: absolute;
+  left: 0.5em;
+  bottom: 0;
+  width: 15vw;
+  min-width: 18em;
+}
+
+.activeNavigation {
+  fill: $grey-light !important;
+  opacity: 1 !important;
+}
+
+#navigation-boxes rect:hover {
+  fill: $black;
+  cursor: pointer;
+}
+
+#navigation-names > *:hover {
+  cursor: pointer;
+}
+
+#navigation-toggle {
+  position: absolute;
+  bottom: 2em;
+  left: 1em;
+}
+
+/*-----------------
+------------Helpers
+-----------------*/
+
+.field {
+  font-size: 1em;
+}
+
+.field.label {
+  margin: 0;
+}
+
+.notification {
+  filter: drop-shadow(10px 10px 0 $grey-dark);
+  border: 4px solid $grey-dark;
+}
+
+button {
+  filter: drop-shadow(5px 5px 0 $grey-dark);
+  border: 2px solid $grey-dark !important;
+  border-radius: 0 !important;
+  z-index: 10;
+  & :hover{
+    filter: none;
+    & ::before{
+      -webkit-animation: diagonal-stripes linear 1.5s;
+      -moz-animation: diagonal-stripes linear 1.5s;
+      animation: diagonal-stripes linear 1.5s;
+      animation-delay: 0s;
+      animation-direction: normal;
+      animation-fill-mode: none;
+      animation-play-state: running;
+      animation-iteration-count: infinite;
+      position: absolute;
+      content: '';
+      z-index: -1;
+      display: block;
+      top: 2px;
+      left: 4px;
+      width: 105%;
+      height: 110%;
+      background: url(../assets/stripes.png) 50%;
+    }
+    & ::after{
+      position: absolute;
+      content: '';
+      background: inherit;
+      background-size: auto;
+      z-index: -1;
+      top: -2px;
+      left: -2px;
+      display: block;
+      width: 105%;
+      height: 110%;
+      border: inherit;
+      background-size: 100%;
+    }
+  }
+}
+
+button.has-white-stroke {
+  filter: drop-shadow(5px 5px 0 $grey-light);
+  border: 2px solid $grey-light !important;
+  border-radius: 0;
+}
+
+.is-absolute {
+  position: absolute;
+}
+
+.is-fullwidth, .is-ancestor {
+  width: 100%;
+}
+
+.w-80 {
+  max-width: 80%;
+}
+
+/*-----------------------
+Screen Size Compatibility
+-----------------------*/
+
+@media screen and (max-width: 1024px) {
+  html, body {
+    overflow-y: auto;
+  }
+
+  .hero-body {
+    padding: 1em !important
+  }
+
+  .slide-body {
+    margin: 1em auto;
+  }
+
+  #volume-wrapper {
+    margin: 0;
+  }
+
+  #navigation-wrapper {
+    margin: 0;
+    width: 14em;
+  }
+
+  #changer-wrapper {
+    max-width: 9em;
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  #volume-wrapper {
+    margin: 0 3em 3em 0;
+  }
+
+  #navigation-wrapper {
+    margin: 0 0 3em 3em;
+    width: 20em;
+  }
+
+  #changer-wrapper {
+    margin: 3em 3em 0 0
+  }
+
+  .carousel-arrow > .has-icons-left {
+    margin-left: 3em;
+  }
+
+  .carousel-arrow > .has-icons-right {
+    margin-right: 3em;
+  }
+}
+
+/*-----------------
+---------Animations
+-----------------*/
+
+@-webkit-keyframes animate-background {
+  from {
+    background-color: $grey-light;
+  }
+  to {
+    background-color: $grey-dark;
+  }
+}
+
+@-moz-keyframes animate-background {
+  from {
+    background-color: $grey-light;
+  }
+  to {
+    background-color: $grey-dark;
+  }
+}
+
+@-ms-keyframes animate-background {
+  from {
+    background-color: $grey-light;
+  }
+  to {
+    background-color: $grey-dark;
+  }
+}
+
+@keyframes animate-background {
+  from {
+    background-color: $grey-light;
+  }
+  to {
+    background-color: $grey-dark;
+  }
+}
+
+@-webkit-keyframes logo-anim-bottom {
+  from {
+    top: 0;
+  }
+  26% {
+    top: 0;
+  }
+  29% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+
+@-moz-keyframes logo-anim-bottom {
+  from {
+    top: 0;
+  }
+  26% {
+    top: 0;
+  }
+  29% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+
+@-ms-keyframes logo-anim-bottom {
+  from {
+    top: 0;
+  }
+  26% {
+    top: 0;
+  }
+  29% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+
+@keyframes logo-anim-bottom {
+  from {
+    top: 0;
+  }
+  26% {
+    top: 0;
+  }
+  29% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+
+@-webkit-keyframes logo-anim-top {
+  from {
+    top: -55px;
+  }
+  25% {
+    top: -75px;
+  }
+  30% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+
+@-moz-keyframes logo-anim-top {
+  from {
+    top: -55px;
+  }
+  25% {
+    top: -75px;
+  }
+  30% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+
+@-ms-keyframes logo-anim-top {
+  from {
+    top: -55px;
+  }
+  25% {
+    top: -75px;
+  }
+  30% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+
+@keyframes logo-anim-top {
+  from {
+    top: -55px;
+  }
+  25% {
+    top: -75px;
+  }
+  30% {
+    top: 15px;
+  }
+  40% {
+    top: 0;
+  }
+}
+
+@-webkit-keyframes animate-fill {
+  from {
+    fill: $grey-light;
+  }
+  to {
+    fill: $grey-dark;
+  }
+}
+
+@-moz-keyframes animate-fill {
+  from {
+    fill: $grey-light;
+  }
+  to {
+    fill: $grey-dark;
+  }
+}
+
+@-ms-keyframes animate-fill {
+  from {
+    fill: $grey-light;
+  }
+  to {
+    fill: $grey-dark;
+  }
+}
+
+@keyframes animate-fill {
+  from {
+    fill: $grey-light;
+  }
+  to {
+    fill: $grey-dark;
+  }
+}
+
+@-webkit-keyframes diagonal-stripes
+{
+  0% {
+    background-position-x: 0
+  }
+  to {
+    background-position-x: 65px
+  }
+}
+
+@-moz-keyframes diagonal-stripes
+{
+  0% {
+    background-position-x: 0
+  }
+  to {
+    background-position-x: 65px
+  }
+}
+
+@keyframes diagonal-stripes
+{
+  0% {
+    background-position-x: 0
+  }
+  to {
+    background-position-x: 65px
+  }
+}
+
+/*@keyframes zoom-in {
+  from{transform: scale(1,1)}
+  to{transform: scale(50,50)  translateY(-15%)}
+}*/
+
+/*-----------------
+Standardized colors
+-----------------*/
+
+.red {
+  fill: $red;
+}
+
+.blue {
+  fill: $cyan;
+}
+
+.yellow {
+  fill: $yellow;
+}
+
+.dark-yellow {
+  fill: #e0d580;
+}
+
+.cls-text {
+  fill: $grey-light;
+}
+
+.pure-white {
+  fill: $white;
+}
+
+.dark-grey {
+  fill: $grey-dark;
+}
+
+.white {
+  fill: $grey-light;
+}
+
+.black {
+  fill: $black;
+}
+
+.black-stroke {
+  fill: none;
+  stroke: $black;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.dark-grey-stroke {
+  stroke: $grey-dark;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.white-stroke {
+  stroke: $grey-light;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.blue-stroke {
+  fill: none;
+  stroke: $cyan;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.small-stroke {
+  stroke-width: 0.5;
+}
+
+.no-stroke {
+  fill: none;
+  stroke: transparent;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.large-stroke {
+  stroke-width: 4px;
+}
+
+.text-stroke {
+  paint-order: stroke;
+  stroke: $grey-dark;
+  stroke-width: 5px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+}
+
+.is-highlighted {
+  position: relative;
+  z-index: 0;
+  text-decoration: none;
+  &:before {
+    filter: opacity(0.5);
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 100%;
+    z-index: -1;
+    bottom: 0;
+    transform: translate(10px, -4px);
+    transition: width 275ms ease;
+  }
+}
+
+.is-highlighted:hover::before{
+  width: 0;
+}
+
+.blue-highlight::before {
+  background-color: $cyan;
+}
+
+.red-highlight::before {
+  background-color: $red;
+}
+
+.yellow-highlight::before {
+  background-color: $yellow;
+}
+
+.white-highlight::before {
+  background-color: $white;
+}
+
+.cls-text {
+  font-size: 12px;
+  font-family: 'Abside-Round1', 'Abside', sans-serif;
+}
+
+.logo-name-text > text {
+  font-family: 'Streamster', Helvetica, serif;
+  font-size: 170px;
+}
+
+.logo-subtitle-text {
+  font-size: 20px;
+}
