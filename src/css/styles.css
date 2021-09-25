@@ -122,6 +122,30 @@ button.has-white-stroke:hover {
     animation-delay: 0.75s;
 }
 
+/* Custom slide animation */
+.slide-next-enter-active,
+.slide-next-leave-active {
+    transition: transform 0.5s ease-in-out !important;
+}
+.slide-next-enter {
+    transform: translate(-150%, 50%) rotate(-90deg) !important;
+}
+.slide-next-leave-to {
+    transform: translate(150%, 50%) rotate(90deg) !important;
+}
+.slide-prev-enter-active,
+.slide-prev-leave-active {
+    transition: transform 0.5s ease-in-out !important;
+}
+
+.slide-prev-leave-to {
+    transform: translate(-150%, 50%) rotate(-90deg) !important;
+}
+
+.slide-prev-enter{
+    transform: translate(150%, 50%) rotate(90deg) !important;
+}
+
 /* Navigation */
 
 #navigation-wrapper {
@@ -630,6 +654,10 @@ Screen Size Compatibility
     to {
         background-position-x: 65px
     }
+}
+
+:root {
+    --animate-delay: 0.5s !important;
 }
 
 /*-----------------

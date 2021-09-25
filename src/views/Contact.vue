@@ -2,10 +2,10 @@
   <b-carousel-item>
     <section id="contact" class="hero is-fullheight is-dark">
       <div class="hero-body slide-body has-text-black">
-        <h1 class="title is-1 has-text-grey-dark is-highlighted blue-highlight">contact</h1>
-        <p>Thanks for taking the time to check out my work!
+        <h1 class="title is-1 has-text-grey-dark is-highlighted blue-highlight animate__animated animate__fadeInUp">contact</h1>
+        <p class="animate__animated animate__fadeInUp _2">Thanks for taking the time to check out my work!
         </p>
-        <p class="mb-5">
+        <p class="mb-5 animate__animated animate__fadeInUp _3">
           Have an idea for a new logo or have any questions about my past works? Hit me up!
         </p>
         <form
@@ -16,7 +16,7 @@
           <input type="text" name="_honey" style="display:none">
           <input type="hidden" name="_subject" value="Portfolio Website Contact Form Submission">
           <fieldset>
-            <b-field label="name" horizontal class="m-0">
+            <b-field label="name" horizontal class="m-0 animate__animated animate__fadeInUp _4">
               <b-input
                   required
                   v-model="name"
@@ -24,7 +24,7 @@
                   type="text"
                   class="is-fullwidth p-1"/>
             </b-field>
-            <b-field label="email" horizontal class="m-0">
+            <b-field label="email" horizontal class="m-0 animate__animated animate__fadeInUp _5">
               <b-input
                   required
                   v-model="email"
@@ -33,12 +33,13 @@
                   class="is-fullwidth p-1"
                   validation-message="Email address invalid"/>
             </b-field>
-            <b-field label="message" horizontal class="m-0">
+            <b-field label="message" horizontal class="m-0 animate__animated animate__fadeInUp _6">
               <b-input
                   required
                   v-model="message"
                   name="Message"
                   maxlength="200"
+                  rows="1"
                   type="textarea"
                   class="is-fullwidth p-1"
               />
@@ -46,7 +47,7 @@
           </fieldset>
           <b-tooltip
               label="Fill out all fields before submitting"
-              class="is-pulled-right is-radiusless"
+              class="is-pulled-right is-radiusless animate__animated animate__fadeInUp _7"
               :active="formIncomplete"
               type="is-dark">
             <b-button

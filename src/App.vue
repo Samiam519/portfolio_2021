@@ -108,4 +108,5 @@ export default {
 
 <style>
 @import './css/styles.css';
+@import './css/stagger.css';
 </style>
