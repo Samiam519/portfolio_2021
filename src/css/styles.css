@@ -123,15 +123,18 @@ button.has-white-stroke:hover {
 }
 
 /* Custom slide animation */
-.slide-next-enter-active,
+/* actual scroll movement of a viewmaster
+   similar to the "natural" inverted scroll movement on a mac
+*/
+/*.slide-next-enter-active,
 .slide-next-leave-active {
     transition: transform 0.5s ease-in-out !important;
 }
 .slide-next-enter {
-    transform: translate(-150%, 50%) rotate(-90deg) !important;
+    transform: translate(-125%, 50%) rotate(-90deg) !important;
 }
 .slide-next-leave-to {
-    transform: translate(150%, 50%) rotate(90deg) !important;
+    transform: translate(125%, 50%) rotate(90deg) !important;
 }
 .slide-prev-enter-active,
 .slide-prev-leave-active {
@@ -139,12 +142,91 @@ button.has-white-stroke:hover {
 }
 
 .slide-prev-leave-to {
-    transform: translate(-150%, 50%) rotate(-90deg) !important;
+    transform: translate(-125%, 50%) rotate(-90deg) !important;
 }
 
 .slide-prev-enter{
+    transform: translate(125%, 50%) rotate(90deg) !important;
+}*/
+.slide-prev-enter-active{
+    animation: prev-slide-enter 0.5s ease-in-out both;
+}
+.slide-prev-leave-active{
+    animation: prev-slide-leave 0.5s ease-in-out both;
+}
+.slide-next-enter-active{
+    animation: next-slide-enter 0.5s ease-in-out both;
+}
+.slide-next-leave-active{
+    animation: next-slide-leave 0.5s ease-in-out both;
+}
+
+@keyframes prev-slide-enter {
+    0%{
+        transform: translate(-125%,50%) rotate(-90deg);
+    }
+    100%{
+        transform: translate(0, 0) rotate(0);
+    }
+}
+
+@keyframes next-slide-enter {
+    0%{
+        transform: translate(125%,50%) rotate(90deg);
+    }
+    100%{
+        transform: translate(0, 0) rotate(0);
+    }
+}
+
+@keyframes prev-slide-leave {
+    0%{
+        transform: translate(0,0) rotate(0);
+    }
+    15%{
+        transform: translate(-10%,0) rotate(-15deg);
+    }
+    100%{
+        transform: translate(125%, 50%) rotate(90deg);
+    }
+}
+
+@keyframes next-slide-leave {
+    0%{
+        transform: translate(0,0) rotate(0);
+    }
+    15%{
+        transform: translate(10%,0) rotate(15deg);
+    }
+    100%{
+        transform: translate(-125%, -50%) rotate(-90deg);
+    }
+}
+
+/* "visually normal way"
+.slide-prev-enter-active,
+.slide-prev-leave-active {
+    transition: transform 0.5s ease-in-out !important;
+}
+
+.slide-prev-leave-to{
     transform: translate(150%, 50%) rotate(90deg) !important;
 }
+
+.slide-prev-enter{
+    transform: translate(-150%, 50%) rotate(-90deg) !important;
+}
+.slide-next-enter-active,
+.slide-next-leave-active {
+    transition: transform 0.5s ease-in-out !important;
+}
+.slide-next-enter {
+    transform: translate(150%, 50%) rotate(90deg) !important;
+}
+.slide-next-leave-to {
+    transform: translate(-150%, 50%) rotate(-90deg) !important;
+}
+*/
 
 /* Navigation */
 
@@ -311,6 +393,14 @@ Screen Size Compatibility
 
     .carousel-arrow > .has-icons-right {
         margin-right: 3em;
+    }
+
+    .carousel-items{
+        justify-content: center;
+    }
+
+    .carousel-item{
+        width: auto;
     }
 }
 

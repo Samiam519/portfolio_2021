@@ -18,7 +18,7 @@
       </audio>
     </div>
     <b-carousel
-        @change="playSound"
+        @change="slideChanged"
         :autoplay="false"
         :indicator="false"
         icon-size="is-large">
@@ -37,13 +37,25 @@ export default {
   mounted() {
     // bc router is controlling the carousel, need to emit when carousel arrows are used for App.vue to handle
     document.querySelector('.carousel-arrow > .has-icons-left').addEventListener('click', () => {
+      // TODO get transition of current slide leaving, working
+      let currentSlide = document.querySelector('.carousel-item').children[0].id;
+      document.getElementById(currentSlide).parentElement.classList.add('slide-prev-leave-active');
       this.$emit('prev')
+      setTimeout(()=>{
+        document.getElementById(currentSlide).parentElement.classList.remove('slide-prev-leave-active');
+      }, 500);
     }, false);
     document.querySelector('.carousel-arrow > .has-icons-right').addEventListener('click', () => {
       this.$emit('next')
+      document.querySelector('.carousel-item').classList.add('slide-next-leave-active')
     }, false);
   },
   methods: {
+    slideChanged(){
+      // add leaving classes to current slide
+
+      this.playSound()
+    },
     playSound() {
       // take sound setting as prop bc it gets passed properly now
       if (this.soundOn) {

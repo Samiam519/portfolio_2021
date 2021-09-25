@@ -34,7 +34,9 @@ export default {
   data() {
     return {
       showIntro: true,
-      soundOn: true
+      soundOn: true,
+      nextButton: null,
+      prevButton: null
     }
   },
   created() {
@@ -51,9 +53,9 @@ export default {
       // ignore keystrokes while an input field is focused
       if(document.activeElement.tagName.toLowerCase() !== "input"){
         if (e.key === "ArrowLeft" || e.key === "ArrowDown") {
-          this.prev()
+          document.querySelector('.carousel-arrow > .has-icons-left').click()
         }else if(e.key === "ArrowRight" || e.key === "ArrowUp"){
-          this.next()
+          document.querySelector('.carousel-arrow > .has-icons-right').click()
         }
       }
     });
