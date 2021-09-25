@@ -4,7 +4,7 @@
       <div class="hero-body slide-body has-text-black is-justify-content-center">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 823.61 684">
           <g id="name">
-            <g id="grid2">
+            <g id="grid2" class="animate__animated animate__fadeIn _2 animate__fast">
               <line class="blue-stroke" x1="477.04" y1="20.23" x2="412.55" y2="341.33"/>
               <line class="blue-stroke" x1="536.61" y1="32.19" x2="472.12" y2="353.29"/>
               <line class="blue-stroke" x1="596.18" y1="44.15" x2="531.69" y2="365.26"/>
@@ -17,7 +17,7 @@
               <line class="blue-stroke" x1="772.85" y1="308.73" x2="399.24" y2="233.7"/>
               <line class="blue-stroke" x1="760.89" y1="368.3" x2="387.27" y2="293.27"/>
             </g>
-            <g id="triangle-lines">
+            <g id="triangle-lines" class="animate__animated animate__fadeInTopLeft _4 animate__fast">
               <path class="yellow" d="M746.6,620.29l8.92-6.72L784,592.07l-.93-10.1q-23,17.32-45.92,34.67Z"/>
               <path class="yellow" d="M726.4,612.5l4.33-3.27L782,570.57l-1-11.09-64.92,49Z"/>
               <path class="yellow"
@@ -41,7 +41,7 @@
               <path class="yellow"
                     d="M662,540.94q18.15-13.7,36.28-27.43,18.54-14,37.1-27.95,18.12-13.68,36.23-27.39l-1-10.43-62.86,47.47Q669,524.49,630.23,553.76q-9.48,7.17-19,14.31l9.75,3.77c3-2.24,5.93-4.49,8.9-6.72Q645.93,553,662,540.94Z"/>
             </g>
-            <g id="grid">
+            <g id="grid" class="animate__animated animate__fadeIn _2 animate__fast">
               <line class="blue-stroke" x1="42.6" y1="94.38" x2="194.93" y2="645.65"/>
               <line class="blue-stroke" x1="101.17" y1="78.2" x2="253.5" y2="629.47"/>
               <line class="blue-stroke" x1="159.74" y1="62.01" x2="312.06" y2="613.28"/>
@@ -58,9 +58,12 @@
               <line class="blue-stroke" x1="502.05" y1="454.89" x2="134.74" y2="556.39"/>
               <line class="blue-stroke" x1="518.23" y1="513.46" x2="150.92" y2="614.95"/>
             </g>
-            <rect id="rect" class="blue dark-grey-stroke" x="408.52" y="83.87" width="270.38" height="411.32"
-                  transform="translate(-20.23 41.7) rotate(-4.31)"/>
-            <g id="triangles">
+            <g id="rect">
+              <rect class="blue dark-grey-stroke animate__animated animate__fadeIn _3 animate__slow" x="408.52"
+                    y="83.87" width="270.38" height="411.32"
+                    transform="translate(-20.23 41.7) rotate(-4.31)"/>
+            </g>
+            <g id="triangles" class="animate__animated animate__fadeIn _3 animate__fast">
               <polygon class="pure-white dark-grey-stroke large-stroke"
                        points="183.62 40.31 319.75 592.34 638.95 316.33 183.62 40.31"/>
               <polygon class="yellow dark-grey-stroke large-stroke"
@@ -75,39 +78,39 @@
               <text class="dark-grey text-stroke" transform="translate(151.3 412.77) rotate(-10.96)">Jimenez</text>
               <text class="red" transform="translate(149.08 407.77) rotate(-10.96)">Jimenez</text>
             </g>
-            <g id="underline animate__animated animate__fadeInRight _3 animate__fast">
+            <g id="underline" class="animate__animated animate__fadeInRight _2 animate__faster">
               <path class="dark-grey"
                     d="M638.82,354.71l25.16-5.6-.34-1-25.53,4.45-25.51,4.53-51,9.07-51,9.2-50.91,9.36c-17,3.13-34,6.07-51,9.07s-33.91,6.35-50.7,10-33.53,7.5-50.19,11.56-33.25,8.35-49.66,13.18l.34,1c7.06-.76,14.1-1.62,21.11-2.54q-11.08,2.81-22.13,5.74c34.49-4.57,68.64-10.17,102.69-16.08s67.95-12.29,101.74-19,67.46-13.75,101-21.2,67-15.3,100-24.15q-18.91,2.51-37.7,5.38Z"/>
               <path class="blue"
                     d="M631.61,351.23l25.16-5.6-.34-1-25.53,4.45-25.51,4.54-51,9.06-51,9.2-50.91,9.36c-17,3.13-34,6.07-51,9.08s-33.91,6.34-50.7,10-33.53,7.49-50.19,11.56S267.37,420.19,251,425l.34,1q10.59-1.16,21.11-2.55-11.09,2.81-22.13,5.74c34.49-4.57,68.64-10.17,102.69-16.07s67.94-12.3,101.74-19,67.46-13.74,101-21.2,67-15.3,100-24.14q-18.91,2.49-37.7,5.38Z"/>
             </g>
-            <g id="circle animate__animated animate__fadeIn _5 animate__fast">
+            <g id="circle" class="animate__animated animate__fadeIn _4 animate__fast">
               <circle class="dark-grey" cx="592.7" cy="483" r="30.62"/>
               <circle class="red dark-grey-stroke" cx="588.21" cy="476.73" r="30.62"/>
             </g>
-            <g id="triangle">
+            <g id="triangle" class="animate__animated animate__fadeIn _4 animate__fast">
               <polygon class="dark-grey" points="447.28 57.83 423.58 138.57 477.58 133.3 447.28 57.83"/>
               <polygon class="red dark-grey-stroke" points="438.06 51.24 414.36 131.98 468.36 126.71 438.06 51.24"/>
             </g>
-            <g id="thunderbolt">
+            <g id="thunderbolt" class="animate__animated animate__fadeIn _4 animate__fast">
               <polygon class="dark-grey"
                        points="149.79 492.87 187.84 497.56 180.23 520.39 191.94 522.58 180.81 544.39 190.58 546.33 144.52 612.29 150.16 558.59 138.08 556.68 147.81 533.35 133.99 530.92 149.79 492.87"/>
               <polygon class="yellow dark-grey-stroke"
                        points="144.3 488.92 182.35 493.61 174.74 516.43 186.45 518.63 175.33 540.43 185.09 542.38 139.03 608.34 144.67 554.63 132.6 552.73 142.32 529.39 128.5 526.97 144.3 488.92"/>
             </g>
-            <g id="Z">
+            <g id="Z" class="animate__animated animate__fadeIn _4 animate__fast">
               <polygon class="dark-grey"
                        points="43.65 175.01 69.55 161.84 106.99 178.69 95.02 215.4 133.65 229.45 107.75 241.74 66.92 228.57 80.53 189.06 43.65 175.01"/>
               <polygon class="blue dark-grey-stroke"
                        points="40.61 168.42 66.51 155.25 103.94 172.1 91.97 208.81 130.61 222.86 104.7 235.15 63.88 221.98 77.48 182.47 40.61 168.42"/>
             </g>
-            <g id="zigzag">
+            <g id="zigzag" class="animate__animated animate__fadeIn _4 animate__fast">
               <polygon class="dark-grey"
                        points="704.03 328.93 721.59 339.91 714.57 311.81 742.67 304.9 734.76 276.25 763.52 269.01 756.06 241.13 783.94 234.98 765.72 223.79 738.5 230.59 745.74 259.13 717.2 266.37 726.04 294.77 696.57 301.93 704.03 328.93"/>
               <polygon class="blue dark-grey-stroke"
                        points="698.55 321.82 716.11 332.8 709.08 304.7 737.18 297.79 729.28 269.14 758.03 261.9 750.57 234.02 778.45 227.87 760.23 216.68 733.01 223.48 740.25 252.02 711.72 259.26 720.55 287.66 691.08 294.82 698.55 321.82"/>
             </g>
-            <g id="circles2">
+            <g id="circles2" class="animate__animated animate__fadeInTopRight _4 animate__fast">
               <circle class="red dark-grey-stroke" cx="712.43" cy="91.73" r="6.59"/>
               <circle class="red dark-grey-stroke" cx="693.63" cy="92.18" r="6.59"/>
               <circle class="red dark-grey-stroke" cx="674.83" cy="92.63" r="6.59"/>
@@ -138,7 +141,7 @@
               <circle class="red dark-grey-stroke" cx="587.71" cy="64.44" r="6.59"/>
               <circle class="red dark-grey-stroke" cx="568.9" cy="64.89" r="6.59"/>
             </g>
-            <g id="circles3">
+            <g id="circles3" class="animate__animated animate__fadeInUp _4 animate__fast">
               <circle class="blue dark-grey-stroke" cx="366" cy="581.52" r="6.59"/>
               <circle class="blue dark-grey-stroke" cx="384.81" cy="581.52" r="6.59"/>
               <circle class="blue dark-grey-stroke" cx="403.61" cy="581.52" r="6.59"/>
@@ -169,7 +172,7 @@
               <circle class="blue dark-grey-stroke" cx="490.03" cy="551.23" r="6.59"/>
               <circle class="blue dark-grey-stroke" cx="508.84" cy="551.23" r="6.59"/>
             </g>
-            <g id="circles1">
+            <g id="circles1" class="animate__animated animate__fadeInTopLeft _4 animate__fast">
               <circle class="yellow dark-grey-stroke" cx="248.39" cy="92.63" r="6.59"/>
               <circle class="yellow dark-grey-stroke" cx="229.59" cy="93.09" r="6.59"/>
               <circle class="yellow dark-grey-stroke" cx="210.79" cy="93.54" r="6.59"/>
@@ -193,7 +196,7 @@
               <circle class="yellow dark-grey-stroke" cx="90.4" cy="116.62" r="6.59"/>
               <circle class="yellow dark-grey-stroke" cx="71.6" cy="117.07" r="6.59"/>
             </g>
-            <g id="subtitle">
+            <g id="subtitle" class="animate__animated animate__fadeInLeft _2 animate__fast">
               <text class="svg-text-20" transform="translate(276.34 459.95) rotate(-10.96)">ui designer
                 &amp;
               </text>
