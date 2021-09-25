@@ -4,6 +4,8 @@ body {
     height: 100%;
     margin: 0;
     font-family: 'Abside-Round1', "Helvetica Neue", sans-serif;
+    -o-animation: animate-background 0.5s forwards;
+    -ms-animation: animate-background 0.5s forwards;
     -webkit-animation: animate-background 0.5s forwards;
     -moz-animation: animate-background 0.5s forwards;
     animation: animate-background 0.5s forwards;
@@ -94,17 +96,26 @@ button.has-white-stroke:hover {
 }
 
 .logo-bottom {
-    animation-duration: 1.5s;
-    animation-name: logo-anim-bottom;
+    -o-animation: logo-anim-bottom 1.5s;
+    -ms-animation: logo-anim-bottom 1.5s;
+    -webkit-animation: logo-anim-bottom 1.5s;
+    -moz-animation: logo-anim-bottom 1.5s;
+    animation: logo-anim-bottom 1.5s;
 }
 
 .logo-top {
-    animation-duration: 1.5s;
+    -o-animation: logo-anim-top 1.5;
+    -ms-animation: logo-anim-top 1.5;
+    -webkit-animation: logo-anim-top 1.5;
+    -moz-animation: logo-anim-top 1.5s;
     animation-name: logo-anim-top;
+    animation-duration: 1.5s;
 }
 
 .viewmaster-filler {
     fill: #EFEAE4;
+    -o-animation: animate-fill 0.5s forwards;
+    -ms-animation: animate-fill 0.5s forwards;
     -webkit-animation: animate-fill 0.5s forwards;
     -moz-animation: animate-fill 0.5s forwards;
     animation: animate-fill 0.5s forwards;
@@ -156,7 +167,7 @@ button.has-white-stroke:hover {
 .notification, .toast {
     filter: drop-shadow(10px 10px 0 #30332A);
     border: 4px solid #30332A;
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 button {
@@ -177,6 +188,8 @@ button:hover{
 }
 
 button:hover::before {
+    -o-animation: diagonal-stripes linear 1.5s;
+    -ms-animation: diagonal-stripes linear 1.5s;
     -webkit-animation: diagonal-stripes linear 1.5s;
     -moz-animation: diagonal-stripes linear 1.5s;
     animation: diagonal-stripes linear 1.5s;
@@ -281,6 +294,24 @@ Screen Size Compatibility
 ---------Animations
 -----------------*/
 
+@-ms-keyframes animate-background {
+    from {
+        background-color: #EFEAE4;
+    }
+    to {
+        background-color: #30332A;
+    }
+}
+
+@-o-keyframes animate-background {
+    from {
+        background-color: #EFEAE4;
+    }
+    to {
+        background-color: #30332A;
+    }
+}
+
 @-webkit-keyframes animate-background {
     from {
         background-color: #EFEAE4;
@@ -314,6 +345,36 @@ Screen Size Compatibility
     }
     to {
         background-color: #30332A;
+    }
+}
+
+@-ms-keyframes logo-anim-bottom {
+    from {
+        top: 0;
+    }
+    26% {
+        top: 0;
+    }
+    29% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+
+@-o-keyframes logo-anim-bottom {
+    from {
+        top: 0;
+    }
+    26% {
+        top: 0;
+    }
+    29% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
     }
 }
 
@@ -370,6 +431,36 @@ Screen Size Compatibility
         top: 0;
     }
     29% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+
+@-ms-keyframes logo-anim-top {
+    from {
+        top: -55px;
+    }
+    25% {
+        top: -75px;
+    }
+    30% {
+        top: 15px;
+    }
+    40% {
+        top: 0;
+    }
+}
+
+@-o-keyframes logo-anim-top {
+    from {
+        top: -55px;
+    }
+    25% {
+        top: -75px;
+    }
+    30% {
         top: 15px;
     }
     40% {
@@ -437,6 +528,24 @@ Screen Size Compatibility
     }
 }
 
+@-ms-keyframes animate-fill {
+    from {
+        fill: #EFEAE4;
+    }
+    to {
+        fill: #30332A;
+    }
+}
+
+@-o-keyframes animate-fill {
+    from {
+        fill: #EFEAE4;
+    }
+    to {
+        fill: #30332A;
+    }
+}
+
 @-webkit-keyframes animate-fill {
     from {
         fill: #EFEAE4;
@@ -473,6 +582,26 @@ Screen Size Compatibility
     }
 }
 
+@-ms-keyframes diagonal-stripes
+{
+    0% {
+        background-position-x: 0
+    }
+    to {
+        background-position-x: 65px
+    }
+}
+
+@-o-keyframes diagonal-stripes
+{
+    0% {
+        background-position-x: 0
+    }
+    to {
+        background-position-x: 65px
+    }
+}
+
 @-webkit-keyframes diagonal-stripes
 {
     0% {
@@ -502,11 +631,6 @@ Screen Size Compatibility
         background-position-x: 65px
     }
 }
-
-/*@keyframes zoom-in {
-  from{transform: scale(1,1)}
-  to{transform: scale(50,50)  translateY(-15%)}
-}*/
 
 /*-----------------
 Standardized colors
