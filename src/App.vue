@@ -4,7 +4,7 @@
     <div v-show="!showIntro" class="animate__animated animate__fadeIn animate__slow">
       <Carousel @prev="prev" @next="next" :soundOn="soundOn"/>
       <Navigation @change="changeSlide"/>
-      <Changer @prev="prev" @next="next"/>
+      <Changer />
       <div id="volume-wrapper">
         <b-button
             class="is-dark has-white-stroke is-large"

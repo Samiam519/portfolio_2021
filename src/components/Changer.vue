@@ -98,10 +98,10 @@ export default {
   },
   methods: {
     prev(){
-      this.$emit('prev')
+      document.querySelector('.carousel-arrow > .has-icons-left').click()
     },
     next(){
-      this.$emit('next')
+      document.querySelector('.carousel-arrow > .has-icons-right').click()
     },
     resetKnobPosition(target){
       gsap.to(target, {
