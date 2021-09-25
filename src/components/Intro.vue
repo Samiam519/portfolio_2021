@@ -43,10 +43,10 @@
 				v1.13c-0.1,0.01-0.2,0.02-0.3,0.03h-0.65c-0.29,0-0.5,0.22-0.5,0.5v0.92c-0.01,0-0.01,0-0.02,0h-0.65c-0.29,0-0.5,0.22-0.5,0.5
 				v1.68c0,0.29,0.22,0.5,0.5,0.5h1.85c1.88,0,3.23-0.88,3.92-2.27c0.51-0.38,0.92-0.89,1.2-1.48c0.67-0.42,1.17-1.02,1.5-1.76
 				c1.26-0.79,1.96-2.23,1.96-4.02v-11.57C134.38,195.63,134.17,195.42,133.88,195.42z"/>-->
-            <text transform="matrix(1 0 0 1 115.1714 211.9892)" class="red dark-grey-stroke small-stroke">sj</text>
-            <text transform="matrix(1 0 0 1 116.3432 210.5605)" class="yellow dark-grey-stroke small-stroke">sj</text>
-            <text transform="matrix(1 0 0 1 117.7964 208.9052)" class="blue dark-grey-stroke small-stroke">sj</text>
-            <text transform="matrix(1 0 0 1 119.3076 207.1357)" class="white dark-grey-stroke small-stroke">sj</text>
+            <text transform="matrix(1 0 0 1 115.1714 211.9892)" class="red dark-grey-stroke very-small-stroke">sj</text>
+            <text transform="matrix(1 0 0 1 116.3432 210.5605)" class="yellow dark-grey-stroke very-small-stroke">sj</text>
+            <text transform="matrix(1 0 0 1 117.7964 208.9052)" class="blue dark-grey-stroke very-small-stroke">sj</text>
+            <text transform="matrix(1 0 0 1 119.3076 207.1357)" class="white dark-grey-stroke very-small-stroke">sj</text>
           </g>
         </g>
         <g id="viewmaster" class="logo-bottom">

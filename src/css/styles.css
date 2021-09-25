@@ -15,6 +15,10 @@ body {
     background-color: #F2EFEB;
 }
 
+.abside{
+    font-family: inherit;
+}
+
 /*-----------------
 ---Element Specific
 -----------------*/
@@ -227,6 +231,12 @@ button.has-white-stroke:hover {
     transform: translate(-150%, 50%) rotate(-90deg) !important;
 }
 */
+
+/* About */
+
+#about-svg{
+    width: 92%;
+}
 
 /* Navigation */
 
@@ -771,8 +781,16 @@ Standardized colors
     fill: #e0d580;
 }
 
-.cls-text {
-    fill: #efe7dc;
+.brown {
+    fill: #633E17;
+}
+
+.red-brown {
+    fill: #A8544A;
+}
+
+.nude {
+    fill: #D1B099;
 }
 
 .pure-white {
@@ -792,7 +810,6 @@ Standardized colors
 }
 
 .black-stroke {
-    fill: none;
     stroke: #181914;
     stroke-miterlimit: 10;
     stroke-width: 4px;
@@ -811,14 +828,21 @@ Standardized colors
 }
 
 .blue-stroke {
-    fill: none;
     stroke: #74C7CD;
     stroke-miterlimit: 10;
     stroke-width: 2px;
 }
 
-.small-stroke {
+.small-stroke{
+    stroke-width: 2px;
+}
+
+.very-small-stroke {
     stroke-width: 0.5;
+}
+
+.no-fill {
+    fill: none;
 }
 
 .no-stroke {
@@ -878,7 +902,8 @@ Standardized colors
     background-color: #fff;
 }
 
-.cls-text {
+.svg-text {
+    fill: #efe7dc;
     font-size: 12px;
     font-family: 'Abside-Round1', 'Abside', sans-serif;
 }
@@ -888,6 +913,26 @@ Standardized colors
     font-size: 170px;
 }
 
-.logo-subtitle-text {
+.svg-text-16{
+    font-size: 16px;
+}
+
+.svg-text-18{
+    font-size: 18px;
+}
+
+.svg-text-20 {
     font-size: 20px;
+}
+
+.about-logo-letters {
+    font-size: 168px;
+}
+
+.clip-path-about-left {
+    clip-path: url(#SVGID_2_);
+}
+
+.clip-path-about-right {
+    clip-path: url(#SVGID_4_);
 }

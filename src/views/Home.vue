@@ -194,10 +194,10 @@
               <circle class="yellow dark-grey-stroke" cx="71.6" cy="117.07" r="6.59"/>
             </g>
             <g id="subtitle">
-              <text class="logo-subtitle-text" transform="translate(276.34 459.95) rotate(-10.96)">ui designer
+              <text class="svg-text-20" transform="translate(276.34 459.95) rotate(-10.96)">ui designer
                 &amp;
               </text>
-              <text class="logo-subtitle-text" transform="translate(280.08 479.26) rotate(-10.96)">frontend
+              <text class="svg-text-20" transform="translate(280.08 479.26) rotate(-10.96)">frontend
                 engineer
               </text>
             </g>
