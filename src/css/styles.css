@@ -12,7 +12,7 @@ body {
     animation-delay: 0.75s;
     overflow: hidden;
     font-size: 16px;
-    background-color: #EFEAE4;
+    background-color: #F2EFEB;
 }
 
 /*-----------------
@@ -44,8 +44,8 @@ button.has-white-stroke:hover {
 
 .slide-body {
     background-color: #efe7dc; /*for browsers that dont support gradients*/
-    background-image: radial-gradient(circle, rgb(246, 241, 238) 10%, rgba(239, 231, 220, 1) 75%, rgba(48, 51, 42, 0.3));
-    box-shadow: 0 0 30px rgba(239, 231, 220, 0.6);
+    background-image: radial-gradient(circle, rgb(250, 250, 250) 10%, rgba(242, 239, 235, 1) 75%, rgba(48, 51, 42, 0.25));
+    box-shadow: 0 0 45px rgba(242, 239, 235, 0.6);
     border-radius: 50px;
     margin: 4em auto;
     width: 100vh;
@@ -113,7 +113,7 @@ button.has-white-stroke:hover {
 }
 
 .viewmaster-filler {
-    fill: #EFEAE4;
+    fill: #F2EFEB;
     -o-animation: animate-fill 0.5s forwards;
     -ms-animation: animate-fill 0.5s forwards;
     -webkit-animation: animate-fill 0.5s forwards;
@@ -239,7 +239,7 @@ button.has-white-stroke:hover {
 }
 
 .activeNavigation {
-    fill: #EFEAE4 !important;
+    fill: #F2EFEB !important;
     opacity: 1 !important;
 }
 
@@ -274,6 +274,7 @@ button.has-white-stroke:hover {
     filter: drop-shadow(10px 10px 0 #30332A);
     border: 4px solid #30332A;
     border-radius: 0 !important;
+    color: #181914 !important;
 }
 
 button {
@@ -284,8 +285,8 @@ button {
 }
 
 button.has-white-stroke {
-    filter: drop-shadow(5px 5px 0 #EFEAE4);
-    border: 2px solid #EFEAE4 !important;
+    filter: drop-shadow(5px 5px 0 #F2EFEB);
+    border: 2px solid #F2EFEB !important;
     border-radius: 0;
 }
 
@@ -410,7 +411,7 @@ Screen Size Compatibility
 
 @-ms-keyframes animate-background {
     from {
-        background-color: #EFEAE4;
+        background-color: #F2EFEB;
     }
     to {
         background-color: #30332A;
@@ -419,7 +420,7 @@ Screen Size Compatibility
 
 @-o-keyframes animate-background {
     from {
-        background-color: #EFEAE4;
+        background-color: #F2EFEB;
     }
     to {
         background-color: #30332A;
@@ -428,7 +429,7 @@ Screen Size Compatibility
 
 @-webkit-keyframes animate-background {
     from {
-        background-color: #EFEAE4;
+        background-color: #F2EFEB;
     }
     to {
         background-color: #30332A;
@@ -437,7 +438,7 @@ Screen Size Compatibility
 
 @-moz-keyframes animate-background {
     from {
-        background-color: #EFEAE4;
+        background-color: #F2EFEB;
     }
     to {
         background-color: #30332A;
@@ -446,7 +447,7 @@ Screen Size Compatibility
 
 @-ms-keyframes animate-background {
     from {
-        background-color: #EFEAE4;
+        background-color: #F2EFEB;
     }
     to {
         background-color: #30332A;
@@ -455,7 +456,7 @@ Screen Size Compatibility
 
 @keyframes animate-background {
     from {
-        background-color: #EFEAE4;
+        background-color: #F2EFEB;
     }
     to {
         background-color: #30332A;
@@ -644,7 +645,7 @@ Screen Size Compatibility
 
 @-ms-keyframes animate-fill {
     from {
-        fill: #EFEAE4;
+        fill: #F2EFEB;
     }
     to {
         fill: #30332A;
@@ -653,7 +654,7 @@ Screen Size Compatibility
 
 @-o-keyframes animate-fill {
     from {
-        fill: #EFEAE4;
+        fill: #F2EFEB;
     }
     to {
         fill: #30332A;
@@ -662,7 +663,7 @@ Screen Size Compatibility
 
 @-webkit-keyframes animate-fill {
     from {
-        fill: #EFEAE4;
+        fill: #F2EFEB;
     }
     to {
         fill: #30332A;
@@ -671,7 +672,7 @@ Screen Size Compatibility
 
 @-moz-keyframes animate-fill {
     from {
-        fill: #EFEAE4;
+        fill: #F2EFEB;
     }
     to {
         fill: #30332A;
@@ -680,7 +681,7 @@ Screen Size Compatibility
 
 @-ms-keyframes animate-fill {
     from {
-        fill: #EFEAE4;
+        fill: #F2EFEB;
     }
     to {
         fill: #30332A;
@@ -689,7 +690,7 @@ Screen Size Compatibility
 
 @keyframes animate-fill {
     from {
-        fill: #EFEAE4;
+        fill: #F2EFEB;
     }
     to {
         fill: #30332A;
@@ -755,11 +756,11 @@ Standardized colors
 -----------------*/
 
 .red {
-    fill: #ed5959;
+    fill: #E491C5;
 }
 
 .blue {
-    fill: #40c6ee;
+    fill: #74C7CD;
 }
 
 .yellow {
@@ -783,7 +784,7 @@ Standardized colors
 }
 
 .white {
-    fill: #EFEAE4;
+    fill: #F2EFEB;
 }
 
 .black {
@@ -804,14 +805,14 @@ Standardized colors
 }
 
 .white-stroke {
-    stroke: #EFEAE4;
+    stroke: #F2EFEB;
     stroke-miterlimit: 10;
     stroke-width: 2px;
 }
 
 .blue-stroke {
     fill: none;
-    stroke: #40c6ee;
+    stroke: #74C7CD;
     stroke-miterlimit: 10;
     stroke-width: 2px;
 }
@@ -862,11 +863,11 @@ Standardized colors
 }
 
 .blue-highlight::before {
-    background-color: #40c6ee;
+    background-color: #74C7CD;
 }
 
 .red-highlight::before {
-    background-color: #ed5959;
+    background-color: #E491C5;
 }
 
 .yellow-highlight::before {

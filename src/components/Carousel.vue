@@ -41,13 +41,13 @@ export default {
       let currentSlide = document.querySelector('.carousel-item').children[0].id;
       document.getElementById(currentSlide).parentElement.classList.add('slide-prev-leave-active');
       this.$emit('prev')
-      setTimeout(()=>{
-        document.getElementById(currentSlide).parentElement.classList.remove('slide-prev-leave-active');
-      }, 500);
+      document.getElementById(currentSlide).parentElement.classList.remove('slide-prev-leave-active');
     }, false);
     document.querySelector('.carousel-arrow > .has-icons-right').addEventListener('click', () => {
+      let currentSlide = document.querySelector('.carousel-item').children[0].id;
+      document.getElementById(currentSlide).parentElement.classList.add('slide-next-leave-active');
       this.$emit('next')
-      document.querySelector('.carousel-item').classList.add('slide-next-leave-active')
+      document.getElementById(currentSlide).parentElement.classList.remove('slide-next-leave-active');
     }, false);
   },
   methods: {

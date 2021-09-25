@@ -12,10 +12,10 @@
                   officially
                   as a Software Engineer, and unofficially as the team’s resident UI/UX specialist.</p>
               </article>
-              <article class="tile is-block-touch is-block-tablet is-child notification is-white has-text-dark">
+              <article class="tile is-block-touch is-block-tablet is-child notification is-white">
                 <p>Catapult</p>
               </article>
-              <article class="tile is-block-touch is-block-tablet is-child notification is-warning has-text-dark">
+              <article class="tile is-block-touch is-block-tablet is-child notification is-warning has-text-black">
                 <p class="title">...tiles</p>
                 <p class="subtitle">Bottom tile</p>
               </article>

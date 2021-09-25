@@ -39,24 +39,26 @@
 
 // Set your brand colors
 $yellow: #FDF388;
-$cyan: #40C6EE;
+$cyan: #74C7CD;
 $blue: #4a5cdd;
+$pink: #E491C5;
 $red: #ED5959;
 $white: #ffffff;
-$grey-light: #EFEAE4;
+$grey-light: #F2EFEB;
 $grey: #5a5b55;
 $grey-dark: #30332A;
 $black: #181914;
 
 // Update some of Bulma's component variables
 $family-sans-serif: "Abside", Arial, Helvetica Nueue, sans-serif;
-$primary: $red;
+$primary: $pink;
 $secondary: $cyan;
 $link: $cyan;
 $danger: $red;
 $info: $blue;
 $warning: $yellow;
 $dark: $grey-dark;
+$text: $black;
 $text-strong: $grey-dark;
 
 $scheme-main: $grey-light;

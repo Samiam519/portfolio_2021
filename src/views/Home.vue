@@ -66,22 +66,22 @@
               <polygon class="yellow dark-grey-stroke large-stroke"
                        points="151.23 42.45 287.36 594.48 606.56 318.46 151.23 42.45"/>
             </g>
-            <g id="Sam" class="logo-name-text animate__animated animate__fadeInTopRight animate__fast">
+            <g id="Sam" class="logo-name-text animate__animated animate__fadeInTopRight _2 animate__fast">
               <text class="dark-grey text-stroke" transform="matrix(0.98, -0.19, 0.19, 0.98, 176.84, 317.86)">Sam
               </text>
               <text class="red" transform="matrix(0.98, -0.19, 0.19, 0.98, 174.32, 311.81)">Sam</text>
             </g>
-            <g id="Jimenez" class="logo-name-text animate__animated animate__fadeInBottomLeft animate__fast">
+            <g id="Jimenez" class="logo-name-text animate__animated animate__fadeInBottomLeft _2 animate__fast">
               <text class="dark-grey text-stroke" transform="translate(151.3 412.77) rotate(-10.96)">Jimenez</text>
               <text class="red" transform="translate(149.08 407.77) rotate(-10.96)">Jimenez</text>
             </g>
-            <g id="underline">
+            <g id="underline animate__animated animate__fadeInRight _3 animate__fast">
               <path class="dark-grey"
                     d="M638.82,354.71l25.16-5.6-.34-1-25.53,4.45-25.51,4.53-51,9.07-51,9.2-50.91,9.36c-17,3.13-34,6.07-51,9.07s-33.91,6.35-50.7,10-33.53,7.5-50.19,11.56-33.25,8.35-49.66,13.18l.34,1c7.06-.76,14.1-1.62,21.11-2.54q-11.08,2.81-22.13,5.74c34.49-4.57,68.64-10.17,102.69-16.08s67.95-12.29,101.74-19,67.46-13.75,101-21.2,67-15.3,100-24.15q-18.91,2.51-37.7,5.38Z"/>
               <path class="blue"
                     d="M631.61,351.23l25.16-5.6-.34-1-25.53,4.45-25.51,4.54-51,9.06-51,9.2-50.91,9.36c-17,3.13-34,6.07-51,9.08s-33.91,6.34-50.7,10-33.53,7.49-50.19,11.56S267.37,420.19,251,425l.34,1q10.59-1.16,21.11-2.55-11.09,2.81-22.13,5.74c34.49-4.57,68.64-10.17,102.69-16.07s67.94-12.3,101.74-19,67.46-13.74,101-21.2,67-15.3,100-24.14q-18.91,2.49-37.7,5.38Z"/>
             </g>
-            <g id="circle">
+            <g id="circle animate__animated animate__fadeIn _5 animate__fast">
               <circle class="dark-grey" cx="592.7" cy="483" r="30.62"/>
               <circle class="red dark-grey-stroke" cx="588.21" cy="476.73" r="30.62"/>
             </g>
