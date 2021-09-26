@@ -2,7 +2,8 @@
   <b-carousel-item>
     <section id="contact" class="hero is-fullheight is-dark">
       <div class="hero-body slide-body has-text-black">
-        <h1 class="title is-1 has-text-grey-dark is-highlighted blue-highlight animate__animated animate__fadeInUp">contact</h1>
+        <h1 class="title is-1 has-text-grey-dark is-highlighted blue-highlight animate__animated animate__fadeInUp">
+          contact</h1>
         <p class="animate__animated animate__fadeInUp _2">Thanks for taking the time to check out my work!
         </p>
         <p class="mb-5 animate__animated animate__fadeInUp _3">
@@ -59,6 +60,51 @@
             </b-button>
           </b-tooltip>
         </form>
+        <div id="buffer"></div>
+        <div id="socials" class="animate__animated animate__fadeInUp _8 is-flex is-justify-content-center">
+          <b-button
+              icon-pack="fab"
+              class="is-info has-black-stroke is-large"
+              icon-right="linkedin"
+              aria-label="Visit Sam's LinkedIn"
+              @click="openSocial(0)"
+          />
+          <b-button
+              icon-pack="fab"
+              class="is-black has-black-stroke is-large"
+              icon-right="twitter"
+              aria-label="Visit Sam's Twitter"
+              @click="openSocial(1)"
+          />
+          <b-button
+              icon-pack="fab"
+              class="is-warning has-black-stroke is-large"
+              icon-right="github"
+              aria-label="Visit Sam's Github"
+              @click="openSocial(2)"
+          />
+          <b-button
+              icon-pack="fab"
+              class="is-grey has-black-stroke is-large"
+              icon-right="gitlab"
+              aria-label="Visit Sam's Gitlab"
+              @click="openSocial(3)"
+          />
+          <b-button
+              icon-pack="fab"
+              class="is-link has-black-stroke is-large"
+              icon-right="behance"
+              aria-label="Visit Sam's Behance"
+              @click="openSocial(4)"
+          />
+          <b-button
+              icon-pack="fab"
+              class="is-white has-black-stroke is-large"
+              icon-right="deviantart"
+              aria-label="Visit Sam's Deviantart"
+              @click="openSocial(5)"
+          />
+        </div>
       </div>
     </section>
   </b-carousel-item>
@@ -69,16 +115,24 @@ import axios from 'axios';
 
 export default {
   name: "Contact",
-  data(){
+  data() {
     return {
       name: '',
       email: '',
       message: '',
-      loading: false
+      loading: false,
+      socialsLinks: [
+        "https://www.linkedin.com/in/samjimenez519/",
+        "https://twitter.com/_sam_antics",
+        "https://github.com/Samiam519",
+        "https://gitlab.com/samiam5194",
+        "https://www.behance.net/samjimenez",
+        "https://www.deviantart.com/samaim519"
+      ]
     }
   },
   computed: {
-    formIncomplete(){
+    formIncomplete() {
       return !this.name || !this.email || !this.message
     }
   },
@@ -109,6 +163,9 @@ export default {
               type: 'is-danger'
             })
           });
+    },
+    openSocial(ind) {
+      window.open(this.socialsLinks[ind], '_blank').focus();
     }
   }
 }

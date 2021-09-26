@@ -70,6 +70,14 @@ button.has-white-stroke:hover {
     text-align: left;
 }
 
+#buffer{
+    flex-grow: 10;
+}
+
+#socials > * {
+    margin: 0 0.5em
+}
+
 /* Changer Knob */
 
 #changer-wrapper {
@@ -329,8 +337,7 @@ button:hover::before {
 button:hover::after{
     position: absolute;
     content: '';
-    background: inherit;
-    background-size: auto;
+    background-color: inherit;
     z-index: -1;
     top: -2px;
     left: -2px;
@@ -338,6 +345,7 @@ button:hover::after{
     width: 105%;
     height: 110%;
     border: inherit;
+    background-size: auto;
     background-size: 100%;
 }
 
