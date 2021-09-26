@@ -61,45 +61,81 @@
           </b-tooltip>
         </form>
         <div id="buffer"></div>
-        <div id="socials" class="animate__animated animate__fadeInUp _8 is-flex is-justify-content-center">
+        <div class="socials mt-3 columns is-fullwidth is-desktop animate__animated animate__fadeInUp _8 is-flex is-justify-content-center">
+          <div class="column is-flex" v-bind:class="isMobile ? 'is-justify-content-center' : 'is-justify-content-flex-end'">
+            <b-button
+                icon-pack="fab"
+                class="is-info has-black-stroke"
+                v-bind:class="isMobile ? 'is-medium' : 'is-large'"
+                icon-right="linkedin"
+                aria-label="Visit Sam's LinkedIn"
+                @click="openSocial(0)"
+            />
+            <b-button
+                icon-pack="fab"
+                class="is-black has-black-stroke mx-5"
+                v-bind:class="isMobile ? 'is-medium' : 'is-large'"
+                icon-right="twitter"
+                aria-label="Visit Sam's Twitter"
+                @click="openSocial(1)"
+            />
+            <b-button
+                icon-pack="fab"
+                class="is-warning has-black-stroke"
+                v-bind:class="isMobile ? 'is-medium' : 'is-large'"
+                icon-right="github"
+                aria-label="Visit Sam's Github"
+                @click="openSocial(2)"
+            />
+          </div>
+          <div class="column is-hidden-mobile is-flex is-justify-content-flex-start">
+            <b-button
+                icon-pack="fab"
+                class="is-grey has-black-stroke"
+                v-bind:class="isMobile ? 'is-medium' : 'is-large'"
+                icon-right="gitlab"
+                aria-label="Visit Sam's Gitlab"
+                @click="openSocial(3)"
+            />
+            <b-button
+                icon-pack="fab"
+                class="is-link has-black-stroke mx-5"
+                v-bind:class="isMobile ? 'is-medium' : 'is-large'"
+                icon-right="behance"
+                aria-label="Visit Sam's Behance"
+                @click="openSocial(4)"
+            />
+            <b-button
+                icon-pack="fab"
+                class="is-white has-black-stroke"
+                v-bind:class="isMobile ? 'is-medium' : 'is-large'"
+                icon-right="deviantart"
+                aria-label="Visit Sam's Deviantart"
+                @click="openSocial(5)"
+            />
+          </div>
+        </div>
+        <div class="socials is-hidden-desktop columns is-fullwidth is-desktop animate__animated animate__fadeInUp _9 is-flex is-justify-content-center">
           <b-button
               icon-pack="fab"
-              class="is-info has-black-stroke is-large"
-              icon-right="linkedin"
-              aria-label="Visit Sam's LinkedIn"
-              @click="openSocial(0)"
-          />
-          <b-button
-              icon-pack="fab"
-              class="is-black has-black-stroke is-large"
-              icon-right="twitter"
-              aria-label="Visit Sam's Twitter"
-              @click="openSocial(1)"
-          />
-          <b-button
-              icon-pack="fab"
-              class="is-warning has-black-stroke is-large"
-              icon-right="github"
-              aria-label="Visit Sam's Github"
-              @click="openSocial(2)"
-          />
-          <b-button
-              icon-pack="fab"
-              class="is-grey has-black-stroke is-large"
+              class="is-grey has-black-stroke"
+              v-bind:class="isMobile ? 'is-medium' : 'is-large'"
               icon-right="gitlab"
               aria-label="Visit Sam's Gitlab"
               @click="openSocial(3)"
           />
           <b-button
               icon-pack="fab"
-              class="is-link has-black-stroke is-large"
+              class="is-link has-black-stroke mx-5"
+              v-bind:class="isMobile ? 'is-medium' : 'is-large'"
               icon-right="behance"
               aria-label="Visit Sam's Behance"
               @click="openSocial(4)"
           />
           <b-button
               icon-pack="fab"
-              class="is-white has-black-stroke is-large"
+              class="is-white has-black-stroke"
+              v-bind:class="isMobile ? 'is-medium' : 'is-large'"
               icon-right="deviantart"
               aria-label="Visit Sam's Deviantart"
               @click="openSocial(5)"
@@ -134,6 +170,9 @@ export default {
   computed: {
     formIncomplete() {
       return !this.name || !this.email || !this.message
+    },
+    isMobile(){
+      return window.innerWidth < 1024
     }
   },
   methods: {

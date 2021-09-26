@@ -12,8 +12,10 @@
                   officially
                   as a Software Engineer, and unofficially as the team’s resident UI/UX specialist.</p>
               </article>
-              <article class="tile is-block-touch is-block-tablet is-child notification is-white">
-                <p>Catapult</p>
+              <article class="tile is-block-touch is-block-tablet is-child">
+                <figure class="image">
+                  <img src="../assets/ird_purple.png" alt="Maximus IR&D logo"/>
+                </figure>
               </article>
               <article class="tile is-block-touch is-block-tablet is-child notification is-warning has-text-black">
                 <p class="title">...tiles</p>

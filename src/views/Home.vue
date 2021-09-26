@@ -69,15 +69,6 @@
               <polygon class="yellow dark-grey-stroke large-stroke"
                        points="151.23 42.45 287.36 594.48 606.56 318.46 151.23 42.45"/>
             </g>
-            <g id="Sam" class="logo-name-text animate__animated animate__fadeInTopRight _2 animate__fast">
-              <text class="dark-grey text-stroke" transform="matrix(0.98, -0.19, 0.19, 0.98, 176.84, 317.86)">Sam
-              </text>
-              <text class="red" transform="matrix(0.98, -0.19, 0.19, 0.98, 174.32, 311.81)">Sam</text>
-            </g>
-            <g id="Jimenez" class="logo-name-text animate__animated animate__fadeInBottomLeft _2 animate__fast">
-              <text class="dark-grey text-stroke" transform="translate(151.3 412.77) rotate(-10.96)">Jimenez</text>
-              <text class="red" transform="translate(149.08 407.77) rotate(-10.96)">Jimenez</text>
-            </g>
             <g id="underline" class="animate__animated animate__fadeInRight _2 animate__faster">
               <path class="dark-grey"
                     d="M638.82,354.71l25.16-5.6-.34-1-25.53,4.45-25.51,4.53-51,9.07-51,9.2-50.91,9.36c-17,3.13-34,6.07-51,9.07s-33.91,6.35-50.7,10-33.53,7.5-50.19,11.56-33.25,8.35-49.66,13.18l.34,1c7.06-.76,14.1-1.62,21.11-2.54q-11.08,2.81-22.13,5.74c34.49-4.57,68.64-10.17,102.69-16.08s67.95-12.29,101.74-19,67.46-13.75,101-21.2,67-15.3,100-24.15q-18.91,2.51-37.7,5.38Z"/>
@@ -109,6 +100,15 @@
                        points="704.03 328.93 721.59 339.91 714.57 311.81 742.67 304.9 734.76 276.25 763.52 269.01 756.06 241.13 783.94 234.98 765.72 223.79 738.5 230.59 745.74 259.13 717.2 266.37 726.04 294.77 696.57 301.93 704.03 328.93"/>
               <polygon class="blue dark-grey-stroke"
                        points="698.55 321.82 716.11 332.8 709.08 304.7 737.18 297.79 729.28 269.14 758.03 261.9 750.57 234.02 778.45 227.87 760.23 216.68 733.01 223.48 740.25 252.02 711.72 259.26 720.55 287.66 691.08 294.82 698.55 321.82"/>
+            </g>
+            <g id="Sam" class="logo-name-text animate__animated animate__fadeInTopRight _2 animate__fast">
+              <text class="dark-grey text-stroke" transform="matrix(0.98, -0.19, 0.19, 0.98, 176.84, 317.86)">Sam
+              </text>
+              <text class="red" transform="matrix(0.98, -0.19, 0.19, 0.98, 174.32, 311.81)">Sam</text>
+            </g>
+            <g id="Jimenez" class="logo-name-text animate__animated animate__fadeInBottomLeft _2 animate__fast">
+              <text class="dark-grey text-stroke" transform="translate(151.3 412.77) rotate(-10.96)">Jimenez</text>
+              <text class="red" transform="translate(149.08 407.77) rotate(-10.96)">Jimenez</text>
             </g>
             <g id="circles2" class="animate__animated animate__fadeInTopRight _4 animate__fast">
               <circle class="red dark-grey-stroke" cx="712.43" cy="91.73" r="6.59"/>

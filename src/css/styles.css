@@ -74,10 +74,6 @@ button.has-white-stroke:hover {
     flex-grow: 10;
 }
 
-#socials > * {
-    margin: 0 0.5em
-}
-
 /* Changer Knob */
 
 #changer-wrapper {
@@ -371,7 +367,7 @@ Screen Size Compatibility
     }
 
     .hero-body {
-        padding: 1em !important
+        padding: 2em !important
     }
 
     .slide-body {
@@ -389,6 +385,9 @@ Screen Size Compatibility
 
     #changer-wrapper {
         max-width: 9em;
+    }
+    .title.is-1{
+        font-size: 1.5em !important;
     }
 }
 
