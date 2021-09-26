@@ -304,11 +304,11 @@ button.has-white-stroke {
     border-radius: 0;
 }
 
-button:hover{
+button:hover, button:focus{
     filter: none
 }
 
-button:hover::before {
+button:hover::before, button:focus::before {
     -o-animation: diagonal-stripes linear 1.5s;
     -ms-animation: diagonal-stripes linear 1.5s;
     -webkit-animation: diagonal-stripes linear 1.5s;
@@ -330,7 +330,7 @@ button:hover::before {
     background: url(../assets/stripes.png) 50%;
 }
 
-button:hover::after{
+button:hover::after, button:focus::after{
     position: absolute;
     content: '';
     background-color: inherit;
