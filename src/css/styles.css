@@ -19,6 +19,10 @@ body {
     font-family: inherit;
 }
 
+.svg-link > text{
+    text-decoration: underline;
+}
+
 /*-----------------
 ---Element Specific
 -----------------*/
