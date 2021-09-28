@@ -151,7 +151,7 @@ button.has-white-stroke:hover {
 /* actual scroll movement of a viewmaster
    similar to the "natural" inverted scroll movement on a mac
 */
-/*.slide-next-enter-active,
+.slide-next-enter-active,
 .slide-next-leave-active {
     transition: transform 0.5s ease-in-out !important;
 }
@@ -172,8 +172,8 @@ button.has-white-stroke:hover {
 
 .slide-prev-enter{
     transform: translate(125%, 50%) rotate(90deg) !important;
-}*/
-.slide-prev-enter-active {
+}
+/*.slide-prev-enter-active {
     animation: prev-slide-enter 0.5s ease-in-out both;
 }
 
@@ -229,7 +229,7 @@ button.has-white-stroke:hover {
     100% {
         transform: translate(-125%, -50%) rotate(-90deg);
     }
-}
+}*/
 
 /* "visually normal way"
 .slide-prev-enter-active,

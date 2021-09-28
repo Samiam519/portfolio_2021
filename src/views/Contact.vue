@@ -179,7 +179,7 @@ export default {
     submitForm() {
       this.loading = true;
       axios.defaults.headers.post['Content-Type'] = 'application/json';
-      axios.post('https://formsubmit.co/ajax/sam.jimenez519@gmail.com', {
+      axios.post('https://formsubmit.co/ajax/b21ebba82ef5d8fd3f9eafde7c869d23', {
         name: this.name,
         email: this.email,
         message: this.message

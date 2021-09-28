@@ -4,5 +4,6 @@
         : '/'
 }*/
 module.exports = {
-    publicPath: '/'
+    publicPath: '/',
+    cname: 'samiam519.github.io'
 }

@@ -49,4 +49,7 @@ jobs:
           # Your git commit message
           gitmsg: ci push
           # Your custom domain
-          #cname: # optional, default is none
+          # optional, default is none
+          cname: samjimenez.me
+          # fully qualified domain name
+          fqdn: samjimenez.me
