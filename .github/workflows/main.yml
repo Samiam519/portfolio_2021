@@ -51,5 +51,3 @@ jobs:
           # Your custom domain
           # optional, default is none
           cname: samjimenez.me
-          # fully qualified domain name
-          fqdn: samjimenez.me

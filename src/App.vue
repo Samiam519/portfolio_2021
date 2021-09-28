@@ -42,13 +42,12 @@ export default {
   created() {
     // load sound setting
     this.soundOn = localStorage.sound === 'true';
+    // if starting on a page other than home, send them to that path
+    if(window.location.pathname.length > 1){
+      this.changeSlide(this.$router.options.routes.findIndex(x => x.path === window.location.pathname)+1)
+    }
   },
   mounted() {
-    // if starting on a page other than home, send them to that path
-    if(this.$route.path.length > 1){
-      console.log(this.$router.options.routes.findIndex(x => x.path === this.$route.path))
-      this.changeSlide(this.$router.options.routes.findIndex(x => x.path === this.$route.path)+1)
-    }
     // add listeners for keyboard
     window.addEventListener('keydown', (e) => {
       // ignore keystrokes while an input field is focused
