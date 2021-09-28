@@ -824,12 +824,20 @@ Standardized colors
     fill: #E54825;
 }
 
+.purple-maximus {
+    fill: #555689;
+}
+
 .pure-white {
     fill: #ffffff;
 }
 
 .dark-grey {
     fill: #30332a;
+}
+
+.grey{
+    fill: #5a5b55;
 }
 
 .white {
@@ -866,6 +874,12 @@ Standardized colors
 
 .red-stroke {
     stroke: #E491C5;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+.yellow-stroke {
+    stroke: #FDF388;
     stroke-miterlimit: 10;
     stroke-width: 2px;
 }

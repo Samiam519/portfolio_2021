@@ -1,38 +1,278 @@
 <template>
   <b-carousel-item>
     <section id="maximus" class="hero is-fullheight is-dark">
-      <div class="hero-body slide-body has-text-black">
-        <h1 class="title is-1 has-text-grey-dark is-highlighted white-highlight">maximus</h1>
-        <div class="tile is-ancestor">
-          <div class="tile">
-            <div class="tile is-parent is-vertical">
-              <article class="tile is-block-touch is-block-tablet is-child notification is-primary">
-                <p>Since graduating from the University of Miami with a
-                  bachelor’s degree in Computer Science, I’ve found a place on the R&D team at MAXIMUS, working
-                  officially
-                  as a Software Engineer, and unofficially as the team’s resident UI/UX specialist.</p>
-              </article>
-              <article class="tile is-block-touch is-block-tablet is-child">
-                <figure class="image">
-                  <img src="../assets/ird_purple.png" alt="Maximus IR&D logo"/>
-                </figure>
-              </article>
-              <article class="tile is-block-touch is-block-tablet is-child notification is-warning has-text-black">
-                <p class="title">...tiles</p>
-                <p class="subtitle">Bottom tile</p>
-              </article>
-            </div>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-block-touch is-block-tablet is-child notification is-link">
-              <p class="title">Wide tile</p>
-              <p class="subtitle">Aligned with the right tile</p>
-              <div class="content">
-                <!-- Content -->
-              </div>
-            </article>
-          </div>
-        </div>
+      <div class="hero-body slide-body has-text-black is-relative">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 823 684" style="enable-background:new 0 0 823 684;" xml:space="preserve" class="is-absolute">
+          <g id="maximus">
+            <g id="triangle-lines_4_" class="animate__animated animate__fadeInTopLeft _2">
+              <g>
+                <path class="yellow" d="M145.85,187.68c-2.45,2.8-4.91,5.6-7.36,8.41c-7.82,8.95-15.63,17.92-23.45,26.88l2.98,9.7
+                  c12.61-14.44,25.22-28.89,37.84-43.35L145.85,187.68z"/>
+              </g>
+              <g>
+                <path class="yellow" d="M167.22,191.17c-1.19,1.36-2.38,2.72-3.57,4.08c-14.09,16.11-28.18,32.23-42.26,48.34l3.28,10.65
+                  c17.83-20.42,35.66-40.85,53.5-61.29L167.22,191.17z"/>
+              </g>
+              <g>
+                <path class="yellow" d="M189.47,194.8c-3.28,3.75-6.55,7.5-9.83,11.25c-12.53,14.35-25.02,28.73-37.55,43.09
+                  c-4.68,5.36-9.36,10.72-14.04,16.07l3.39,11.01c23.13-26.5,46.28-53.02,69.46-79.56L189.47,194.8z"/>
+              </g>
+              <g>
+                <path class="yellow" d="M101.99,180.52l2.75,8.92c2.16-2.47,4.32-4.94,6.48-7.42L101.99,180.52z"/>
+              </g>
+              <g>
+                <path class="yellow" d="M123.99,184.11c-5.15,5.9-10.3,11.8-15.45,17.69l3.14,10.2c7.62-8.72,15.23-17.44,22.85-26.17L123.99,184.11
+                  z"/>
+              </g>
+              <g>
+                <path class="yellow" d="M366.53,223.69c-9.85,11.28-19.71,22.57-29.57,33.85c-12.62,14.44-25.27,28.86-37.9,43.3
+                  c-11.92,13.63-23.81,27.28-35.72,40.91c-8.6,9.85-17.22,19.69-25.82,29.54c-14.02,16.07-28.03,32.14-42.05,48.21
+                  c-4.92,5.64-9.83,11.29-14.75,16.93l3.05,9.91c6.8-7.77,13.62-15.54,20.41-23.32c22.53-25.82,45.03-51.66,67.56-77.48
+                  c5.32-6.09,10.64-12.18,15.95-18.27l86.36-102.36L366.53,223.69z"/>
+              </g>
+              <g>
+                <path class="yellow" d="M199.38,242.39c-13.98,16.02-27.93,32.07-41.91,48.09c-5.33,6.12-10.67,12.23-16.01,18.34l3.05,9.91
+                  c1.43-1.64,2.86-3.28,4.3-4.93c25.4-29.1,50.82-58.19,76.23-87.29c6.6-7.56,13.2-15.12,19.81-22.68l-10.3-1.68
+                  C222.82,215.57,211.09,228.97,199.38,242.39z"/>
+              </g>
+              <g>
+                <path class="yellow" d="M252.31,281.81c18.35-21.02,36.74-42.01,55.1-63.02c1.21-1.38,2.41-2.77,3.62-4.15l-10.72-1.75
+                  c-11.27,12.93-22.53,25.87-33.8,38.8c-16.84,19.3-33.71,38.57-50.55,57.86c-15.35,17.58-30.66,35.19-46.01,52.78
+                  c-2.96,3.39-5.93,6.77-8.89,10.16l3.15,10.22c10.27-11.77,20.59-23.49,30.86-35.25C214.15,325.58,233.21,303.68,252.31,281.81z"
+                />
+              </g>
+              <g>
+                <path class="yellow" d="M212.23,198.51c-0.18,0.21-0.37,0.42-0.55,0.63c-8.95,10.25-17.92,20.49-26.87,30.75
+                  c-16.67,19.1-33.33,38.21-49.99,57.31l3.27,10.64c28.38-32.5,56.75-65.01,85.15-97.53L212.23,198.51z"/>
+              </g>
+              <g>
+                <path class="yellow" d="M211.85,356.53c14.12-16.17,28.22-32.36,42.33-48.53c14.19-16.26,28.4-32.52,42.6-48.78
+                  c11.95-13.69,23.89-27.37,35.84-41.06l-10.31-1.68c-0.45,0.51-0.89,1.02-1.34,1.54c-16.27,18.64-32.55,37.27-48.82,55.9
+                  c-14.38,16.47-28.74,32.96-43.11,49.43c-13.44,15.4-26.9,30.79-40.35,46.19c-7.04,8.06-14.07,16.12-21.11,24.17l3.07,9.98
+                  C184.38,387.97,198.12,372.25,211.85,356.53z"/>
+              </g>
+              <g>
+                <path class="yellow" d="M266.54,323.3c15.18-17.38,30.33-34.77,45.51-52.15c14.36-16.44,28.72-32.88,43.08-49.32l-11.15-1.82
+                  c-14.85,17-29.71,33.99-44.56,50.99c-19.58,22.41-39.16,44.83-58.73,67.26c-15.44,17.69-30.86,35.39-46.3,53.07
+                  c-6.79,7.77-13.58,15.54-20.37,23.3l3.31,10.77c11.24-12.87,22.47-25.74,33.71-38.61C229.54,365.62,248.05,344.47,266.54,323.3z"
+                />
+              </g>
+              <g>
+                <path class="yellow" d="M216.6,251.02c-15.74,18.04-31.51,36.05-47.25,54.09c-7.16,8.2-14.31,16.41-21.46,24.61l3.32,10.79
+                  c5.99-6.86,11.98-13.73,17.97-20.59c21.75-24.91,43.52-49.8,65.26-74.7c10.97-12.57,21.94-25.14,32.91-37.71l-11.2-1.83
+                  C242.97,220.79,229.79,235.91,216.6,251.02z"/>
+              </g>
+              <g>
+                <path class="yellow" d="M244.91,248.01c-9.97,11.42-19.91,22.87-29.89,34.29c-10.18,11.66-20.4,23.3-30.59,34.96
+                  c-9.96,11.4-19.9,22.82-29.85,34.23l3.08,10.02c17.27-19.78,34.53-39.57,51.8-59.35c21.3-24.4,42.6-48.81,63.91-73.2
+                  c5.22-5.97,10.44-11.93,15.66-17.9l-10.32-1.68c-2.44,2.8-4.88,5.6-7.33,8.4C262.58,227.85,253.73,237.91,244.91,248.01z"/>
+              </g>
+            </g>
+            <g id="max-blue-triangle" class="animate__animated animate__fadeIn _3">
+              <polygon class="black" points="260.53,55.8 260.53,256.69 413.01,256.69 		"/>
+              <polygon class="blue black-stroke small-stroke" points="238.02,40.45 238.02,241.33 390.51,241.33 		"/>
+            </g>
+            <g id="max-pink-rect" class="animate__animated animate__fadeInRight _3">
+              <rect x="658.11" y="242.65" class="black" width="155.93" height="426.7"/>
+              <rect x="644.54" y="224.27" class="red black-stroke small-stroke" width="155.93" height="426.7"/>
+            </g>
+            <g id="circle_7_" class="animate__animated animate__fadeInTopRight _3">
+              <circle class="black" cx="714.74" cy="109.09" r="77.81"/>
+              <circle class="blue black-stroke small-stroke" cx="703.33" cy="93.16" r="77.81"/>
+            </g>
+            <g id="max-text-white" class="animate__animated animate__fadeIn _4">
+              <rect x="355.31" y="102.19" class="black" width="373.97" height="548.78"/>
+              <g>
+                <rect x="337.67" y="81.47" class="white" width="369.97" height="544.78"/>
+                <path class="black"
+                      d="M705.64,83.47v540.78H339.67V83.47H705.64 M709.64,79.47H335.67v548.78h373.97V79.47L709.64,79.47z"/>
+              </g>
+              <polygon class="no-fill" points="688.39,615.41 481.98,615.41 480.22,355.51 353.6,354.92 353.6,178.47 416.74,91.18 688.39,91.18
+                "/>
+              <text transform="matrix(1 0 0 1 415.7879 104.3583)"><tspan x="0" y="0" class="abside black svg-text-18">After realizing that our team </tspan>
+                <tspan x="-15.19" y="21" class="abside black svg-text-18">did not have a standard UI </tspan>
+                <tspan x="-30.38" y="42" class="abside black svg-text-18">library, and that none of our </tspan>
+                <tspan x="-45.57" y="63" class="abside black svg-text-18">project’s UIs matched the corporate </tspan>
+                <tspan x="-60.76" y="84" class="abside black svg-text-18">style guide, I took it upon myself to </tspan>
+                <tspan x="-62.18" y="105" class="abside black svg-text-18">create and document a design system </tspan>
+                <tspan x="-62.18" y="126"
+                       class="abside black svg-text-18">that not only contained a standardized </tspan>
+                <tspan x="-62.18" y="147"
+                       class="abside black svg-text-18">(js framework agnostic) css library that </tspan>
+                <tspan x="-62.18" y="168"
+                       class="abside black svg-text-18">extended our corporate style guide, but </tspan>
+                <tspan x="-62.18" y="189"
+                       class="abside black svg-text-18">also established best practices for UX </tspan>
+                <tspan x="-62.18" y="210" class="abside black svg-text-18">implementation, including WCAG </tspan>
+                <tspan x="-62.18" y="231" class="abside black svg-text-18">compliance. The custom theme that </tspan>
+                <tspan x="64.44" y="252" class="abside black svg-text-18">extends our coordinate </tspan>
+                <tspan x="64.58" y="273" class="abside black svg-text-18">style guide for the web </tspan>
+                <tspan x="64.72" y="294" class="abside black svg-text-18">was based off</tspan>
+                <tspan x="64.87" y="315" class="abside black svg-text-18 yellow2">	</tspan>
+                <tspan x="81.82" y="315" class="abside black svg-text-18 yellow3">		</tspan>
+                <tspan x="153.82" y="315" class="abside black svg-text-18">   and its </tspan>
+                <tspan x="65.01" y="336" class="abside black svg-text-18">community fork</tspan>
+                <tspan x="65.15" y="357" class="abside black svg-text-18 yellow2">	</tspan>
+                <tspan x="81.82" y="357" class="abside black svg-text-18 yellow3">		</tspan>
+                <tspan x="153.82" y="357" class="abside black svg-text-18">   . I chose </tspan>
+                <tspan x="65.29" y="378" class="abside black svg-text-18">this library because it’s </tspan>
+                <tspan x="65.43" y="399" class="abside black svg-text-18">popular, </tspan>
+                <tspan x="65.58" y="420" class="abside black svg-text-18">well-maintained, </tspan>
+                <tspan x="65.72" y="441" class="abside black svg-text-18">extremely customizable, </tspan>
+                <tspan x="65.86" y="462" class="abside black svg-text-18">and has wrapper </tspan>
+                <tspan x="66" y="483" class="abside black svg-text-18">libraries available for </tspan>
+                <tspan x="66.14" y="504" class="abside black svg-text-18">most js frameworks. </tspan></text>
+              <text transform="matrix(1 0 0 1 478.8704 419.2668)" class="abside black svg-text-18">Semantic UI</text>
+              <text transform="matrix(1 0 0 1 480.665 461.166)" class="abside black svg-text-18">Fomantic UI</text>
+            </g>
+            <g id="max-text-yellow" class="animate__animated animate__fadeIn _4">
+              <rect x="18.72" y="370.5" class="black" width="448.62" height="306.44"/>
+              <g>
+                <rect x="1" y="353.31" class="yellow" width="446.62" height="304.44"/>
+                <g>
+                  <path class="black"
+                        d="M446.62,354.31v302.44H2V354.31H446.62 M448.62,352.31H0v306.44h448.62V352.31L448.62,352.31z"/>
+                </g>
+              </g>
+              <rect x="19.32" y="368.7" class="no-fill" width="413.03" height="282.45"/>
+              <text transform="matrix(1 0 0 1 19.3175 381.8725)"><tspan x="0" y="0" class="abside black svg-text-18">I began working at </tspan>
+                <tspan x="163.71" y="0" class="abside black svg-text-18 yellow2">	</tspan>
+                <tspan x="180" y="0" class="abside black svg-text-18 yellow3">	</tspan>
+                <tspan x="248" y="0" class="abside black svg-text-18">in 2017 after </tspan>
+                <tspan x="0" y="21.6"
+                       class="abside black svg-text-18">graduating University of Miami with a Bachelors </tspan>
+                <tspan x="0" y="43.2"
+                       class="abside black svg-text-18">of Science in Computer Science. I’ve had the </tspan>
+                <tspan x="0" y="64.8"
+                       class="abside black svg-text-18">opportunity to explore many of the popular js </tspan>
+                <tspan x="0" y="86.4"
+                       class="abside black svg-text-18">frameworks, including spending roughly two </tspan>
+                <tspan x="0" y="108"
+                       class="abside black svg-text-18">years working with Angular, about a year with </tspan>
+                <tspan x="0" y="129.6"
+                       class="abside black svg-text-18">Vue, and a few small projects with React. I do </tspan>
+                <tspan x="0" y="151.2" class="abside black svg-text-18">have quite a bit of experience with vanilla js and </tspan>
+                <tspan x="0" y="172.8" class="abside black svg-text-18">jQuery as well. I’m grateful to have been able to </tspan>
+                <tspan x="0" y="194.4"
+                       class="abside black svg-text-18">try out so many different flavors of js, and to </tspan>
+                <tspan x="0" y="216"
+                       class="abside black svg-text-18">have the time to explore new frontend libraries </tspan>
+                <tspan x="0" y="237.6" class="abside black svg-text-18">that I find interesting and useful. I will continue </tspan>
+                <tspan x="0" y="259.2" class="abside black svg-text-18">to look for that quality in any future endeavors. </tspan></text>
+              <a xlink:href="https://maximus.com" target="black" class="svg-link"><text transform="matrix(1 0 0 1 184.4698 382.1948)" class="abside black svg-text-18">Maximus</text></a>
+            </g>
+            <g id="max-black-and-white" class="animate__animated animate__fadeIn _4">
+              <rect x="95.88" y="285.2" class="black" width="214.17" height="53.82"/>
+              <g>
+                <defs>
+                  <rect id="SVGID_3_" x="95.88" y="285.2" width="214.17" height="53.82"/>
+                </defs>
+                <clipPath id="SVGID_2_">
+                  <use xlink:href="#SVGID_3_" style="overflow:visible;"/>
+                </clipPath>
+                <path style="clip-path:url(#SVGID_2_);fill:#F2F0EC;" d="M-28.09,284.2l71.73,55.36h-5.82l-71.73-55.36H-28.09z M-5.35,284.2
+                  l71.73,55.36h5.82L0.47,284.2H-5.35z M8.93,284.2l71.73,55.36h5.82L14.75,284.2H8.93z M23.21,284.2l71.73,55.36h5.82L29.03,284.2
+                  H23.21z M37.49,284.2l71.73,55.36h5.82L43.31,284.2H37.49z M-19.63,284.2l71.73,55.36h5.82l-71.73-55.36H-19.63z M51.65,284.2
+                  l71.73,55.36h5.82L57.48,284.2H51.65z M80.21,284.2l71.73,55.36h5.82L86.04,284.2H80.21z M94.49,284.2l71.73,55.36h5.82
+                  l-71.73-55.36H94.49z M108.77,284.2l71.73,55.36h5.82L114.6,284.2H108.77z M123.05,284.2l71.73,55.36h5.82l-71.73-55.36H123.05z
+                   M65.93,284.2l71.73,55.36h5.82L71.76,284.2H65.93z M136.92,284.2l71.72,55.36h5.82l-71.72-55.36H136.92z M165.47,284.2
+                  l71.72,55.36H243l-71.72-55.36H165.47z M179.74,284.2l71.72,55.36h5.82l-71.72-55.36H179.74z M194.01,284.2l71.72,55.36h5.82
+                  l-71.72-55.36H194.01z M208.28,284.2L280,339.56h5.82L214.1,284.2H208.28z M151.19,284.2l71.72,55.36h5.82l-71.72-55.36H151.19z
+                   M222.44,284.2l71.72,55.36h5.82l-71.72-55.36H222.44z M250.98,284.2l71.72,55.36h5.82L256.8,284.2H250.98z M265.26,284.2
+                  l71.72,55.36h5.82l-71.72-55.36H265.26z M279.53,284.2l71.72,55.36h5.82l-71.72-55.36H279.53z M293.8,284.2l71.72,55.36h5.82
+                  l-71.72-55.36H293.8z M236.71,284.2l71.72,55.36h5.82l-71.72-55.36H236.71z M-5.91,228.84L65.8,284.2h5.82L-0.1,228.84H-5.91z
+                   M22.63,228.84l71.72,55.36h5.82l-71.72-55.36H22.63z M36.9,228.84l71.72,55.36h5.82l-71.72-55.36H36.9z M51.17,228.84
+                  l71.72,55.36h5.82l-71.72-55.36H51.17z M65.45,228.84l71.72,55.36h5.82l-71.72-55.36H65.45z M8.36,228.84l71.72,55.36h5.82
+                  l-71.72-55.36H8.36z M79.6,228.84l71.72,55.36h5.82l-71.72-55.36H79.6z M108.15,228.84l71.72,55.36h5.82l-71.72-55.36H108.15z
+                   M122.42,228.84l71.72,55.36h5.82l-71.72-55.36H122.42z M136.69,228.84l71.72,55.36h5.82l-71.72-55.36H136.69z M150.96,228.84
+                  l71.72,55.36h5.82l-71.72-55.36H150.96z M93.88,228.84l71.72,55.36h5.82L99.7,228.84H93.88z"/>
+              </g>
+              <g>
+                <rect x="79.72" y="272.27" class="pure-white" width="216.94" height="54.53"/>
+                <path class="black"
+                      d="M295.66,273.27v52.53H80.72v-52.53H295.66 M297.66,271.27H78.72v56.53h218.94V271.27L297.66,271.27z"/>
+              </g>
+            </g>
+            <g id="circles1_3_" class="animate__animated animate__fadeIn _5">
+              <g>
+                <circle class="yellow black-stroke small-stroke" cx="778.35" cy="506.47" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="778.35" cy="483.17" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="778.35" cy="459.86" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="778.35" cy="436.56" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="778.35" cy="413.26" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="778.35" cy="389.95" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="778.35" cy="366.65" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="778.35" cy="343.35" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="778.35" cy="320.05" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="778.35" cy="296.74" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="778.35" cy="273.44" r="8.16"/>
+              </g>
+              <g>
+                <circle class="yellow black-stroke small-stroke" cx="753.37" cy="519.77" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="753.37" cy="496.46" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="753.37" cy="473.16" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="753.37" cy="449.86" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="753.37" cy="426.55" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="753.37" cy="403.25" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="753.37" cy="379.95" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="753.37" cy="356.65" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="753.37" cy="333.34" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="753.37" cy="310.04" r="8.16"/>
+                <circle class="yellow black-stroke small-stroke" cx="753.37" cy="286.74" r="8.16"/>
+              </g>
+            </g>
+            <g id="zigzag_5_" class="animate__animated animate__fadeIn _5">
+              <polygon class="black" points="31.05,335.84 48.61,346.82 41.58,318.72 69.68,311.8 61.78,283.16 90.53,275.91 83.07,248.04
+                110.95,241.89 92.73,230.69 65.51,237.5 72.75,266.04 44.22,273.28 53.05,301.68 23.58,308.84 		"/>
+              <polygon class="red black-stroke small-stroke" points="25.56,328.73 43.12,339.71 36.09,311.61 64.19,304.69 56.29,276.05 85.04,268.8 77.58,240.93
+                105.46,234.78 87.24,223.58 60.02,230.39 67.26,258.93 38.73,266.17 47.57,294.57 18.09,301.73 		"/>
+            </g>
+            <g id="thunderbolt_3_" class="animate__animated animate__fadeIn _5">
+              <polygon class="black" points="364.48,35.43 402.53,40.11 394.92,62.94 406.63,65.13 395.5,86.94 405.27,88.88 359.21,154.84
+                364.85,101.14 352.77,99.23 362.49,75.9 348.67,73.48 		"/>
+              <polygon class="yellow black-stroke small-stroke" points="358.99,31.48 397.04,36.16 389.43,58.99 401.14,61.18 390.02,82.99 399.78,84.93 353.72,150.89
+                359.36,97.19 347.28,95.28 357.01,71.95 343.19,69.52 		"/>
+            </g>
+            <g id="Z_5_" class="animate__animated animate__fadeIn _5">
+              <polygon class="black" points="679.02,599.33 704.92,586.16 742.36,603.01 730.39,639.72 769.02,653.77 743.12,666.06
+                702.29,652.89 715.9,613.38 		"/>
+              <polygon class="blue black-stroke small-stroke" points="675.98,592.75 701.88,579.58 739.31,596.43 727.34,633.14 765.98,647.19 740.08,659.48
+                699.25,646.31 712.86,606.79 		"/>
+            </g>
+            <g id="max-logo" class="animate__animated animate__fadeIn _6">
+              <path class="purple-maximus" d="M39.09,112.77h259.62c2.89,0,5.24,2.34,5.24,5.24v72.72c0,2.89-2.34,5.24-5.24,5.24H39.09
+                c-2.89,0-5.24-2.34-5.24-5.24v-72.72C33.85,115.12,36.2,112.77,39.09,112.77z"/>
+              <rect x="211.87" y="132.28" class="pure-white" width="1.76" height="43.32"/>
+              <path class="pure-white" d="M232.87,153.88c-0.93,0-1.69-0.76-1.69-1.69c0-0.93,0.76-1.69,1.69-1.69c0.93,0,1.69,0.76,1.69,1.69
+                C234.54,153.12,233.79,153.86,232.87,153.88z M234.03,174.97h-2.33v-16.45h2.32L234.03,174.97z"/>
+              <path class="pure-white" d="M236.35,163.65c0-1.45-0.07-2.74-0.14-5.14h2.28v3.06h0.07c0.83-2.17,2.95-3.58,5.27-3.48
+                c0.58-0.01,1.16,0.06,1.72,0.21l-0.46,2.28c-0.43-0.13-0.89-0.19-1.34-0.17c-3.51,0-5.09,3.06-5.09,5.27v9.29h-2.32L236.35,163.65
+                z"/>
+              <path class="pure-white" d="M260.32,169.2l5.56,5.77h-3.56l-3.52-3.64c-2.04,2.67-4.22,4.29-7.59,4.29c-4.15,0-7.8-2.63-7.8-7.1
+                c0-3.64,2.67-5.94,5.66-7.35c-1.45-1.59-2.91-3.55-2.91-5.82c0-3.72,2.71-5.87,6.23-5.87c3.3,0,6.02,1.97,6.02,5.59
+                c0,3.27-2.91,5.14-5.48,6.47l5.7,5.86l3.43-5.91h2.84L260.32,169.2z M250.66,162.74c-3.27,1.83-4.5,3.24-4.5,5.82
+                c0,2.81,2.39,4.74,5.09,4.74c2.7,0,4.36-1.61,5.98-3.64L250.66,162.74z M252.42,151.77c-1.95-0.1-3.62,1.4-3.72,3.35
+                c0,0.09-0.01,0.19,0,0.28c0,1.69,1.8,3.76,2.6,4.47c1.9-1.09,4.57-2.28,4.57-4.85c-0.01-1.8-1.47-3.26-3.27-3.26
+                C252.53,151.76,252.47,151.76,252.42,151.77L252.42,151.77z"/>
+              <path class="pure-white" d="M281.89,174.97h-2.32v-2.74h-0.07c-1.5,2.02-3.88,3.19-6.4,3.16c-5.14,0-8.73-3.7-8.73-8.65
+                s3.64-8.65,8.73-8.65c2.52-0.03,4.9,1.15,6.4,3.16h0.07v-12.85h2.32V174.97z M273.1,173.28c3.62,0,6.55-2.93,6.55-6.55
+                c0-3.62-2.93-6.55-6.55-6.55c-3.83,0-6.23,2.84-6.23,6.55c0,3.7,2.41,6.55,6.24,6.55H273.1z"/>
+              <path class="pure-white" d="M86.61,164.34l-12.38-29.02c-0.5-0.91-0.81-1.92-0.92-2.96v-0.07H61.79v0.2c3.03,1.64,2.31,4.28,2.04,6.12
+                l-3.75,27.57c-0.53,3.55-0.92,6.77-3.68,9.21v0.2h10.72v-0.2c-3.1-1.37-2.63-4.28-2.11-8.28l3.75-28.31l12.51,29.68
+                c1.58,3.7,2.5,5.47,5.82,8l14.71-37.74l3.75,31.73c0,2.24-0.39,4.21-2.7,4.93v0.2h12.71v-0.2c-2.63-1.84-2.97-3.64-3.36-6.71
+                l-4.36-32.32c0-1.51,0.47-3.42,2.04-3.88v-0.2H98.53v0.07c-0.08,1.41-0.42,2.79-1,4.07L86.61,164.34L86.61,164.34z"/>
+              <path class="pure-white" d="M141.61,159.32l3.54,9.3c1.77,4.61,2.31,5.34-0.92,6.78v0.2h13.49v-0.2c-3.75-1.91-4.94-5.59-6.45-9.35
+                l-13.67-33.77h-10.4v0.2c3.16,0.98,1.91,3.75,0.99,6.12l-11,27.44c-1.45,3.75-2.56,7.45-6.39,9.35v0.2h12.11v-0.2
+                c-3.16-1.19-2.7-3.09-1.32-6.78l3.43-9.3H141.61z M139.7,154.45h-12.97l6.55-16.59l6.45,16.59L139.7,154.45z"/>
+              <path class="pure-white" d="M171.6,156.77l11,16.52c0.92,1.46,2.54,2.34,4.27,2.31h7.57c-3.75-1.39-5.82-5-7.9-8.16l-10.53-15.67
+                l14.95-19.49H178.9v0.2c4.48,0.53,2.24,4.08,0.6,6.32l-6.55,8.82l-9.51-13.75c-0.65-1.05-1.25-1.59-3.3-1.59h-7.64
+                c2.76,1.26,4.61,3.88,6.31,6.39l9.55,13.82l-18.24,22.91v0.2h12.77v-0.2c-4.02-1.58-2.04-4.4-0.46-6.55l9.15-12.12V156.77z"/>
+            </g>
+          </g>
+        </svg>
+        <h1 class="title is-1 has-text-grey-dark is-highlighted white-highlight is-align-self-flex-start animate__animated animate__fadeInDown _2">
+          maximus</h1>
       </div>
     </section>
   </b-carousel-item>
