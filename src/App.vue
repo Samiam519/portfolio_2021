@@ -3,7 +3,7 @@
     <Intro v-if="showIntro" @hide="hideIntro" :soundOn="soundOn"/>
     <div v-show="!showIntro" class="animate__animated animate__fadeIn animate__slow">
       <Carousel @prev="prev" @next="next" :soundOn="soundOn"/>
-      <Navigation @change="changeSlide"/>
+      <Navigation @change="changeSlide" :current-index="carouselIndex"/>
       <Changer />
       <div id="volume-wrapper">
         <b-button
