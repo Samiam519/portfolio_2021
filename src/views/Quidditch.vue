@@ -165,7 +165,7 @@
                 <tspan x="-0.01" y="210" class="abside black svg-text-18">tournaments for the team.</tspan></text>
               <a xlink:href="https://viiapparel.co/" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 535.6099 349.9364)" class="abside black svg-text-18">Savage Apparel</text></a>
           </g>
-            <g id="zigzag_4_" class="animate__animated animate__fadeIn _5">
+            <g id="zigzag_4_" class="animate__animated animate__fadeIn _5 ">
             <polygon class="black" points="500.11,667.84 517.68,678.82 510.65,650.72 538.75,643.8 530.85,615.16 559.6,607.91 552.14,580.04
 			580.02,573.89 561.8,562.69 534.58,569.5 541.82,598.04 513.29,605.28 522.12,633.68 492.65,640.84 		"/>
               <g>
@@ -1189,13 +1189,13 @@
             </g>
           </g>
 
-            <g id="Z_3_" class="animate__animated animate__fadeIn _5">
+            <g id="Z_3_" class="animate__animated animate__fadeIn _5 ">
             <polygon class="black" points="338.79,176.35 364.7,163.18 402.13,180.03 390.16,216.74 428.79,230.79 402.89,243.08 362.06,229.91
 			375.67,190.39 		"/>
               <polygon class="red black-stroke small-stroke" points="331.75,167.76 357.65,154.59 395.08,171.44 383.11,208.15 421.75,222.2 395.85,234.49
 			355.02,221.32 368.63,181.81 		"/>
           </g>
-            <g id="circles2_8_" class="animate__animated animate__fadeIn _5">
+            <g id="circles2_8_" class="animate__animated animate__fadeIn _5 ">
             <g>
               <circle class="red black-stroke small-stroke" cx="596.2" cy="596.43" r="6.59"/>
               <circle class="red black-stroke small-stroke" cx="615" cy="596.43" r="6.59"/>
@@ -1234,11 +1234,11 @@
                 <circle class="red black-stroke small-stroke" cx="739.03" cy="566.14" r="6.59"/>
             </g>
           </g>
-            <g id="circle_6_" class="animate__animated animate__fadeIn _5">
+            <g id="circle_6_" class="animate__animated animate__fadeIn _5 ">
             <circle class="black" cx="141.74" cy="388.74" r="30.62"/>
               <circle class="red black-stroke small-stroke" cx="137.25" cy="382.47" r="30.62"/>
           </g>
-            <g id="thunderbolt_1_" class="animate__animated animate__fadeIn _5">
+            <g id="thunderbolt_1_" class="animate__animated animate__fadeIn _5 ">
             <polygon class="black" points="724.33,99.84 762.37,104.52 754.76,127.35 766.47,129.55 755.35,151.35 765.12,153.29 719.06,219.25
 			724.69,165.55 712.62,163.65 722.34,140.31 708.52,137.89 		"/>
               <polygon class="blue black-stroke small-stroke" points="718.84,95.89 756.89,100.57 749.28,123.4 760.98,125.6 749.86,147.4 759.63,149.34 713.57,215.3

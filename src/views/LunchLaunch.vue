@@ -88,13 +88,13 @@
                 <tspan x="-51.54" y="345.6"
                        class="abside black svg-text-18">it. If you knew me that summer, I’m sorry.</tspan></text>
             </g>
-            <g id="Z_1_" class="animate__animated animate__fadeIn _4">
+            <g id="Z_1_" class="animate__animated animate__fadeIn _4 ">
               <polygon class="black" points="45.05,603.97 70.95,590.79 108.39,607.65 96.42,644.36 135.05,658.4 109.15,670.7 68.32,657.53
                 81.93,618.01 		"/>
               <polygon class="blue black-stroke small-stroke" points="38.01,595.38 63.91,582.21 101.34,599.06 89.37,635.77 128.01,649.82 102.11,662.11 61.28,648.94
                 74.89,609.43 		"/>
             </g>
-            <g id="zigzag_1_" class="animate__animated animate__fadeIn _4">
+            <g id="zigzag_1_" class="animate__animated animate__fadeIn _4 ">
               <polygon class="black" points="514.25,165.86 532.17,155.49 504.06,148.53 511.11,120.47 482.1,114.03 489.18,85.23 461.05,78.76
                 468.68,51.25 450.25,62.1 443.51,89.34 472.12,96.31 465.15,124.91 494.38,130.41 486.9,159.8 		"/>
               <polygon class="blue black-stroke small-stroke" points="506.39,157.38 524.32,147 496.2,140.05 503.26,111.98 474.25,105.54 481.32,76.74 453.2,70.28
@@ -136,7 +136,7 @@
                      transform="matrix(0.2802 0 0 0.2802 592.0801 494.9485)">
               </image>
             </g>
-            <g id="circles2_2_" class="animate__animated animate__fadeIn _4">
+            <g id="circles2_2_" class="animate__animated animate__fadeIn _4 ">
               <g>
                 <circle class="yellow black-stroke small-stroke" cx="418.8" cy="126.36" r="6.59"/>
                 <circle class="yellow black-stroke small-stroke" cx="399.99" cy="126.36" r="6.59"/>
@@ -175,7 +175,7 @@
                 <circle class="yellow black-stroke small-stroke" cx="275.96" cy="96.07" r="6.59"/>
               </g>
             </g>
-            <g id="triangle_1_" class="animate__animated animate__fadeIn _4">
+            <g id="triangle_1_" class="animate__animated animate__fadeIn _4 ">
               <polygon class="black" points="326.8,675.44 278.5,577.46 228.18,635.9 		"/>
               <g>
                 <polygon class="yellow" points="227.63,621.57 276.05,565.34 322.53,659.62 			"/>
@@ -186,7 +186,7 @@
             <image style="overflow:visible;" width="168" height="299" xlink:href="../assets/lunch-launch-mockup.png"
                    transform="matrix(0.7949 0 0 0.7949 25.878 66.1024)" class="animate__animated animate__fadeIn _5">
             </image>
-            <g id="circles1_1_" class="animate__animated animate__fadeIn _4">
+            <g id="circles1_1_" class="animate__animated animate__fadeIn _4 ">
               <g>
                 <circle class="blue black-stroke small-stroke" cx="759.89" cy="458.53" r="6.59"/>
                 <circle class="blue black-stroke small-stroke" cx="759.89" cy="477.34" r="6.59"/>

@@ -111,11 +111,11 @@
                 <tspan x="64.72" y="294" class="abside black svg-text-18">was based off</tspan>
                 <tspan x="64.87" y="315" class="abside black svg-text-18 yellow2">	</tspan>
                 <tspan x="81.82" y="315" class="abside black svg-text-18 yellow3">		</tspan>
-                <tspan x="153.82" y="315" class="abside black svg-text-18">   and its </tspan>
+                <tspan x="175.82" y="315" class="abside black svg-text-18">and its </tspan>
                 <tspan x="65.01" y="336" class="abside black svg-text-18">community fork</tspan>
                 <tspan x="65.15" y="357" class="abside black svg-text-18 yellow2">	</tspan>
                 <tspan x="81.82" y="357" class="abside black svg-text-18 yellow3">		</tspan>
-                <tspan x="153.82" y="357" class="abside black svg-text-18">   . I chose </tspan>
+                <tspan x="170.82" y="357" class="abside black svg-text-18">. I chose </tspan>
                 <tspan x="65.29" y="378" class="abside black svg-text-18">this library because it’s </tspan>
                 <tspan x="65.43" y="399" class="abside black svg-text-18">popular, </tspan>
                 <tspan x="65.58" y="420" class="abside black svg-text-18">well-maintained, </tspan>
@@ -123,8 +123,8 @@
                 <tspan x="65.86" y="462" class="abside black svg-text-18">and has wrapper </tspan>
                 <tspan x="66" y="483" class="abside black svg-text-18">libraries available for </tspan>
                 <tspan x="66.14" y="504" class="abside black svg-text-18">most js frameworks. </tspan></text>
-              <text transform="matrix(1 0 0 1 478.8704 419.2668)" class="abside black svg-text-18">Semantic UI</text>
-              <text transform="matrix(1 0 0 1 480.665 461.166)" class="abside black svg-text-18">Fomantic UI</text>
+              <a xlink:href="https://semantic-ui.com/" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 480 420)" class="abside black svg-text-18">Semantic UI</text></a>
+              <a xlink:href="https://fomantic-ui.com" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 480.665 461.166)" class="abside black svg-text-18">Fomantic UI</text></a>
             </g>
             <g id="max-text-yellow" class="animate__animated animate__fadeIn _4">
               <rect x="18.72" y="370.5" class="black" width="448.62" height="306.44"/>
@@ -194,7 +194,7 @@
                       d="M295.66,273.27v52.53H80.72v-52.53H295.66 M297.66,271.27H78.72v56.53h218.94V271.27L297.66,271.27z"/>
               </g>
             </g>
-            <g id="circles1_3_" class="animate__animated animate__fadeIn _5">
+            <g id="circles1_3_" class="animate__animated animate__fadeIn _5 ">
               <g>
                 <circle class="yellow black-stroke small-stroke" cx="778.35" cy="506.47" r="8.16"/>
                 <circle class="yellow black-stroke small-stroke" cx="778.35" cy="483.17" r="8.16"/>
@@ -222,19 +222,19 @@
                 <circle class="yellow black-stroke small-stroke" cx="753.37" cy="286.74" r="8.16"/>
               </g>
             </g>
-            <g id="zigzag_5_" class="animate__animated animate__fadeIn _5">
+            <g id="zigzag_5_" class="animate__animated animate__fadeIn _5 ">
               <polygon class="black" points="31.05,335.84 48.61,346.82 41.58,318.72 69.68,311.8 61.78,283.16 90.53,275.91 83.07,248.04
                 110.95,241.89 92.73,230.69 65.51,237.5 72.75,266.04 44.22,273.28 53.05,301.68 23.58,308.84 		"/>
               <polygon class="red black-stroke small-stroke" points="25.56,328.73 43.12,339.71 36.09,311.61 64.19,304.69 56.29,276.05 85.04,268.8 77.58,240.93
                 105.46,234.78 87.24,223.58 60.02,230.39 67.26,258.93 38.73,266.17 47.57,294.57 18.09,301.73 		"/>
             </g>
-            <g id="thunderbolt_3_" class="animate__animated animate__fadeIn _5">
+            <g id="thunderbolt_3_" class="animate__animated animate__fadeIn _5 ">
               <polygon class="black" points="364.48,35.43 402.53,40.11 394.92,62.94 406.63,65.13 395.5,86.94 405.27,88.88 359.21,154.84
                 364.85,101.14 352.77,99.23 362.49,75.9 348.67,73.48 		"/>
               <polygon class="yellow black-stroke small-stroke" points="358.99,31.48 397.04,36.16 389.43,58.99 401.14,61.18 390.02,82.99 399.78,84.93 353.72,150.89
                 359.36,97.19 347.28,95.28 357.01,71.95 343.19,69.52 		"/>
             </g>
-            <g id="Z_5_" class="animate__animated animate__fadeIn _5">
+            <g id="Z_5_" class="animate__animated animate__fadeIn _5 ">
               <polygon class="black" points="679.02,599.33 704.92,586.16 742.36,603.01 730.39,639.72 769.02,653.77 743.12,666.06
                 702.29,652.89 715.9,613.38 		"/>
               <polygon class="blue black-stroke small-stroke" points="675.98,592.75 701.88,579.58 739.31,596.43 727.34,633.14 765.98,647.19 740.08,659.48

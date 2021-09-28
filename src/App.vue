@@ -46,6 +46,7 @@ export default {
   mounted() {
     // if starting on a page other than home, send them to that path
     if(this.$route.path.length > 1){
+      console.log(this.$router.options.routes.findIndex(x => x.path === this.$route.path))
       this.changeSlide(this.$router.options.routes.findIndex(x => x.path === this.$route.path)+1)
     }
     // add listeners for keyboard

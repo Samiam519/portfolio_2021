@@ -18,11 +18,11 @@
       </audio>
     </div>
     <b-carousel
-        @change="slideChanged"
+        @change="playSound"
         :autoplay="false"
         :indicator="false"
         icon-size="is-large">
-        <router-view/>
+      <router-view/>
     </b-carousel>
   </div>
 </template>
@@ -51,10 +51,6 @@ export default {
     }, false);
   },
   methods: {
-    slideChanged(){
-      this.addHoverListener();
-      this.playSound()
-    },
     playSound() {
       // take sound setting as prop bc it gets passed properly now
       if (this.soundOn) {
@@ -63,15 +59,6 @@ export default {
         let randomClickSound = allSounds[Math.floor(Math.random() * allSounds.length)];
         randomClickSound.play();
       }
-    },
-    // TODO fix this
-    addHoverListener(){
-      document.querySelector('.wiggle').addEventListener('mouseover', (e)=>{
-        e.classList.add('animate__animated animate__headShake animate__infinite')
-      })
-      document.querySelector('.wiggle').addEventListener('mouseout', (e)=>{
-        e.classList.remove('animate__headShake')
-      })
     }
   }
 }

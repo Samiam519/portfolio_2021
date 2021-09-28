@@ -8,28 +8,28 @@
           <g id="about">
             <g id="grid_3_" class="animate__animated animate__fadeIn _2 animate__slower">
               <g>
-                <line class="yellow-stroke" x1="141.28" y1="598.33" x2="818.23" y2="659.37"/>
-                <line class="yellow-stroke" x1="147.76" y1="526.41" x2="824.72" y2="587.45"/>
-                <line class="yellow-stroke" x1="154.25" y1="454.49" x2="831.2" y2="515.53"/>
-                <line class="yellow-stroke" x1="160.73" y1="382.58" x2="837.69" y2="443.62"/>
-                <line class="yellow-stroke" x1="167.22" y1="310.66" x2="844.17" y2="371.7"/>
-                <line class="yellow-stroke" x1="173.7" y1="238.74" x2="850.65" y2="299.78"/>
+                <line class="red-stroke" x1="141.28" y1="598.33" x2="818.23" y2="659.37"/>
+                <line class="red-stroke" x1="147.76" y1="526.41" x2="824.72" y2="587.45"/>
+                <line class="red-stroke" x1="154.25" y1="454.49" x2="831.2" y2="515.53"/>
+                <line class="red-stroke" x1="160.73" y1="382.58" x2="837.69" y2="443.62"/>
+                <line class="red-stroke" x1="167.22" y1="310.66" x2="844.17" y2="371.7"/>
+                <line class="red-stroke" x1="173.7" y1="238.74" x2="850.65" y2="299.78"/>
               </g>
               <g>
-                <line class="yellow-stroke" x1="228.4" y1="192.33" x2="187.73" y2="643.38"/>
-                <line class="yellow-stroke" x1="300.32" y1="198.82" x2="259.65" y2="649.87"/>
-                <line class="yellow-stroke" x1="372.24" y1="205.3" x2="331.57" y2="656.35"/>
-                <line class="yellow-stroke" x1="444.15" y1="211.79" x2="403.48" y2="662.84"/>
-                <line class="yellow-stroke" x1="516.07" y1="218.27" x2="475.4" y2="669.32"/>
+                <line class="red-stroke" x1="228.4" y1="192.33" x2="187.73" y2="643.38"/>
+                <line class="red-stroke" x1="300.32" y1="198.82" x2="259.65" y2="649.87"/>
+                <line class="red-stroke" x1="372.24" y1="205.3" x2="331.57" y2="656.35"/>
+                <line class="red-stroke" x1="444.15" y1="211.79" x2="403.48" y2="662.84"/>
+                <line class="red-stroke" x1="516.07" y1="218.27" x2="475.4" y2="669.32"/>
                 <g>
-                  <line class="yellow-stroke" x1="590.6" y1="224.99" x2="549.93" y2="676.04"/>
-                  <line class="yellow-stroke" x1="662.52" y1="231.48" x2="621.85" y2="682.52"/>
-                  <line class="yellow-stroke" x1="734.43" y1="237.96" x2="693.76" y2="689.01"/>
-                  <line class="yellow-stroke" x1="806.35" y1="244.45" x2="765.68" y2="695.49"/>
+                  <line class="red-stroke" x1="590.6" y1="224.99" x2="549.93" y2="676.04"/>
+                  <line class="red-stroke" x1="662.52" y1="231.48" x2="621.85" y2="682.52"/>
+                  <line class="red-stroke" x1="734.43" y1="237.96" x2="693.76" y2="689.01"/>
+                  <line class="red-stroke" x1="806.35" y1="244.45" x2="765.68" y2="695.49"/>
                 </g>
               </g>
             </g>
-            <g id="triangle_4_" class="animate__animated animate__fadeInUp _3">
+            <g id="triangle_4_" class="animate__animated animate__fadeInUp _3 ">
               <polygon class="black" points="258.82,39.03 235.11,119.77 289.11,114.5 		"/>
               <polygon class="red black-stroke small-stroke" points="249.6,32.44 225.89,113.18 279.89,107.92 		"/>
             </g>
@@ -107,7 +107,7 @@
                 <tspan x="0" y="248.89" class="abside svg-text-18">jobs designing logos, websites, </tspan>
                 <tspan x="0" y="271.52" class="abside svg-text-18">and app mockups.</tspan></text>
             </g>
-            <g id="avi" class="animate__animated animate__fadeInUp _3">
+            <g id="avi" class="animate__animated animate__fadeInUp _3 ">
               <polygon class="white" points="29.29,641.75 30.12,639.34 41.95,648.12 30.82,648.03 		"/>
               <path class="white" d="M144.42,648.04h42.56l-1.15-24.77l-17.62-26.24c0,0-4.53-5.08-13.35-6.24c-8.83-1.16-7.55-6.75-7.55-6.75
                 s1.67-4.11,1.21-3.29s-0.5,0.93-2.63,2.52c-2.14,1.59-2.84,8.74-2.84,8.74L144.42,648.04z"/>
@@ -271,7 +271,7 @@
               <path class="red-brown" d="M133.57,534.15c-4.8,0.89-9.32,0.67-14.04-0.48c1.84-1.6,3.67-2.19,5.76-1.1c0.88,0.46,1.65,0.34,2.55,0.09
                 C129.88,532.11,131.77,532.45,133.57,534.15z"/>
             </g>
-            <g id="logo"  class="animate__animated animate__fadeInDown _3">
+            <g id="logo"  class="animate__animated animate__fadeInDown _3 ">
               <path class="black" d="M426.18,28.51c0-12.19-9.2-21.04-21.88-21.04c-10.17,0-18.07,5.87-20.65,14.64
                 c-4.93,2.38-8.59,6.51-10.33,11.68c-4.58,2.29-8.06,6.14-9.87,10.93c-0.64,0.4-1.26,0.83-1.85,1.29
                 c-3.51-0.58-7.48-0.84-12.37-0.84c-15.06,0-28.69,8.05-34.9,20.33c-4.27,3.16-7.71,7.09-10.13,11.56

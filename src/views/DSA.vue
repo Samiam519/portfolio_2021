@@ -76,17 +76,17 @@
       <tspan x="0" y="432" class="abside svg-text-18">my long sleeve skate tee design.</tspan></text>
     <a xlink:href="https://denverdsa.org" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 508.2216 294.9165)" class="abside svg-text-18">DenverDSA.org</text></a>
 	</g>
-  <g id="circle_4_" class="animate__animated animate__fadeIn _5">
+  <g id="circle_4_" class="animate__animated animate__fadeIn _5 ">
 		<circle class="black" cx="521.54" cy="604.69" r="46.3"/>
     <circle class="blue black-stroke small-stroke" cx="514.75" cy="595.21" r="46.3"/>
 	</g>
-  <g id="Z_4_" class="animate__animated animate__fadeIn _5">
+  <g id="Z_4_" class="animate__animated animate__fadeIn _5 ">
 		<polygon class="black" points="709.4,383.33 735.3,370.16 772.73,387.01 760.76,423.72 799.4,437.77 773.5,450.06 732.67,436.89
 			746.28,397.38 		"/>
     <polygon class="yellow black-stroke" points="706.35,376.75 732.26,363.58 769.69,380.43 757.72,417.14 796.35,431.19 770.45,443.48
 			729.62,430.31 743.23,390.8 		"/>
 	</g>
-  <g id="circles2_3_" class="animate__animated animate__fadeIn _5">
+  <g id="circles2_3_" class="animate__animated animate__fadeIn _5 ">
 		<g>
 			<circle class="yellow black-stroke small-stroke" cx="413.59" cy="605.16" r="6.59"/>
       <circle class="yellow black-stroke small-stroke" cx="394.79" cy="605.16" r="6.59"/>

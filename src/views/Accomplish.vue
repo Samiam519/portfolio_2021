@@ -131,7 +131,7 @@
                 <tspan x="0" y="273" class="blue1 abside black svg-text-18">organization principles, but I like returning to this project </tspan>
                 <tspan x="0" y="294" class="blue1 abside black svg-text-18">every now and then to see what I would do differently today.</tspan></text>
             </g>
-            <g id="circles2_4_" class="animate__animated animate__fadeIn _5">
+            <g id="circles2_4_" class="animate__animated animate__fadeIn _5 ">
               <g>
                 <circle class="yellow black-stroke small-stroke" cx="95.5" cy="133.21" r="6.59"/>
                 <circle class="yellow black-stroke small-stroke" cx="114.31" cy="133.21" r="6.59"/>
@@ -170,7 +170,7 @@
                 <circle class="yellow black-stroke small-stroke" cx="238.34" cy="102.92" r="6.59"/>
               </g>
             </g>
-            <g id="zigzag_3_" class="animate__animated animate__fadeIn _5">
+            <g id="zigzag_3_" class="animate__animated animate__fadeIn _5 ">
               <polygon class="black" points="121.84,664.28 137.85,677.41 134.48,648.65 163.23,645.38 159.06,615.96 188.51,612.46
                 184.67,583.85 213.11,581.33 196.47,567.89 168.6,571.16 172.14,600.38 142.91,603.92 148.04,633.21 117.89,636.55 		"/>
               <polygon class="yellow black-stroke small-stroke" points="117.07,654.35 133.09,667.48 129.71,638.72 158.47,635.45 154.29,606.03 183.74,602.53
@@ -190,7 +190,7 @@
                      transform="matrix(1 0 0 1 636.5181 345.0409)" class="animate__animated animate__fadeIn _6">
               </image>
             </g>
-            <g id="triangle_2_" class="animate__animated animate__fadeIn _5">
+            <g id="triangle_2_" class="animate__animated animate__fadeIn _5 ">
               <polygon class="black" points="627.07,683.6 548.87,573.61 501.92,646.87 		"/>
               <polygon class="yellow black-stroke small-stroke" points="610.69,670.17 532.49,560.18 485.54,633.44 		"/>
             </g>

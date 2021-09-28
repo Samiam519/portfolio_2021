@@ -17,7 +17,7 @@
               <line class="blue-stroke" x1="772.85" y1="308.73" x2="399.24" y2="233.7"/>
               <line class="blue-stroke" x1="760.89" y1="368.3" x2="387.27" y2="293.27"/>
             </g>
-            <g id="triangle-lines" class="animate__animated animate__fadeInTopLeft _4 animate__fast">
+            <g id="triangle-lines" class="animate__animated animate__fadeInTopLeft _4  animate__fast">
               <path class="yellow" d="M746.6,620.29l8.92-6.72L784,592.07l-.93-10.1q-23,17.32-45.92,34.67Z"/>
               <path class="yellow" d="M726.4,612.5l4.33-3.27L782,570.57l-1-11.09-64.92,49Z"/>
               <path class="yellow"
@@ -75,27 +75,27 @@
               <path class="blue"
                     d="M631.61,351.23l25.16-5.6-.34-1-25.53,4.45-25.51,4.54-51,9.06-51,9.2-50.91,9.36c-17,3.13-34,6.07-51,9.08s-33.91,6.34-50.7,10-33.53,7.49-50.19,11.56S267.37,420.19,251,425l.34,1q10.59-1.16,21.11-2.55-11.09,2.81-22.13,5.74c34.49-4.57,68.64-10.17,102.69-16.07s67.94-12.3,101.74-19,67.46-13.74,101-21.2,67-15.3,100-24.14q-18.91,2.49-37.7,5.38Z"/>
             </g>
-            <g id="circle" class="animate__animated animate__fadeIn _4 animate__fast wiggle">
+            <g id="circle" class="animate__animated animate__fadeIn _4  animate__fast ">
               <circle class="dark-grey" cx="592.7" cy="483" r="30.62"/>
               <circle class="red dark-grey-stroke" cx="588.21" cy="476.73" r="30.62"/>
             </g>
-            <g id="triangle" class="animate__animated animate__fadeIn _4 animate__fast wiggle">
+            <g id="triangle" class="animate__animated animate__fadeIn _4  animate__fast ">
               <polygon class="dark-grey" points="447.28 57.83 423.58 138.57 477.58 133.3 447.28 57.83"/>
               <polygon class="red dark-grey-stroke" points="438.06 51.24 414.36 131.98 468.36 126.71 438.06 51.24"/>
             </g>
-            <g id="thunderbolt" class="animate__animated animate__fadeIn _4 animate__fast wiggle">
+            <g id="thunderbolt" class="animate__animated animate__fadeIn _4  animate__fast ">
               <polygon class="dark-grey"
                        points="149.79 492.87 187.84 497.56 180.23 520.39 191.94 522.58 180.81 544.39 190.58 546.33 144.52 612.29 150.16 558.59 138.08 556.68 147.81 533.35 133.99 530.92 149.79 492.87"/>
               <polygon class="yellow dark-grey-stroke"
                        points="144.3 488.92 182.35 493.61 174.74 516.43 186.45 518.63 175.33 540.43 185.09 542.38 139.03 608.34 144.67 554.63 132.6 552.73 142.32 529.39 128.5 526.97 144.3 488.92"/>
             </g>
-            <g id="Z" class="animate__animated animate__fadeIn _4 animate__fast wiggle">
+            <g id="Z" class="animate__animated animate__fadeIn _4  animate__fast ">
               <polygon class="dark-grey"
                        points="43.65 175.01 69.55 161.84 106.99 178.69 95.02 215.4 133.65 229.45 107.75 241.74 66.92 228.57 80.53 189.06 43.65 175.01"/>
               <polygon class="blue dark-grey-stroke"
                        points="40.61 168.42 66.51 155.25 103.94 172.1 91.97 208.81 130.61 222.86 104.7 235.15 63.88 221.98 77.48 182.47 40.61 168.42"/>
             </g>
-            <g id="zigzag" class="animate__animated animate__fadeIn _4 animate__fast wiggle">
+            <g id="zigzag" class="animate__animated animate__fadeIn _4  animate__fast ">
               <polygon class="dark-grey"
                        points="704.03 328.93 721.59 339.91 714.57 311.81 742.67 304.9 734.76 276.25 763.52 269.01 756.06 241.13 783.94 234.98 765.72 223.79 738.5 230.59 745.74 259.13 717.2 266.37 726.04 294.77 696.57 301.93 704.03 328.93"/>
               <polygon class="blue dark-grey-stroke"
