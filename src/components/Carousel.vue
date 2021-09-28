@@ -64,6 +64,7 @@ export default {
         randomClickSound.play();
       }
     },
+    // TODO fix this
     addHoverListener(){
       document.querySelector('.wiggle').addEventListener('mouseover', (e)=>{
         e.classList.add('animate__animated animate__headShake animate__infinite')

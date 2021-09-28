@@ -864,6 +864,12 @@ Standardized colors
     stroke-width: 2px;
 }
 
+.red-stroke {
+    stroke: #E491C5;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
 .small-stroke {
     stroke-width: 2px;
 }
