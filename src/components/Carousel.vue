@@ -52,8 +52,7 @@ export default {
   },
   methods: {
     slideChanged(){
-      // add leaving classes to current slide
-
+      this.addHoverListener();
       this.playSound()
     },
     playSound() {
@@ -64,6 +63,14 @@ export default {
         let randomClickSound = allSounds[Math.floor(Math.random() * allSounds.length)];
         randomClickSound.play();
       }
+    },
+    addHoverListener(){
+      document.querySelector('.wiggle').addEventListener('mouseover', (e)=>{
+        e.classList.add('animate__animated animate__headShake animate__infinite')
+      })
+      document.querySelector('.wiggle').addEventListener('mouseout', (e)=>{
+        e.classList.remove('animate__headShake')
+      })
     }
   }
 }

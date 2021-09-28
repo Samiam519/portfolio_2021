@@ -1409,7 +1409,7 @@
     </g>
           </g>
         </svg>
-        <h1 class="title is-1 has-text-grey-dark is-highlighted red-highlight is-align-self-flex-start">about me</h1>
+        <h1 class="title is-1 has-text-grey-dark is-highlighted red-highlight is-align-self-flex-start animate__animated animate__fadeInDown _2">about me</h1>
       </div>
     </section>
   </b-carousel-item>
