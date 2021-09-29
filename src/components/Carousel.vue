@@ -21,6 +21,7 @@
         @change="playSound"
         :autoplay="false"
         :indicator="false"
+        :arrow="!disabled"
         icon-size="is-large">
       <router-view/>
     </b-carousel>
@@ -32,7 +33,8 @@
 export default {
   name: "Carousel",
   props: {
-    soundOn: Boolean
+    soundOn: Boolean,
+    disabled: Boolean
   },
   mounted() {
     // bc router is controlling the carousel, need to emit when carousel arrows are used for App.vue to handle

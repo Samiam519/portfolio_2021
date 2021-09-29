@@ -2,9 +2,9 @@
   <div id="app">
     <Intro v-if="showIntro" @hide="hideIntro" :soundOn="soundOn"/>
     <div v-show="!showIntro" class="animate__animated animate__fadeIn animate__slow">
-      <Carousel @prev="prev" @next="next" :soundOn="soundOn"/>
+      <Carousel @prev="prev" @next="next" :soundOn="soundOn" :disabled="carouselIndex === 8"/>
       <Navigation @change="changeSlide" :current-index="carouselIndex"/>
-      <Changer />
+      <Changer :disabled="carouselIndex === 8"/>
       <div id="volume-wrapper">
         <b-button
             class="is-dark has-white-stroke is-large"
@@ -44,7 +44,7 @@ export default {
     this.soundOn = localStorage.sound === 'true';
     // if starting on a page other than home, send them to that path
     if(window.location.pathname.length > 1){
-      this.changeSlide(this.$router.options.routes.findIndex(x => x.path === window.location.pathname)+1)
+      this.changeSlide(this.$router.options.routes.findIndex(x => x.path === window.location.pathname)-1)
     }
   },
   mounted() {
@@ -93,7 +93,7 @@ export default {
       if (this.carouselIndex === 0) {
         this.changeSlide(7)
       } else {
-        this.changeSlide(this.carouselIndex - 1)
+        this.changeSlide(this.carouselIndex - 2)
       }
     },
     next() {
@@ -101,7 +101,7 @@ export default {
       if (this.carouselIndex === 7) {
         this.changeSlide( 0)
       } else {
-        this.changeSlide(this.carouselIndex + 1)
+        this.changeSlide(this.carouselIndex + 2)
       }
     }
   }

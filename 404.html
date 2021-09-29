@@ -18,28 +18,35 @@
     <meta name="twitter:site" content="@_sam_antics"/>
     <meta name="twitter:title" content="Sam Jimenez"/>
     <meta name="twitter:description" content="UI Designer & Frontend Engineer"/>
-    <meta property="og:title" content="Sam Jimenez: UI Designer & Frontend Engineer" />
+    <meta property="og:title" content="Sam Jimenez: UI Designer & Frontend Engineer"/>
     <title>Sam Jimenez: UI Designer & Frontend Engineer</title>
     <meta property="og:description" content="UI Designer & Frontend Engineer"/>
     <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="Sam Jimenez"/>
 
     <style>
-        html, body{
+        html, body {
             background-color: #30332a;
         }
-        * {margin:0; padding: 0; color:red;}
+
+        * {
+            margin: 0;
+            padding: 0;
+            color: red;
+        }
+
         #wrapper {
             background-color: #efe7dc; /*for browsers that dont support gradients*/
             box-shadow: 0 0 45px rgba(242, 239, 235, 0.6);
             border-radius: 50px;
             margin: 4em auto;
             width: 50vw;
-            height:  86vh;
+            height: 86vh;
         }
-        #wrapper > canvas{
+
+        #wrapper > canvas {
             width: 50vw;
-            height:  86vh;
+            height: 86vh;
             border-radius: 50px;
         }
     </style>
@@ -68,7 +75,7 @@
         '#fdf388'
     ];
 
-    let dvd = {
+    let moving = {
         x: 200,
         y: 300,
         xspeed: 10,
@@ -76,13 +83,13 @@
         img: new Image()
     };
 
-    (function main(){
+    (function main() {
         canvas = document.getElementById("canvas");
 
         ctx = canvas.getContext("2d");
-        dvd.img.src = './src/assets/404.png';
+        moving.img.src = './src/assets/404.png';
 
-        canvas.width  = window.innerWidth;
+        canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
 
         pickColor();
@@ -94,13 +101,13 @@
             //Draw the canvas background
             ctx.fillStyle = '#efe7dc';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
-            //Draw DVD Logo and his background
+            //Draw moving Logo and his background
             ctx.fillStyle = logoColor;
-            ctx.fillRect(dvd.x, dvd.y, dvd.img.width*scale, dvd.img.height*scale);
-            ctx.drawImage(dvd.img, dvd.x, dvd.y, dvd.img.width*scale, dvd.img.height*scale);
+            ctx.fillRect(moving.x, moving.y, moving.img.width * scale, moving.img.height * scale);
+            ctx.drawImage(moving.img, moving.x, moving.y, moving.img.width * scale, moving.img.height * scale);
             //Move the logo
-            dvd.x+=dvd.xspeed;
-            dvd.y+=dvd.yspeed;
+            moving.x += moving.xspeed;
+            moving.y += moving.yspeed;
             //Check for collision
             checkHitBox();
             update();
@@ -108,24 +115,24 @@
     }
 
     //Check for border collision
-    function checkHitBox(){
-        if(dvd.x+dvd.img.width*scale >= canvas.width || dvd.x <= 0){
-            dvd.xspeed *= -1;
+    function checkHitBox() {
+        if (moving.x + moving.img.width * scale >= canvas.width || moving.x <= 0) {
+            moving.xspeed *= -1;
             pickColor();
         }
 
-        if(dvd.y+dvd.img.height*scale >= canvas.height || dvd.y <= 0){
-            dvd.yspeed *= -1;
+        if (moving.y + moving.img.height * scale >= canvas.height || moving.y <= 0) {
+            moving.yspeed *= -1;
             pickColor();
         }
     }
 
     //Pick a random color in RGB format
-    function pickColor(){
+    function pickColor() {
         let random = colors[Math.floor(Math.random() * colors.length)];
-        if(logoColor !== random){
+        if (logoColor !== random) {
             logoColor = random
-        }else{
+        } else {
             pickColor()
         }
 

@@ -377,6 +377,10 @@ button:hover::after, button:focus::after {
     max-width: 80%;
 }
 
+.cursor-disabled {
+    cursor: not-allowed !important;
+}
+
 /*-----------------------
 Screen Size Compatibility
 -----------------------*/
