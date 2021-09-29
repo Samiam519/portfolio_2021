@@ -6,7 +6,7 @@
     font-family: "Abside";
     src: url('./fonts/Abside-Round1.eot');
     src: url("./fonts/Abside-Round1.eot#iefix") format("embedded-opentype"),
-    url("./fonts/Abside-ObliqueRound1.ttf") format("truetype");
+    url("./fonts/Abside-Round1.ttf") format("truetype");
     font-weight: bold;
 }
 
