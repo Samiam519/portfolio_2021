@@ -42,10 +42,6 @@ export default {
   created() {
     // load sound setting
     this.soundOn = localStorage.sound === 'true';
-    // if starting on a page other than home, send them to that path
-    if(window.location.pathname.length > 1){
-      this.changeSlide(this.$router.options.routes.findIndex(x => x.path === window.location.pathname)-1)
-    }
   },
   mounted() {
     // add listeners for keyboard

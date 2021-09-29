@@ -50,19 +50,28 @@
               label="Fill out all fields before submitting"
               class="is-pulled-right is-radiusless animate__animated animate__fadeInUp _7"
               :active="formIncomplete"
-              type="is-dark">
+              type="is-dark"
+              id="submit-button"
+              v-show="!loading">
             <b-button
                 class="is-primary"
                 @click="submitForm"
                 :disabled="formIncomplete"
-                :loading="loading"
             >submit
             </b-button>
           </b-tooltip>
+          <b-button
+              v-if="loading"
+              loading
+              class="is-pulled-right is-radiusless is-primary"
+          >submit
+          </b-button>
         </form>
         <div id="buffer"></div>
-        <div class="socials mt-3 columns is-fullwidth is-desktop animate__animated animate__fadeInUp _8 is-flex is-justify-content-center">
-          <div class="column is-flex" v-bind:class="isMobile ? 'is-justify-content-center' : 'is-justify-content-flex-end'">
+        <div
+            class="socials mt-3 columns is-fullwidth is-desktop animate__animated animate__fadeInUp _8 is-flex is-justify-content-center">
+          <div class="column is-flex"
+               v-bind:class="isMobile ? 'is-justify-content-center' : 'is-justify-content-flex-end'">
             <b-button
                 icon-pack="fab"
                 class="is-info has-black-stroke"
@@ -115,7 +124,8 @@
             />
           </div>
         </div>
-        <div class="socials is-hidden-desktop columns is-fullwidth is-desktop animate__animated animate__fadeInUp _9 is-flex is-justify-content-center">
+        <div
+            class="socials is-hidden-desktop columns is-fullwidth is-desktop animate__animated animate__fadeInUp _9 is-flex is-justify-content-center">
           <b-button
               icon-pack="fab"
               class="is-grey has-black-stroke"
@@ -171,13 +181,14 @@ export default {
     formIncomplete() {
       return !this.name || !this.email || !this.message
     },
-    isMobile(){
+    isMobile() {
       return window.innerWidth < 1024
     }
   },
   methods: {
     submitForm() {
       this.loading = true;
+      document.getElementById('submit-button').classList.remove('animate__animated');
       axios.defaults.headers.post['Content-Type'] = 'application/json';
       axios.post('https://formsubmit.co/ajax/b21ebba82ef5d8fd3f9eafde7c869d23', {
         name: this.name,
