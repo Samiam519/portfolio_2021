@@ -5,7 +5,7 @@
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 823 684" style="enable-background:new 0 0 823 684;" xml:space="preserve" class="is-absolute">
 
-          <g id="accomplish">
+          <g id="accomplish-layer">
             <g id="triangle-lines_1_" class="animate__animated animate__fadeInTopRight _2">
               <g>
                 <path class="blue" d="M741.36,189.7c-2.61-2.65-5.23-5.31-7.84-7.95c-8.36-8.46-16.72-16.91-25.08-25.36l-9.89,2.26

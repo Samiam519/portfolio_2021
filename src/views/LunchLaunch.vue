@@ -4,7 +4,7 @@
       <div class="hero-body slide-body has-text-black is-relative">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 823 684" style="enable-background:new 0 0 823 684;" xml:space="preserve" class="is-absolute">
-          <g id="lunchlaunch_1_">
+          <g id="lunch-launch-layer">
             <g id="LL-pink-rect" class="animate__animated animate__fadeInUp _2">
 
                 <rect x="485.64" y="444.36" transform="matrix(-5.476911e-07 1 -1 -5.476911e-07 1159.9644 85.6729)"

@@ -17,24 +17,26 @@
           <input type="text" name="_honey" style="display:none">
           <input type="hidden" name="_subject" value="Portfolio Website Contact Form Submission">
           <fieldset>
-            <b-field label="name" horizontal class="m-0 animate__animated animate__fadeInUp _4">
+            <b-field label="name" id="name-field" horizontal class="m-0 animate__animated animate__fadeInUp _4">
               <b-input
                   required
                   v-model="name"
                   name="name"
                   type="text"
+                  aria-labelledby="name-field"
                   class="is-fullwidth p-1"/>
             </b-field>
-            <b-field label="email" horizontal class="m-0 animate__animated animate__fadeInUp _5">
+            <b-field label="email" id="email-field" horizontal class="m-0 animate__animated animate__fadeInUp _5">
               <b-input
                   required
                   v-model="email"
                   type="email"
                   name="email"
                   class="is-fullwidth p-1"
+                  aria-labelledby="email-field"
                   validation-message="Email address invalid"/>
             </b-field>
-            <b-field label="message" horizontal class="m-0 animate__animated animate__fadeInUp _6">
+            <b-field label="message" id="message-field" horizontal class="m-0 animate__animated animate__fadeInUp _6">
               <b-input
                   required
                   v-model="message"
@@ -42,6 +44,7 @@
                   maxlength="200"
                   rows="1"
                   type="textarea"
+                  aria-labelledby="message-field"
                   class="is-fullwidth p-1"
               />
             </b-field>

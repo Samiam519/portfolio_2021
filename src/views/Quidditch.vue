@@ -4,7 +4,7 @@
       <div class="hero-body slide-body has-text-black is-relative">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 823 684" style="enable-background:new 0 0 823 684;" xml:space="preserve" class="is-absolute">
-          <g id="quidditch">
+          <g id="quidditch-layer">
           <g id="grid_4_" class="animate__animated animate__fadeIn _2 animate__slower">
             <g>
               <line class="no-fill blue-stroke" x1="151.67" y1="123.71" x2="308.6" y2="673.69"/>

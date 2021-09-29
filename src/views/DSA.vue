@@ -4,7 +4,7 @@
       <div class="hero-body slide-body has-text-black is-relative">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 823 684" style="enable-background:new 0 0 823 684;" xml:space="preserve" class="is-absolute">
-<g id="dsa">
+<g id="dsa-layer">
 	<g id="dsa-yellow-rect" class="animate__animated animate__fadeInDown _3">
 		<rect x="330.77" y="28.53" class="black" width="287.78" height="146.8"/>
     <g>

@@ -4,7 +4,7 @@
       <div class="hero-body slide-body has-text-black is-relative">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 823 684" style="enable-background:new 0 0 823 684;" xml:space="preserve" class="is-absolute">
-          <g id="maximus">
+          <g id="maximus-layer">
             <g id="triangle-lines_4_" class="animate__animated animate__fadeInTopLeft _2">
               <g>
                 <path class="yellow" d="M145.85,187.68c-2.45,2.8-4.91,5.6-7.36,8.41c-7.82,8.95-15.63,17.92-23.45,26.88l2.98,9.7

@@ -2,7 +2,9 @@
   <div id="app">
     <Intro v-if="showIntro" @hide="hideIntro" :soundOn="soundOn"/>
     <div v-show="!showIntro" class="animate__animated animate__fadeIn animate__slow">
-      <Carousel @prev="prev" @next="next" :soundOn="soundOn" :disabled="carouselIndex === 8"/>
+      <main>
+        <Carousel @prev="prev" @next="next" :soundOn="soundOn" :disabled="carouselIndex === 8"/>
+      </main>
       <Navigation @change="changeSlide" :current-index="carouselIndex"/>
       <Changer :disabled="carouselIndex === 8"/>
       <div id="volume-wrapper">
@@ -89,7 +91,7 @@ export default {
       if (this.carouselIndex === 0) {
         this.changeSlide(7)
       } else {
-        this.changeSlide(this.carouselIndex - 2)
+        this.changeSlide(this.carouselIndex - 1)
       }
     },
     next() {
@@ -97,7 +99,7 @@ export default {
       if (this.carouselIndex === 7) {
         this.changeSlide( 0)
       } else {
-        this.changeSlide(this.carouselIndex + 2)
+        this.changeSlide(this.carouselIndex + 1)
       }
     }
   }
