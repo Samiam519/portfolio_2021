@@ -5,33 +5,20 @@
 @mixin font-face() {
   @font-face {
     font-family: "Abside";
-    src: url("./fonts/Abside-Round1.otf") format("otf"),
-         url("./fonts/Abside-Round1.eot") format("eot"),
-         url("./fonts/Abside-Round1.svg") format("svg"),
-         url("./fonts/Abside-Round1.woff") format("woff"),
-         url("./fonts/Abside-Round1.woff2") format("woff2");
+    src: url('./fonts/Abside-Round1.eot');
+    src: url("./fonts/Abside-Round1.otf") format("opentype"),
+         url("./fonts/Abside-Round1.eot#iefix") format("embedded-opentype"),
+         url("./fonts/Abside-ObliqueRound1.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
   }
 }
 @mixin font-face() {
   @font-face {
-    font-family: "Abside";
-    src: url("./fonts/Abside-ObliqueRound1.otf") format("otf"),
-         url("./fonts/Abside-ObliqueRound1.eot") format("eot"),
-         url("./fonts/Abside-ObliqueRound1.svg") format("svg"),
-         url("./fonts/Abside-ObliqueRound1.woff") format("woff"),
-         url("./fonts/Abside-ObliqueRound1.woff2") format("woff2");
-    font-weight: bold;
-    font-style: italic;
-  }
-}
-@mixin font-face() {
-  @font-face {
     font-family: "Streamster";
-    src: url("./fonts/Streamster.ttf") format("truetype"),
-         url("./fonts/Streamster.eot") format("eot"),
-         url("./fonts/Streamster.svg") format("svg");
+    src: url('./fonts/Streamster.eot');
+    src: url("./fonts/Streamster.eot#iefix") format("embedded-opentype"),
+         url("./fonts/Streamster.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
   }
