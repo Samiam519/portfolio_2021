@@ -149,18 +149,17 @@ button.has-white-stroke:hover {
 .logo-bottom {
     -o-animation: logo-anim-bottom 1.5s;
     -ms-animation: logo-anim-bottom 1.5s;
-    -webkit-animation: logo-anim-bottom 1.5s;
     -moz-animation: logo-anim-bottom 1.5s;
+    -webkit-animation: logo-anim-bottom 1.5s;
     animation: logo-anim-bottom 1.5s;
 }
 
 .logo-top {
     -o-animation: logo-anim-top 1.5;
     -ms-animation: logo-anim-top 1.5;
-    -webkit-animation: logo-anim-top 1.5;
     -moz-animation: logo-anim-top 1.5s;
-    animation-name: logo-anim-top;
-    animation-duration: 1.5s;
+    -webkit-animation: logo-anim-top 1.5;
+    animation: logo-anim-top 1.5s;
 }
 
 .viewmaster-filler {
@@ -535,183 +534,154 @@ Screen Size Compatibility
     }
 }
 
+
 @-ms-keyframes logo-anim-bottom {
-    from {
-        top: 0;
+    0% {
+        transform: translateY(0)
     }
     26% {
-        top: 0;
+        transform: translateY(0)
     }
     29% {
-        top: 15px;
+        transform: translateY(15px)
     }
     40% {
-        top: 0;
+        transform: translateY(0)
     }
 }
 
 @-o-keyframes logo-anim-bottom {
-    from {
-        top: 0;
+    0% {
+        transform: translateY(0)
     }
     26% {
-        top: 0;
+        transform: translateY(0)
     }
     29% {
-        top: 15px;
+        transform: translateY(15px)
     }
     40% {
-        top: 0;
-    }
-}
-
-@-webkit-keyframes logo-anim-bottom {
-    from {
-        top: 0;
-    }
-    26% {
-        top: 0;
-    }
-    29% {
-        top: 15px;
-    }
-    40% {
-        top: 0;
+        transform: translateY(0)
     }
 }
 
 @-moz-keyframes logo-anim-bottom {
-    from {
-        top: 0;
+    0% {
+        transform: translateY(0)
     }
     26% {
-        top: 0;
+        transform: translateY(0)
     }
     29% {
-        top: 15px;
+        transform: translateY(15px)
     }
     40% {
-        top: 0;
+        transform: translateY(0)
     }
 }
 
-@-ms-keyframes logo-anim-bottom {
-    from {
-        top: 0;
+@-webkit-keyframes logo-anim-bottom {
+    0% {
+        transform: translateY(0)
     }
     26% {
-        top: 0;
+        transform: translateY(0)
     }
     29% {
-        top: 15px;
+        transform: translateY(15px)
     }
     40% {
-        top: 0;
+        transform: translateY(0)
     }
 }
 
 @keyframes logo-anim-bottom {
-    from {
-        top: 0;
+    0% {
+        transform: translateY(0)
     }
     26% {
-        top: 0;
+        transform: translateY(0)
     }
     29% {
-        top: 15px;
+        transform: translateY(15px)
     }
     40% {
-        top: 0;
+        transform: translateY(0)
     }
 }
 
 @-ms-keyframes logo-anim-top {
-    from {
-        top: -55px;
+    0% {
+        transform: translateY(-55px)
     }
     25% {
-        top: -75px;
+        transform: translateY(-75px)
     }
     30% {
-        top: 15px;
+        transform: translateY(15px)
     }
     40% {
-        top: 0;
+        transform: translateY(0)
     }
 }
 
 @-o-keyframes logo-anim-top {
-    from {
-        top: -55px;
+    0% {
+        transform: translateY(-55px)
     }
     25% {
-        top: -75px;
+        transform: translateY(-75px)
     }
     30% {
-        top: 15px;
+        transform: translateY(15px)
     }
     40% {
-        top: 0;
-    }
-}
-
-@-webkit-keyframes logo-anim-top {
-    from {
-        top: -55px;
-    }
-    25% {
-        top: -75px;
-    }
-    30% {
-        top: 15px;
-    }
-    40% {
-        top: 0;
+        transform: translateY(0)
     }
 }
 
 @-moz-keyframes logo-anim-top {
-    from {
-        top: -55px;
+    0% {
+        transform: translateY(-55px)
     }
     25% {
-        top: -75px;
+        transform: translateY(-75px)
     }
     30% {
-        top: 15px;
+        transform: translateY(15px)
     }
     40% {
-        top: 0;
+        transform: translateY(0)
     }
 }
 
-@-ms-keyframes logo-anim-top {
-    from {
-        top: -55px;
+@-webkit-keyframes logo-anim-top {
+    0% {
+        transform: translateY(-55px)
     }
     25% {
-        top: -75px;
+        transform: translateY(-75px)
     }
     30% {
-        top: 15px;
+        transform: translateY(15px)
     }
     40% {
-        top: 0;
+        transform: translateY(0)
     }
 }
 
 @keyframes logo-anim-top {
-    from {
-        top: -55px;
+    0% {
+        transform: translateY(-55px)
     }
     25% {
-        top: -75px;
+        transform: translateY(-75px)
     }
     30% {
-        top: 15px;
+        transform: translateY(15px)
     }
     40% {
-        top: 0;
+        transform: translateY(0)
     }
 }
 
@@ -725,15 +695,6 @@ Screen Size Compatibility
 }
 
 @-o-keyframes animate-fill {
-    from {
-        fill: #F2EFEB;
-    }
-    to {
-        fill: #30332A;
-    }
-}
-
-@-webkit-keyframes animate-fill {
     from {
         fill: #F2EFEB;
     }
@@ -760,6 +721,15 @@ Screen Size Compatibility
     }
 }
 
+@-webkit-keyframes animate-fill {
+    from {
+        fill: #F2EFEB;
+    }
+    to {
+        fill: #30332A;
+    }
+}
+
 @keyframes animate-fill {
     from {
         fill: #F2EFEB;
@@ -773,7 +743,7 @@ Screen Size Compatibility
     0% {
         background-position-x: 0
     }
-    to {
+    100% {
         background-position-x: 65px
     }
 }
@@ -782,7 +752,7 @@ Screen Size Compatibility
     0% {
         background-position-x: 0
     }
-    to {
+    100% {
         background-position-x: 65px
     }
 }
@@ -791,7 +761,7 @@ Screen Size Compatibility
     0% {
         background-position-x: 0
     }
-    to {
+    100% {
         background-position-x: 65px
     }
 }
@@ -800,7 +770,7 @@ Screen Size Compatibility
     0% {
         background-position-x: 0
     }
-    to {
+    100% {
         background-position-x: 65px
     }
 }
@@ -809,7 +779,7 @@ Screen Size Compatibility
     0% {
         background-position-x: 0
     }
-    to {
+    100% {
         background-position-x: 65px
     }
 }
