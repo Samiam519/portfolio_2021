@@ -420,7 +420,9 @@ Screen Size Compatibility
     }
 
     .hero-body {
-        padding: 2em !important
+        padding: 2em !important;
+        max-height: 90vh;
+        overflow: hidden;
     }
 
     .slide-body {
