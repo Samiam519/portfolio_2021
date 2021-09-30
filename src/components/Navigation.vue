@@ -10,42 +10,42 @@
     <svg id="navigation-items" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.02 216.46">
       <g id="navigation-boxes">
         <g>
-          <rect v-bind:class="currentIndex === 0 ? 'blue' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="Contact" @click="change(0)" x="12.08" y="106.81"
+          <rect v-bind:class="currentIndex === 0 ? 'yellow' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="Contact" @click="change(0)" x="12.08" y="106.81"
                 width="15.15" height="15.15" rx="4.49"/>
           <path class="navigation-path" d="M19.58 114.43, L19.23 80.1"/>
         </g>
         <g>
-          <rect v-bind:class="currentIndex === 1 ? 'blue' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="About Me" @click="change(1)" x="31.07"
+          <rect v-bind:class="currentIndex === 1 ? 'yellow' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="About Me" @click="change(1)" x="31.07"
                 y="108.41" width="15.15" height="15.15" rx="4.49" transform="translate(-81.44 138.92) rotate(-82.38)"/>
           <path class="navigation-path" d="M38.56 116.03, L45.66 82.33"/>
         </g>
         <g>
-          <rect v-bind:class="currentIndex === 2 ? 'blue' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="Home" @click="change(2)" x="49.85" y="113.98"
+          <rect v-bind:class="currentIndex === 2 ? 'yellow' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="Home" @click="change(2)" x="49.85" y="113.98"
                 width="15.15" height="15.15" rx="4.49" transform="translate(-76.83 128.7) rotate(-67.76)"/>
           <path class="navigation-path" d="M57.34 121.6, L71.81 90.08"/>
         </g>
         <g>
-          <rect v-bind:class="currentIndex === 3 ? 'blue' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="Maximus" @click="change(3)" x="66.59" y="124.17"
+          <rect v-bind:class="currentIndex === 3 ? 'yellow' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="Maximus" @click="change(3)" x="66.59" y="124.17"
                 width="15.15" height="15.15" rx="4.49" transform="translate(-74.18 102.58) rotate(-49.5)"/>
           <path class="navigation-path" d="M74.08 131.79, L95.12 104.27"/>
         </g>
         <g>
-          <rect v-bind:class="currentIndex === 4 ? 'blue' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="DSA" @click="change(4)" x="79.93" y="137.73"
+          <rect v-bind:class="currentIndex === 4 ? 'yellow' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="DSA" @click="change(4)" x="79.93" y="137.73"
                 width="15.15" height="15.15" rx="4.49" transform="translate(-73.41 91.65) rotate(-40.5)"/>
           <path class="navigation-path" d="M87.42 145.35, L113.68 123.15"/>
         </g>
         <g>
-          <rect v-bind:class="currentIndex === 5 ? 'blue' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="Quidditch" @click="change(5)" x="90.12"
+          <rect v-bind:class="currentIndex === 5 ? 'yellow' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="Quidditch" @click="change(5)" x="90.12"
                 y="154.48" width="15.15" height="15.15" rx="4.49" transform="translate(-54.07 49.03) rotate(-22.24)"/>
           <path class="navigation-path" d="M97.61 162.1, L127.87 146.46"/>
         </g>
         <g>
-          <rect v-bind:class="currentIndex === 6 ? 'blue' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="Accomplish" @click="change(6)" x="95.69"
+          <rect v-bind:class="currentIndex === 6 ? 'yellow' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="Accomplish" @click="change(6)" x="95.69"
                 y="173.26" width="15.15" height="15.15" rx="4.49" transform="matrix(0.99, -0.13, 0.13, 0.99, -23.06, 15.28)"/>
           <path class="navigation-path" d="M103.18 180.88, L135.63 172.61"/>
         </g>
         <g>
-          <rect v-bind:class="currentIndex === 7 ? 'blue' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="LunchLaunch" @click="change(7)" x="97.29"
+          <rect v-bind:class="currentIndex === 7 ? 'yellow' : 'white'" class="dark-grey-stroke navigation-box" role="button" aria-label="LunchLaunch" @click="change(7)" x="97.29"
                 y="192.24" width="15.15" height="15.15" rx="4.49"/>
           <path class="navigation-path" d="M104.78 199.86, L137.86 199.03"/>
         </g>

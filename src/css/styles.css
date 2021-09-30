@@ -416,13 +416,21 @@ Screen Size Compatibility
 
 @media screen and (max-width: 1024px) {
     html, body {
-        overflow-y: auto;
+        overflow: hidden;
+    }
+
+    body{
+        position: relative;
     }
 
     .hero-body {
         padding: 2em !important;
-        max-height: 90vh;
+        max-height: 85vh;
         overflow: hidden;
+    }
+
+    svg.is-absolute {
+        height: 80%;
     }
 
     .slide-body {
@@ -443,7 +451,7 @@ Screen Size Compatibility
     }
 
     .title.is-1 {
-        font-size: 1.5em !important;
+        font-size: 1.2em !important;
     }
 }
 

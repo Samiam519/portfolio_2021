@@ -9,6 +9,8 @@
         <p class="mb-5 animate__animated animate__fadeInUp _3">
           Have an idea for a new logo or have any questions about my past works? Hit me up!
         </p>
+
+        <b-icon v-if="isMobile" icon="angle-double-down" class="animate__animated animate__shakeY animate__delay-3s animate__infinite animate__slower"/>
         <form
             id="contact-form"
             accept-charset="utf-8"
@@ -170,6 +172,7 @@ export default {
       email: '',
       message: '',
       loading: false,
+      heroBody: null,
       socialsLinks: [
         "https://www.linkedin.com/in/samjimenez519/",
         "https://twitter.com/_sam_antics",
@@ -178,6 +181,12 @@ export default {
         "https://www.behance.net/samjimenez",
         "https://www.deviantart.com/samaim519"
       ]
+    }
+  },
+  mounted() {
+    this.heroBody = document.querySelector('.hero-body');
+    if(window.innerWidth < 1024){
+      this.heroBody.style.overflow = 'auto';
     }
   },
   computed: {
@@ -219,6 +228,11 @@ export default {
     },
     openSocial(ind) {
       window.open(this.socialsLinks[ind], '_blank').focus();
+    }
+  },
+  beforeDestroy() {
+    if(window.innerWidth < 1024){
+      this.heroBody.style.overflow = 'hidden';
     }
   }
 }
