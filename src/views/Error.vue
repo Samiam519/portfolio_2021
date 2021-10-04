@@ -9,7 +9,7 @@
 <script>
 export default {
   name: "Error",
-  data(){
+  data() {
     return {
       speed: 30,
       scale: 0.17,
@@ -39,8 +39,13 @@ export default {
     //this.moving.img.src = '../assets/404.png';
     this.moving.img.src = 'https://i.imgur.com/kKcBzPF.png';
 
-    this.canvas.width = window.innerWidth;
-    this.canvas.height = window.innerHeight;
+    if (window.innerWidth < 1024) {
+      this.canvas.width = window.innerWidth * 2;
+      this.canvas.height = window.innerHeight * 4;
+    } else {
+      this.canvas.width = window.innerWidth;
+      this.canvas.height = window.innerHeight;
+    }
 
     this.pickColor();
     this.update();

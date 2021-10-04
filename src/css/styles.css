@@ -423,6 +423,10 @@ Screen Size Compatibility
         position: relative;
     }
 
+    .carousel-items{
+        justify-content: center;
+    }
+
     .hero-body {
         padding: 2em !important;
         max-height: 85vh;
