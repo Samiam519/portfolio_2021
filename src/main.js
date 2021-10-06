@@ -4,7 +4,6 @@ import Buefy from 'buefy'
 import BulmaTheme from '@/assets/dist_theme.css'
 import 'animate.css'
 import router from "@/router"
-import VueAnalytics from 'vue-analytics'
 
 // icons
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -32,10 +31,6 @@ Vue.use(Buefy, {
 })
 Vue.use(BulmaTheme)
 Vue.config.productionTip = false
-Vue.use(VueAnalytics, {
-    id: 'G-BHKDTG3QTG',
-    router
-})
 
 new Vue({
     router,
