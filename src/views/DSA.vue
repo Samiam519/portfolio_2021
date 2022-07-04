@@ -63,9 +63,9 @@
       <tspan x="0" y="129.6" class="lufga svg-text-18">and hosted on Wordpress, but that limited </tspan>
       <tspan x="0" y="151.2" class="lufga svg-text-18">our access to make certain elements </tspan>
       <tspan x="0" y="172.8" class="lufga svg-text-18">WCAG compliant. Since accessibility is a </tspan>
-      <tspan x="0" y="194.4" class="lufga svg-text-18">priortity for us, I rewrote </tspan>
+      <tspan x="0" y="194.4" class="lufga svg-text-18">priority for us, I rewrote </tspan>
       <tspan x="0" y="216" class="lufga svg-text-18">as a static HTML page to both maximize </tspan>
-      <tspan x="0" y="237.6" class="lufga svg-text-18">that customization and liklihood of being </tspan>
+      <tspan x="0" y="237.6" class="lufga svg-text-18">that customization and likelihood of being </tspan>
       <tspan x="0" y="259.2" class="lufga svg-text-18">able to hand off in the future (rather than </tspan>
       <tspan x="0" y="280.8" class="lufga svg-text-18">frameworks that only a subset of people </tspan>
       <tspan x="0" y="302.4" class="lufga svg-text-18">would be familiar with).</tspan>

@@ -84,7 +84,7 @@
                 <tspan x="-51.54" y="302.4"
                        class="lufga black svg-text-18">the only way I could determine its level of </tspan>
                 <tspan x="-51.54" y="324"
-                       class="lufga black svg-text-18">funness was to make everyone I knew playtest </tspan>
+                       class="lufga black svg-text-18">fun-ness was to make everyone I knew playtest </tspan>
                 <tspan x="-51.54" y="345.6"
                        class="lufga black svg-text-18">it. If you knew me that summer, I’m sorry.</tspan></text>
             </g>
