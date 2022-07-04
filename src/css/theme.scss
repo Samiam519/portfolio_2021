@@ -4,6 +4,14 @@
 
 @mixin font-face() {
   @font-face {
+    font-family: "Lufga";
+    src: url("./fonts/LufgaRegular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+@mixin font-face() {
+  @font-face {
     font-family: "Abside";
     src: url('./fonts/Abside-Round1.eot');
     src: url("./fonts/Abside-Round1.otf") format("opentype"),
@@ -37,7 +45,7 @@ $grey-dark: #30332A;
 $black: #181914;
 
 // Update some of Bulma's component variables
-$family-sans-serif: "Abside", Arial, Helvetica Nueue, sans-serif;
+$family-sans-serif: "Lufga", Arial, Helvetica Nueue, sans-serif;
 $primary: $pink;
 $secondary: $cyan;
 $link: $cyan;

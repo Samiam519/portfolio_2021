@@ -116,20 +116,20 @@
                       d="M581.31,225.54v338.38H39.52V225.54H581.31 M585.31,221.54H35.52v346.38h549.79V221.54L585.31,221.54z"/>
               </g>
               <rect x="58.17" y="241" class="no-fill" width="518.31" height="336.05"/>
-              <text transform="matrix(1 0 0 1 58.1732 254.1776)"><tspan x="0" y="0" class="blue1 abside black svg-text-18">Pitch: Postmates for math tutors. Imagine studying for a </tspan>
-                <tspan x="0" y="21" class="blue1 abside black svg-text-18">math exam and you’re stumped on a problem. How will you </tspan>
-                <tspan x="0" y="42" class="blue1 abside black svg-text-18">solve this type of problem when you encounter it on the </tspan>
-                <tspan x="0" y="63" class="blue1 abside black svg-text-18">exam? With Accomplish’s mobile app, you can request a </tspan>
-                <tspan x="0" y="84" class="blue1 abside black svg-text-18">math tutor to come to you on demand and explain it to you </tspan>
-                <tspan x="0" y="105" class="blue1 abside black svg-text-18">one-on-one.</tspan>
-                <tspan x="0" y="147" class="blue1 abside black svg-text-18">In sophomore year of college, I designed the app and </tspan>
-                <tspan x="0" y="168" class="blue1 abside black svg-text-18">website interface for math tutoring startup Accomplish. Still </tspan>
-                <tspan x="0" y="189" class="blue1 abside black svg-text-18">new to the world of UI, I spent much of my time reading </tspan>
-                <tspan x="0" y="210" class="blue1 abside black svg-text-18">case studies and learning best practices. My goals at the </tspan>
-                <tspan x="0" y="231" class="blue1 abside black svg-text-18">time were: ease of use, simplicity, and brand consistency. </tspan>
-                <tspan x="0" y="252" class="blue1 abside black svg-text-18">Which looking back should be a given regardless of </tspan>
-                <tspan x="0" y="273" class="blue1 abside black svg-text-18">organization principles, but I like returning to this project </tspan>
-                <tspan x="0" y="294" class="blue1 abside black svg-text-18">every now and then to see what I would do differently today.</tspan></text>
+              <text transform="matrix(1 0 0 1 58.1732 254.1776)"><tspan x="0" y="0" class="blue1 lufga black svg-text-18">Pitch: Postmates for math tutors. Imagine studying for a </tspan>
+                <tspan x="0" y="21" class="blue1 lufga black svg-text-18">math exam and you’re stumped on a problem. How will you </tspan>
+                <tspan x="0" y="42" class="blue1 lufga black svg-text-18">solve this type of problem when you encounter it on the </tspan>
+                <tspan x="0" y="63" class="blue1 lufga black svg-text-18">exam? With Accomplish’s mobile app, you can request a </tspan>
+                <tspan x="0" y="84" class="blue1 lufga black svg-text-18">math tutor to come to you on demand and explain it to you </tspan>
+                <tspan x="0" y="105" class="blue1 lufga black svg-text-18">one-on-one.</tspan>
+                <tspan x="0" y="147" class="blue1 lufga black svg-text-18">In sophomore year of college, I designed the app and </tspan>
+                <tspan x="0" y="168" class="blue1 lufga black svg-text-18">website interface for math tutoring startup Accomplish. Still </tspan>
+                <tspan x="0" y="189" class="blue1 lufga black svg-text-18">new to the world of UI, I spent much of my time reading </tspan>
+                <tspan x="0" y="210" class="blue1 lufga black svg-text-18">case studies and learning best practices. My goals at the </tspan>
+                <tspan x="0" y="231" class="blue1 lufga black svg-text-18">time were: ease of use, simplicity, and brand consistency. </tspan>
+                <tspan x="0" y="252" class="blue1 lufga black svg-text-18">Which looking back should be a given regardless of </tspan>
+                <tspan x="0" y="273" class="blue1 lufga black svg-text-18">organization principles, but I like returning to this project </tspan>
+                <tspan x="0" y="294" class="blue1 lufga black svg-text-18">every now and then to see what I would do differently today.</tspan></text>
             </g>
             <g id="circles2_4_" class="animate__animated animate__fadeIn _5 ">
               <g>

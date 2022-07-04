@@ -148,22 +148,22 @@
                        points="526.29,285.72 524.5,529.78 791.71,529.78 791.71,488.42 791.71,400.31 791.71,285.72 		"/>
               <polygon class="no-fill" points="535.2,294.57 535.19,623.06 777.87,623.06 777.87,441.13 777.87,310.54 777.87,294.57
 			664.68,294.57 		"/>
-              <text transform="matrix(1 0 0 1 535.2035 307.7491)"><tspan x="0" y="0" class="abside black svg-text-18">Before long, we had a </tspan>
-                <tspan x="0" y="21" class="abside black svg-text-18">partnership with </tspan>
-                <tspan x="0" y="42" class="abside black svg-text-18 ">	</tspan>
-                <tspan x="40.33" y="42" class="abside black svg-text-18">      </tspan>
-                <tspan x="77.27" y="42" class="abside black svg-text-18 ">	</tspan>
-                <tspan x="80.69" y="42" class="abside black svg-text-18 ">	</tspan>
-                <tspan x="145" y="42" class="abside black svg-text-18"> for a set of </tspan>
-                <tspan x="0" y="63" class="abside black svg-text-18">uniforms that I designed, </tspan>
-                <tspan x="0" y="84" class="abside black svg-text-18">and merch, flyers, and a </tspan>
-                <tspan x="-0.01" y="105" class="abside black svg-text-18">website that I spun up. </tspan>
-                <tspan x="-0.01" y="126" class="abside black svg-text-18">Merchandise sales both from </tspan>
-                <tspan x="-0.01" y="147" class="abside black svg-text-18">in-person tabling on campus </tspan>
-                <tspan x="-0.01" y="168" class="abside black svg-text-18">and online sales allowed us </tspan>
-                <tspan x="-0.01" y="189" class="abside black svg-text-18">to fund several out of state </tspan>
-                <tspan x="-0.01" y="210" class="abside black svg-text-18">tournaments for the team.</tspan></text>
-              <a xlink:href="https://viiapparel.co/" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 535.6099 349.9364)" class="abside black svg-text-18">Savage Apparel</text></a>
+              <text transform="matrix(1 0 0 1 535.2035 307.7491)"><tspan x="0" y="0" class="lufga black svg-text-18">Before long, we had a </tspan>
+                <tspan x="0" y="21" class="lufga black svg-text-18">partnership with </tspan>
+                <tspan x="0" y="42" class="lufga black svg-text-18 ">	</tspan>
+                <tspan x="40.33" y="42" class="lufga black svg-text-18">      </tspan>
+                <tspan x="77.27" y="42" class="lufga black svg-text-18 ">	</tspan>
+                <tspan x="80.69" y="42" class="lufga black svg-text-18 ">	</tspan>
+                <tspan x="145" y="42" class="lufga black svg-text-18"> for a set of </tspan>
+                <tspan x="0" y="63" class="lufga black svg-text-18">uniforms that I designed, </tspan>
+                <tspan x="0" y="84" class="lufga black svg-text-18">and merch, flyers, and a </tspan>
+                <tspan x="-0.01" y="105" class="lufga black svg-text-18">website that I spun up. </tspan>
+                <tspan x="-0.01" y="126" class="lufga black svg-text-18">Merchandise sales both from </tspan>
+                <tspan x="-0.01" y="147" class="lufga black svg-text-18">in-person tabling on campus </tspan>
+                <tspan x="-0.01" y="168" class="lufga black svg-text-18">and online sales allowed us </tspan>
+                <tspan x="-0.01" y="189" class="lufga black svg-text-18">to fund several out of state </tspan>
+                <tspan x="-0.01" y="210" class="lufga black svg-text-18">tournaments for the team.</tspan></text>
+              <a xlink:href="https://viiapparel.co/" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 535.6099 349.9364)" class="lufga black svg-text-18">Savage Apparel</text></a>
           </g>
             <g id="zigzag_4_" class="animate__animated animate__fadeIn _5 ">
             <polygon class="black" points="500.11,667.84 517.68,678.82 510.65,650.72 538.75,643.8 530.85,615.16 559.6,607.91 552.14,580.04
@@ -188,19 +188,19 @@
               </g>
               <polygon class="no-fill" points="49.42,337.2 49.42,52.33 160.36,52.33 150.18,91.35 166.12,125.92 203.77,138.7 212.15,167.43
 				255.69,176.77 274.98,176.77 276.16,337.2 			"/>
-              <text transform="matrix(1 0 0 1 49.418 65.5046)"><tspan x="0" y="0" class="abside black svg-text-18">Throughout </tspan>
-                <tspan x="0" y="21" class="abside black svg-text-18">college, I </tspan>
-                <tspan x="0" y="42" class="abside black svg-text-18">played </tspan>
-                <tspan x="0" y="84" class="abside black svg-text-18">yes like the </tspan>
-                <tspan x="0" y="105" class="abside black svg-text-18">Harry Potter </tspan>
-                <tspan x="0" y="126" class="abside black svg-text-18">sport. When I was a </tspan>
-                <tspan x="0" y="147" class="abside black svg-text-18">freshman, the sport was </tspan>
-                <tspan x="0" y="168" class="abside black svg-text-18">still in the process of </tspan>
-                <tspan x="0" y="189" class="abside black svg-text-18">formalizing, and teams </tspan>
-                <tspan x="0" y="210" class="abside black svg-text-18">were only starting to think </tspan>
-                <tspan x="0" y="231" class="abside black svg-text-18">about things like uniforms </tspan>
-                <tspan x="0" y="252" class="abside black svg-text-18">and gear.</tspan></text>
-              <a xlink:href="https://iqasport.org" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 50.0891 129.2729)" class="abside black svg-text-18">Quidditch,</text></a>
+              <text transform="matrix(1 0 0 1 49.418 65.5046)"><tspan x="0" y="0" class="lufga black svg-text-18">Throughout </tspan>
+                <tspan x="0" y="21" class="lufga black svg-text-18">college, I </tspan>
+                <tspan x="0" y="42" class="lufga black svg-text-18">played </tspan>
+                <tspan x="0" y="84" class="lufga black svg-text-18">yes like the </tspan>
+                <tspan x="0" y="105" class="lufga black svg-text-18">Harry Potter </tspan>
+                <tspan x="0" y="126" class="lufga black svg-text-18">sport. When I was a </tspan>
+                <tspan x="0" y="147" class="lufga black svg-text-18">freshman, the sport was </tspan>
+                <tspan x="0" y="168" class="lufga black svg-text-18">still in the process of </tspan>
+                <tspan x="0" y="189" class="lufga black svg-text-18">formalizing, and teams </tspan>
+                <tspan x="0" y="210" class="lufga black svg-text-18">were only starting to think </tspan>
+                <tspan x="0" y="231" class="lufga black svg-text-18">about things like uniforms </tspan>
+                <tspan x="0" y="252" class="lufga black svg-text-18">and gear.</tspan></text>
+              <a xlink:href="https://iqasport.org" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 50.0891 129.2729)" class="lufga black svg-text-18">Quidditch,</text></a>
             </g>
               <g id="snitch" class="animate__animated animate__fadeIn _6">
               <g>

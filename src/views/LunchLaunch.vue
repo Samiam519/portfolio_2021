@@ -32,25 +32,25 @@
               <rect x="578.1" y="39.19" class="black" width="223.01" height="412.74"/>
               <rect x="558.7" y="21.41" class="red black-stroke small-stroke" width="223.01" height="412.74"/>
               <rect x="570.43" y="34.67" class="yellow9" width="199.54" height="434.63"/>
-              <text transform="matrix(1 0 0 1 570.4325 47.8426)"><tspan x="0" y="0" class="abside black svg-text-18">In 2014, I had the </tspan>
-                <tspan x="0" y="21.6" class="abside black svg-text-18">opportunity to attend  </tspan>
-                <tspan x="0" y="43.2" class="abside black svg-text-18 svg-text-18">			</tspan>
-                <tspan x="123" y="43.2" class="abside black svg-text-18">Summer</tspan>
-                <tspan x="0" y="64.8" class="abside black svg-text-18">Academy in San </tspan>
-                <tspan x="0" y="86.4" class="abside black svg-text-18">Francisco, learn </tspan>
-                <tspan x="0" y="108" class="abside black svg-text-18">objective-C, design </tspan>
-                <tspan x="0" y="129.6" class="abside black svg-text-18">and program a mobile </tspan>
-                <tspan x="0" y="151.2" class="abside black svg-text-18">app from scratch, and </tspan>
-                <tspan x="0" y="172.8" class="abside black svg-text-18">ship it to the AppStore.</tspan>
-                <tspan x="0" y="216" class="abside black svg-text-18">Over the course of </tspan>
-                <tspan x="0" y="237.6" class="abside black svg-text-18">writing this game, I </tspan>
-                <tspan x="0" y="259.2" class="abside black svg-text-18">started to get a feel </tspan>
-                <tspan x="0" y="280.8" class="abside black svg-text-18">for retro aesthetics and </tspan>
-                <tspan x="0" y="302.4" class="abside black svg-text-18">single screen layouts, </tspan>
-                <tspan x="0" y="324" class="abside black svg-text-18">which I’m now realizing </tspan>
-                <tspan x="0" y="345.6" class="abside black svg-text-18">I’ve developed rather a </tspan>
-                <tspan x="0" y="367.2" class="abside black svg-text-18">soft spot for.</tspan></text>
-              <a xlink:href="https://makeschool.org/" target="_black" class="svg-link"><text transform="matrix(1 0 0 1 570.8109 91.0668)" class="abside black svg-text-18">MakeSchool’s</text></a>
+              <text transform="matrix(1 0 0 1 570.4325 47.8426)"><tspan x="0" y="0" class="lufga black svg-text-18">In 2014, I had the </tspan>
+                <tspan x="0" y="21.6" class="lufga black svg-text-18">opportunity to attend  </tspan>
+                <tspan x="0" y="43.2" class="lufga black svg-text-18 svg-text-18">			</tspan>
+                <tspan x="123" y="43.2" class="lufga black svg-text-18">Summer</tspan>
+                <tspan x="0" y="64.8" class="lufga black svg-text-18">Academy in San </tspan>
+                <tspan x="0" y="86.4" class="lufga black svg-text-18">Francisco, learn </tspan>
+                <tspan x="0" y="108" class="lufga black svg-text-18">objective-C, design </tspan>
+                <tspan x="0" y="129.6" class="lufga black svg-text-18">and program a mobile </tspan>
+                <tspan x="0" y="151.2" class="lufga black svg-text-18">app from scratch, and </tspan>
+                <tspan x="0" y="172.8" class="lufga black svg-text-18">ship it to the AppStore.</tspan>
+                <tspan x="0" y="216" class="lufga black svg-text-18">Over the course of </tspan>
+                <tspan x="0" y="237.6" class="lufga black svg-text-18">writing this game, I </tspan>
+                <tspan x="0" y="259.2" class="lufga black svg-text-18">started to get a feel </tspan>
+                <tspan x="0" y="280.8" class="lufga black svg-text-18">for retro aesthetics and </tspan>
+                <tspan x="0" y="302.4" class="lufga black svg-text-18">single screen layouts, </tspan>
+                <tspan x="0" y="324" class="lufga black svg-text-18">which I’m now realizing </tspan>
+                <tspan x="0" y="345.6" class="lufga black svg-text-18">I’ve developed rather a </tspan>
+                <tspan x="0" y="367.2" class="lufga black svg-text-18">soft spot for.</tspan></text>
+              <a xlink:href="https://makeschool.org/" target="_black" class="svg-link"><text transform="matrix(1 0 0 1 570.8109 91.0668)" class="lufga black svg-text-18">MakeSchool’s</text></a>
             </g>
             <g id="LL-white-text" class="animate__animated animate__fadeIn _3">
               <rect x="125.51" y="203.39" class="black" width="432.88" height="401.45"/>
@@ -61,32 +61,32 @@
               </g>
               <polygon class="yellow9"
                        points="532.17,572.86 121.88,572.86 121.88,308.48 173.42,308.48 173.42,200.38 532.17,200.38 		"/>
-              <text transform="matrix(1 0 0 1 173.4178 213.5545)"><tspan x="0" y="0" class="abside black svg-text-18">Pitch: It’s lunchtime in the cafeteria, and </tspan>
-                <tspan x="0" y="21.6" class="abside black svg-text-18">you’ve got to feed all the hungry kids. </tspan>
-                <tspan x="0" y="43.2" class="abside black svg-text-18">But none of them will come up to get </tspan>
-                <tspan x="0" y="64.8" class="abside black svg-text-18">their food, so you have to fling the sloppy </tspan>
-                <tspan x="0" y="86.4" class="abside black svg-text-18">joes at them. Hurry, before they start </tspan>
+              <text transform="matrix(1 0 0 1 173.4178 213.5545)"><tspan x="0" y="0" class="lufga black svg-text-18">Pitch: It’s lunchtime in the cafeteria, and </tspan>
+                <tspan x="0" y="21.6" class="lufga black svg-text-18">you’ve got to feed all the hungry kids. </tspan>
+                <tspan x="0" y="43.2" class="lufga black svg-text-18">But none of them will come up to get </tspan>
+                <tspan x="0" y="64.8" class="lufga black svg-text-18">their food, so you have to fling the sloppy </tspan>
+                <tspan x="0" y="86.4" class="lufga black svg-text-18">joes at them. Hurry, before they start </tspan>
                 <tspan x="-51.54" y="108"
-                       class="abside black svg-text-18">crying, and careful not to overfeed anyone, </tspan>
+                       class="lufga black svg-text-18">crying, and careful not to overfeed anyone, </tspan>
                 <tspan x="-51.54" y="129.6"
-                       class="abside black svg-text-18">they’ll explode! Can you survive long enough to </tspan>
-                <tspan x="-51.54" y="151.2" class="abside black svg-text-18">make it to the lunch rush bonus round? </tspan>
+                       class="lufga black svg-text-18">they’ll explode! Can you survive long enough to </tspan>
+                <tspan x="-51.54" y="151.2" class="lufga black svg-text-18">make it to the lunch rush bonus round? </tspan>
                 <tspan x="-51.54" y="194.4"
-                       class="abside black svg-text-18">My priority here was UX. Did users understand </tspan>
+                       class="lufga black svg-text-18">My priority here was UX. Did users understand </tspan>
                 <tspan x="-51.54" y="216"
-                       class="abside black svg-text-18">how to play it without a lengthy explanation? </tspan>
+                       class="lufga black svg-text-18">how to play it without a lengthy explanation? </tspan>
                 <tspan x="-51.54" y="237.6"
-                       class="abside black svg-text-18">Was it different from the other games on their </tspan>
+                       class="lufga black svg-text-18">Was it different from the other games on their </tspan>
                 <tspan x="-51.54" y="259.2"
-                       class="abside black svg-text-18">phone? Did they want to play it again? Ensuring </tspan>
+                       class="lufga black svg-text-18">phone? Did they want to play it again? Ensuring </tspan>
                 <tspan x="-51.54" y="280.8"
-                       class="abside black svg-text-18">a game is fun isn’t exactly a concrete goal, so </tspan>
+                       class="lufga black svg-text-18">a game is fun isn’t exactly a concrete goal, so </tspan>
                 <tspan x="-51.54" y="302.4"
-                       class="abside black svg-text-18">the only way I could determine its level of </tspan>
+                       class="lufga black svg-text-18">the only way I could determine its level of </tspan>
                 <tspan x="-51.54" y="324"
-                       class="abside black svg-text-18">funness was to make everyone I knew playtest </tspan>
+                       class="lufga black svg-text-18">funness was to make everyone I knew playtest </tspan>
                 <tspan x="-51.54" y="345.6"
-                       class="abside black svg-text-18">it. If you knew me that summer, I’m sorry.</tspan></text>
+                       class="lufga black svg-text-18">it. If you knew me that summer, I’m sorry.</tspan></text>
             </g>
             <g id="Z_1_" class="animate__animated animate__fadeIn _4 ">
               <polygon class="black" points="45.05,603.97 70.95,590.79 108.39,607.65 96.42,644.36 135.05,658.4 109.15,670.7 68.32,657.53

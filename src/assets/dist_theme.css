@@ -301,7 +301,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Abside", Arial, Helvetica Nueue, sans-serif; }
+  font-family: "Lufga", Arial, Helvetica Nueue, sans-serif; }
 
 code,
 pre {
@@ -7026,13 +7026,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Abside", Arial, Helvetica Nueue, sans-serif !important; }
+  font-family: "Lufga", Arial, Helvetica Nueue, sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Abside", Arial, Helvetica Nueue, sans-serif !important; }
+  font-family: "Lufga", Arial, Helvetica Nueue, sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Abside", Arial, Helvetica Nueue, sans-serif !important; }
+  font-family: "Lufga", Arial, Helvetica Nueue, sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }

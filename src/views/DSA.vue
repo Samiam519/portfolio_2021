@@ -55,26 +55,26 @@
 		</g>
     <polygon class="no-fill"
              points="614.47,505.88 616.22,544.14 295.29,544.14 295.29,87.38 658.52,87.38 658.52,505.44 		"/>
-    <text transform="matrix(1 0 0 1 295.2936 100.5577)"><tspan x="0" y="0" class="abside svg-text-18">After moving to Denver in 2018, I became </tspan>
-      <tspan x="0" y="21.6" class="abside svg-text-18">active in the local chapter of Democratic </tspan>
-      <tspan x="0" y="43.2" class="abside svg-text-18">Socialists in the tech, agitprop, and </tspan>
-      <tspan x="0" y="64.8" class="abside svg-text-18">feminist committees.</tspan>
-      <tspan x="0" y="108" class="abside svg-text-18">The chapter’s website was previously built </tspan>
-      <tspan x="0" y="129.6" class="abside svg-text-18">and hosted on Wordpress, but that limited </tspan>
-      <tspan x="0" y="151.2" class="abside svg-text-18">our access to make certain elements </tspan>
-      <tspan x="0" y="172.8" class="abside svg-text-18">WCAG compliant. Since accessibility is a </tspan>
-      <tspan x="0" y="194.4" class="abside svg-text-18">priortity for us, I rewrote </tspan>
-      <tspan x="0" y="216" class="abside svg-text-18">as a static HTML page to both maximize </tspan>
-      <tspan x="0" y="237.6" class="abside svg-text-18">that customization and liklihood of being </tspan>
-      <tspan x="0" y="259.2" class="abside svg-text-18">able to hand off in the future (rather than </tspan>
-      <tspan x="0" y="280.8" class="abside svg-text-18">frameworks that only a subset of people </tspan>
-      <tspan x="0" y="302.4" class="abside svg-text-18">would be familiar with).</tspan>
-      <tspan x="0" y="345.6" class="abside svg-text-18">While active in the chapter, I also </tspan>
-      <tspan x="0" y="367.2" class="abside svg-text-18">contributed several flyer and zine designs, </tspan>
-      <tspan x="0" y="388.8" class="abside svg-text-18">as well as integrating a store into the </tspan>
-      <tspan x="0" y="410.4" class="abside svg-text-18">website, and oversaw its launch with </tspan>
-      <tspan x="0" y="432" class="abside svg-text-18">my long sleeve skate tee design.</tspan></text>
-    <a xlink:href="https://denverdsa.org" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 508.2216 294.9165)" class="abside svg-text-18">DenverDSA.org</text></a>
+    <text transform="matrix(1 0 0 1 295.2936 100.5577)"><tspan x="0" y="0" class="lufga svg-text-18">After moving to Denver in 2018, I became </tspan>
+      <tspan x="0" y="21.6" class="lufga svg-text-18">active in the local chapter of Democratic </tspan>
+      <tspan x="0" y="43.2" class="lufga svg-text-18">Socialists in the tech, agitprop, and </tspan>
+      <tspan x="0" y="64.8" class="lufga svg-text-18">feminist committees.</tspan>
+      <tspan x="0" y="108" class="lufga svg-text-18">The chapter’s website was previously built </tspan>
+      <tspan x="0" y="129.6" class="lufga svg-text-18">and hosted on Wordpress, but that limited </tspan>
+      <tspan x="0" y="151.2" class="lufga svg-text-18">our access to make certain elements </tspan>
+      <tspan x="0" y="172.8" class="lufga svg-text-18">WCAG compliant. Since accessibility is a </tspan>
+      <tspan x="0" y="194.4" class="lufga svg-text-18">priortity for us, I rewrote </tspan>
+      <tspan x="0" y="216" class="lufga svg-text-18">as a static HTML page to both maximize </tspan>
+      <tspan x="0" y="237.6" class="lufga svg-text-18">that customization and liklihood of being </tspan>
+      <tspan x="0" y="259.2" class="lufga svg-text-18">able to hand off in the future (rather than </tspan>
+      <tspan x="0" y="280.8" class="lufga svg-text-18">frameworks that only a subset of people </tspan>
+      <tspan x="0" y="302.4" class="lufga svg-text-18">would be familiar with).</tspan>
+      <tspan x="0" y="345.6" class="lufga svg-text-18">While active in the chapter, I also </tspan>
+      <tspan x="0" y="367.2" class="lufga svg-text-18">contributed several flyer and zine designs, </tspan>
+      <tspan x="0" y="388.8" class="lufga svg-text-18">as well as integrating a store into the </tspan>
+      <tspan x="0" y="410.4" class="lufga svg-text-18">website, and oversaw its launch with </tspan>
+      <tspan x="0" y="432" class="lufga svg-text-18">my long sleeve skate tee design.</tspan></text>
+    <a xlink:href="https://denverdsa.org" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 508.2216 294.9165)" class="lufga svg-text-18">DenverDSA.org</text></a>
 	</g>
   <g id="circle_4_" class="animate__animated animate__fadeIn _5 ">
 		<circle class="black" cx="521.54" cy="604.69" r="46.3"/>

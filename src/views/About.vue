@@ -44,45 +44,45 @@
               </g>
               <polygon class="no-fill"
                        points="548.81,32.86 763.62,32.86 763.62,366.25 763.62,550.64 591.1,550.64 368.42,550.64 		"/>
-              <text transform="matrix(1 0 0 1 548.3309 46.6602)"><tspan x="0" y="0" class="abside svg-text-18">I strive for all of the </tspan>
-                <tspan x="-7.88" y="22.63" class="abside svg-text-18">products I create to be </tspan>
-                <tspan x="-15.77" y="45.25" class="abside svg-text-18">innovative and accessible </tspan>
-                <tspan x="-23.65" y="67.88" class="abside svg-text-18">in an out-of-the-div way </tspan>
-                <tspan x="-31.53" y="90.51" class="abside svg-text-18">and I hope that the lasting </tspan>
-                <tspan x="-39.41" y="113.13" class="abside svg-text-18">mark I make on my small </tspan>
-                <tspan x="-47.3" y="135.76" class="abside svg-text-18">corner of the web reflects </tspan>
-                <tspan x="-55.18" y="158.38" class="abside svg-text-18">that goal. My current favorite </tspan>
-                <tspan x="-63.06" y="181.01" class="abside svg-text-18">frameworks are</tspan>
-                <tspan x="145.06" y="181.01" class="abside svg-text-18">and</tspan>
-                <tspan x="179.01" y="181.01" class="abside svg-text-18 st22">	</tspan>
-                <tspan x="193.42" y="181.01" class="abside svg-text-18 st23">	</tspan>
-                <tspan x="-70.95" y="203.64" class="abside svg-text-18"> </tspan>
-                <tspan x="-64.5" y="203.64" class="abside svg-text-18 st24">	</tspan>
-                <tspan x="-44.16" y="203.64" class="abside svg-text-18 st23">	</tspan>
-                <tspan x="-10.22" y="203.64" class="abside svg-text-18">for CSS. This site uses </tspan>
-                <tspan x="196.87" y="203.64" class="abside svg-text-18 st25">	</tspan>
-                <tspan x="-78.83" y="226.26" class="abside svg-text-18 st26">	</tspan>
-                <tspan x="-78.09" y="226.26" class="abside svg-text-18 st23">	</tspan>
-                <tspan x="-30.16" y="226.26" class="abside svg-text-18">, a convenient combination </tspan>
-                <tspan x="-86.71" y="248.89" class="abside svg-text-18">of the two.</tspan>
-                <tspan x="-94.59" y="271.52" class="abside svg-text-18">I try to reinvent my personal </tspan>
-                <tspan x="-102.48" y="294.14" class="abside svg-text-18">website around once a year, to </tspan>
-                <tspan x="-110.36" y="316.77" class="abside svg-text-18">accommodate changes in my </tspan>
-                <tspan x="-118.24" y="339.4" class="abside svg-text-18">personal aesthetic tastes, stay </tspan>
-                <tspan x="-126.13" y="362.02" class="abside svg-text-18">current on design trends, and to </tspan>
-                <tspan x="-134.01" y="384.65" class="abside svg-text-18">challenge myself to incorporate a new </tspan>
+              <text transform="matrix(1 0 0 1 548.3309 46.6602)"><tspan x="0" y="0" class="lufga svg-text-18">I strive for all of the </tspan>
+                <tspan x="-7.88" y="22.63" class="lufga svg-text-18">products I create to be </tspan>
+                <tspan x="-15.77" y="45.25" class="lufga svg-text-18">innovative and accessible </tspan>
+                <tspan x="-23.65" y="67.88" class="lufga svg-text-18">in an out-of-the-div way </tspan>
+                <tspan x="-31.53" y="90.51" class="lufga svg-text-18">and I hope that the lasting </tspan>
+                <tspan x="-39.41" y="113.13" class="lufga svg-text-18">mark I make on my small </tspan>
+                <tspan x="-47.3" y="135.76" class="lufga svg-text-18">corner of the web reflects </tspan>
+                <tspan x="-55.18" y="158.38" class="lufga svg-text-18">that goal. My current favorite </tspan>
+                <tspan x="-63.06" y="181.01" class="lufga svg-text-18">frameworks are</tspan>
+                <tspan x="145.06" y="181.01" class="lufga svg-text-18">and</tspan>
+                <tspan x="179.01" y="181.01" class="lufga svg-text-18 st22">	</tspan>
+                <tspan x="193.42" y="181.01" class="lufga svg-text-18 st23">	</tspan>
+                <tspan x="-70.95" y="203.64" class="lufga svg-text-18"> </tspan>
+                <tspan x="-64.5" y="203.64" class="lufga svg-text-18 st24">	</tspan>
+                <tspan x="-44.16" y="203.64" class="lufga svg-text-18 st23">	</tspan>
+                <tspan x="-10.22" y="203.64" class="lufga svg-text-18">for CSS. This site uses </tspan>
+                <tspan x="196.87" y="203.64" class="lufga svg-text-18 st25">	</tspan>
+                <tspan x="-78.83" y="226.26" class="lufga svg-text-18 st26">	</tspan>
+                <tspan x="-78.09" y="226.26" class="lufga svg-text-18 st23">	</tspan>
+                <tspan x="-30.16" y="226.26" class="lufga svg-text-18">, a convenient combination </tspan>
+                <tspan x="-86.71" y="248.89" class="lufga svg-text-18">of the two.</tspan>
+                <tspan x="-94.59" y="271.52" class="lufga svg-text-18">I try to reinvent my personal </tspan>
+                <tspan x="-102.48" y="294.14" class="lufga svg-text-18">website around once a year, to </tspan>
+                <tspan x="-110.36" y="316.77" class="lufga svg-text-18">accommodate changes in my </tspan>
+                <tspan x="-118.24" y="339.4" class="lufga svg-text-18">personal aesthetic tastes, stay </tspan>
+                <tspan x="-126.13" y="362.02" class="lufga svg-text-18">current on design trends, and to </tspan>
+                <tspan x="-134.01" y="384.65" class="lufga svg-text-18">challenge myself to incorporate a new </tspan>
                 <tspan x="-141.89" y="407.28"
-                       class="abside svg-text-18">frontend feature that requires skills I </tspan>
+                       class="lufga svg-text-18">frontend feature that requires skills I </tspan>
                 <tspan x="-149.78" y="429.9"
-                       class="abside svg-text-18">don&apos;t have yet. In this iteration of my </tspan>
+                       class="lufga svg-text-18">don&apos;t have yet. In this iteration of my </tspan>
                 <tspan x="-157.66" y="452.53"
-                       class="abside svg-text-18">portfolio, I wanted to reimagine what a </tspan>
+                       class="lufga svg-text-18">portfolio, I wanted to reimagine what a </tspan>
                 <tspan x="-165.54" y="475.15"
-                       class="abside svg-text-18">showcase could look outside of a single </tspan>
-                <tspan x="-173.42" y="497.78" class="abside svg-text-18">page scroller layout.</tspan></text>
-              <a xlink:href="https://vuejs.org/v2/guide/" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 630.994 227.9704)" class="abside svg-text-18">Vue.js</text></a>
-              <a xlink:href="https://bulma.io/documentation/" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 476.1561 250.3377)" class="abside svg-text-18">Bulma</text></a>
-              <a xlink:href="https://buefy.org/documentation/" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 468.7166 273)" class="abside svg-text-18">Buefy</text></a>
+                       class="lufga svg-text-18">showcase could look outside of a single </tspan>
+                <tspan x="-173.42" y="497.78" class="lufga svg-text-18">page scroller layout.</tspan></text>
+              <a xlink:href="https://vuejs.org/v2/guide/" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 630.994 227.9704)" class="lufga svg-text-18">Vue.js</text></a>
+              <a xlink:href="https://bulma.io/documentation/" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 476.1561 250.3377)" class="lufga svg-text-18">Bulma</text></a>
+              <a xlink:href="https://buefy.org/documentation/" target="_blank" class="svg-link"><text transform="matrix(1 0 0 1 468.7166 273)" class="lufga svg-text-18">Buefy</text></a>
             </g>
             <g id="left" class="animate__animated animate__fadeInBottomLeft _2">
               <polygon class="black" points="483.49,97.58 26.07,97.58 26.07,669.06 280.97,669.06 		"/>
@@ -93,19 +93,19 @@
               </g>
               <polygon class="no-fill"
                        points="34.25,108.11 34.25,446.57 300.33,446.57 377.53,246.42 179.28,108.11 		"/>
-              <text transform="matrix(1 0 0 1 34.2455 121.9166)"><tspan x="0" y="0" class="abside svg-text-18">Born and raised </tspan>
-                <tspan x="0" y="22.63" class="abside svg-text-18">in Miami Beach by </tspan>
-                <tspan x="0" y="45.25" class="abside svg-text-18">parents in </tspan>
-                <tspan x="0" y="67.88" class="abside svg-text-18">tech-adjacent fields, while </tspan>
-                <tspan x="0" y="90.51" class="abside svg-text-18">growing up I naturally </tspan>
-                <tspan x="0" y="113.13" class="abside svg-text-18">gravitated toward computers. I </tspan>
-                <tspan x="0" y="135.76" class="abside svg-text-18">started designing t-shirts in MS Paint </tspan>
-                <tspan x="0" y="158.38" class="abside svg-text-18">while in elementary school. </tspan>
-                <tspan x="0" y="181.01" class="abside svg-text-18">Throughout high school and college, </tspan>
-                <tspan x="0" y="203.64" class="abside svg-text-18">I continued to cultivate these </tspan>
-                <tspan x="0" y="226.26" class="abside svg-text-18">skills, mostly through freelance </tspan>
-                <tspan x="0" y="248.89" class="abside svg-text-18">jobs designing logos, websites, </tspan>
-                <tspan x="0" y="271.52" class="abside svg-text-18">and app mockups.</tspan></text>
+              <text transform="matrix(1 0 0 1 34.2455 121.9166)"><tspan x="0" y="0" class="lufga svg-text-18">Born and raised </tspan>
+                <tspan x="0" y="22.63" class="lufga svg-text-18">in Miami Beach by </tspan>
+                <tspan x="0" y="45.25" class="lufga svg-text-18">parents in </tspan>
+                <tspan x="0" y="67.88" class="lufga svg-text-18">tech-adjacent fields, while </tspan>
+                <tspan x="0" y="90.51" class="lufga svg-text-18">growing up I naturally </tspan>
+                <tspan x="0" y="113.13" class="lufga svg-text-18">gravitated toward computers. I </tspan>
+                <tspan x="0" y="135.76" class="lufga svg-text-18">started designing t-shirts in MS Paint </tspan>
+                <tspan x="0" y="158.38" class="lufga svg-text-18">while in elementary school. </tspan>
+                <tspan x="0" y="181.01" class="lufga svg-text-18">Throughout high school and college, </tspan>
+                <tspan x="0" y="203.64" class="lufga svg-text-18">I continued to cultivate these </tspan>
+                <tspan x="0" y="226.26" class="lufga svg-text-18">skills, mostly through freelance </tspan>
+                <tspan x="0" y="248.89" class="lufga svg-text-18">jobs designing logos, websites, </tspan>
+                <tspan x="0" y="271.52" class="lufga svg-text-18">and app mockups.</tspan></text>
             </g>
             <g id="avi" class="animate__animated animate__fadeInUp _3 ">
               <polygon class="white" points="29.29,641.75 30.12,639.34 41.95,648.12 30.82,648.03 		"/>
@@ -271,7 +271,7 @@
               <path class="red-brown" d="M133.57,534.15c-4.8,0.89-9.32,0.67-14.04-0.48c1.84-1.6,3.67-2.19,5.76-1.1c0.88,0.46,1.65,0.34,2.55,0.09
                 C129.88,532.11,131.77,532.45,133.57,534.15z"/>
             </g>
-            <g id="logo"  class="animate__animated animate__fadeInDown _3 ">
+            <g id="logo"  class="animate__animated animate__fadeInDown _3 abside">
               <path class="black" d="M426.18,28.51c0-12.19-9.2-21.04-21.88-21.04c-10.17,0-18.07,5.87-20.65,14.64
                 c-4.93,2.38-8.59,6.51-10.33,11.68c-4.58,2.29-8.06,6.14-9.87,10.93c-0.64,0.4-1.26,0.83-1.85,1.29
                 c-3.51-0.58-7.48-0.84-12.37-0.84c-15.06,0-28.69,8.05-34.9,20.33c-4.27,3.16-7.71,7.09-10.13,11.56
@@ -283,23 +283,23 @@
                 c0-3.86-1.61-7.28-4.2-9.64C424.39,38.46,426.18,33.77,426.18,28.51z"/>
               <g>
                 <text transform="matrix(1 0 0 1 350.9349 163.9727)"
-                      class="red black-stroke small-stroke abside about-logo-letters">j</text>
+                      class="red black-stroke small-stroke lufga about-logo-letters">j</text>
                 <text transform="matrix(1 0 0 1 359.1317 153.9766)"
-                      class="yellow black-stroke small-stroke abside about-logo-letters">j</text>
+                      class="yellow black-stroke small-stroke lufga about-logo-letters">j</text>
                 <text transform="matrix(1 0 0 1 369.2919 142.3936)"
-                      class="blue black-stroke small-stroke abside about-logo-letters">j</text>
+                      class="blue black-stroke small-stroke lufga about-logo-letters">j</text>
                 <text transform="matrix(1 0 0 1 379.8636 130.0255)"
-                      class="white black-stroke small-stroke abside about-logo-letters">j</text>
+                      class="white black-stroke small-stroke lufga about-logo-letters">j</text>
               </g>
               <g>
                 <text transform="matrix(1 0 0 1 283.6127 170.9493)"
-                      class="red black-stroke small-stroke abside about-logo-letters">s</text>
+                      class="red black-stroke small-stroke lufga about-logo-letters">s</text>
                 <text transform="matrix(1 0 0 1 291.809 160.9542)"
-                      class="yellow black-stroke small-stroke abside about-logo-letters">s</text>
+                      class="yellow black-stroke small-stroke lufga about-logo-letters">s</text>
                 <text transform="matrix(1 0 0 1 301.9716 149.3702)"
-                      class="blue black-stroke small-stroke abside about-logo-letters">s</text>
+                      class="blue black-stroke small-stroke lufga about-logo-letters">s</text>
                 <text transform="matrix(1 0 0 1 312.5428 137.002)"
-                      class="white black-stroke small-stroke abside about-logo-letters">s</text>
+                      class="white black-stroke small-stroke lufga about-logo-letters">s</text>
               </g>
             </g>
             <g id="circles2_7_" class="animate__animated animate__fadeInRight _3">

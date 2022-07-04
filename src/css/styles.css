@@ -28,7 +28,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    font-family: "Abside", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    font-family: "Lufga", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, sans-serif;
     -o-animation: animate-background 0.5s forwards;
     -ms-animation: animate-background 0.5s forwards;
@@ -42,6 +42,10 @@ body {
 }
 
 .abside {
+    font-family: "Abside", sans-serif;
+}
+
+.lufga {
     font-family: inherit;
 }
 
@@ -843,7 +847,7 @@ Standardized colors
 }
 
 .purple-maximus {
-    fill: #555689;
+    fill: #513091;
 }
 
 .pure-white {
@@ -974,7 +978,7 @@ Standardized colors
 .svg-text {
     fill: #efe7dc;
     font-size: 12px;
-    font-family: "Abside", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Lufga", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .logo-name-text > text {
