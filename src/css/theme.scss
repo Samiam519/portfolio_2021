@@ -5,7 +5,10 @@
 @mixin font-face() {
   @font-face {
     font-family: "Lufga";
-    src: url("./fonts/LufgaRegular.ttf") format("truetype");
+    src: url('./fonts/LufgaRegular.eot');
+    src: url("./fonts/LufgaRegular.otf") format("opentype"),
+         url("./fonts/LufgaRegular.eot#iefix") format("embedded-opentype"),
+         url("./fonts/LufgaRegular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
