@@ -40,28 +40,34 @@ const routes = [
         meta: {slide: '4'}
     },
     {
+        path: '/KEL',
+        name: 'KEL',
+        component: () => import('@/views/KingEmploymentLaw.vue'),
+        meta: {slide: '5'}
+    },
+    {
         path: '/quidditch',
         name: 'quidditch',
         component: () => import('@/views/Quidditch.vue'),
-        meta: {slide: '5'}
+        meta: {slide: '6'}
     },
     {
         path: '/accomplish',
         name: 'accomplish',
         component: () => import('@/views/Accomplish.vue'),
-        meta: {slide: '6'}
+        meta: {slide: '7'}
     },
     {
         path: '/lunch-launch',
         name: 'lunch-launch',
         component: () => import('@/views/LunchLaunch.vue'),
-        meta: {slide: '7'}
+        meta: {slide: '8'}
     },
     {
         path: '/404',
         name: 'Error',
         component: () => import('@/views/Error.vue'),
-        meta: {slide: '8'}
+        meta: {slide: '9'}
     },
     {
         path: '*',

@@ -89,14 +89,14 @@ export default {
     prev() {
       // if at the beginning of array, send to end
       if (this.carouselIndex === 0) {
-        this.changeSlide(7)
+        this.changeSlide(8)
       } else {
         this.changeSlide(this.carouselIndex - 1)
       }
     },
     next() {
       // if at end of array, send to beginning
-      if (this.carouselIndex === 7) {
+      if (this.carouselIndex === 8) {
         this.changeSlide( 0)
       } else {
         this.changeSlide(this.carouselIndex + 1)
