@@ -41,7 +41,7 @@ jobs:
           # Your reponame
           reponame: portfolio_2021
           # Your Github token
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           # Your git commit email
           gitemail: s.jimenez6@umiami.edu
           # Your git commit name
