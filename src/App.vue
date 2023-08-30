@@ -51,9 +51,9 @@ export default {
       // ignore keystrokes while an input field is focused
       if(document.activeElement.tagName.toLowerCase() !== "input"){
         if (e.key === "ArrowLeft" || e.key === "ArrowDown") {
-          document.querySelector('.carousel-arrow > .has-icons-left').click()
+          this.prev()
         }else if(e.key === "ArrowRight" || e.key === "ArrowUp"){
-          document.querySelector('.carousel-arrow > .has-icons-right').click()
+          this.next()
         }
       }
     });
