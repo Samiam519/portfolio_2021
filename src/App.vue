@@ -6,7 +6,7 @@
         <Carousel @prev="prev" @next="next" :soundOn="soundOn" :disabled="carouselIndex === 8"/>
       </main>
       <Navigation @change="changeSlide" :current-index="carouselIndex"/>
-      <Changer :disabled="carouselIndex === 8"/>
+      <Changer @prev="prev" @next="next"/>
       <div id="volume-wrapper">
         <b-button
             class="is-dark has-white-stroke is-large"

@@ -100,10 +100,10 @@ export default {
   },
   methods: {
     prev(){
-      document.querySelector('.carousel-arrow > .has-icons-left').click()
+      this.$emit('prev')
     },
     next(){
-      document.querySelector('.carousel-arrow > .has-icons-right').click()
+      this.$emit('next')
     },
     resetKnobPosition(target){
       gsap.to(target, {

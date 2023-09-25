@@ -2,8 +2,8 @@
   <b-carousel-item>
     <section id="kingemploymentlaw" class="hero is-fullheight is-dark">
       <div class="hero-body slide-body has-text-black is-relative">
-        <h1 class="title is-3 mb-0 has-text-grey-dark is-highlighted yellow-highlight is-align-self-flex-start animate__animated animate__fadeInDown _2">
-          <a href="www.kingemploymentlaw.com" target="_blank">king employment law</a></h1>
+        <h1 class="title is-1 mb-0 has-text-grey-dark is-highlighted yellow-highlight is-align-self-flex-start animate__animated animate__fadeInDown _2">
+          <a href="https://www.kingemploymentlaw.com" target="_blank">king employment law</a></h1>
         <svg id="kingemploymentlaw" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 820.79 682.16">
           <defs>
             <clipPath id="clippath">
