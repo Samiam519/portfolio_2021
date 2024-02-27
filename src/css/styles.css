@@ -64,7 +64,7 @@ body {
 }
 
 svg text, article > * {
-    color: #181914 !important;
+    color: #171611 !important;
     user-select: text !important;
 }
 
@@ -105,7 +105,7 @@ button.has-white-stroke:hover {
 
 .slide-body {
     background-color: #efe7dc; /*for browsers that dont support gradients*/
-    background-image: radial-gradient(circle, rgb(250, 250, 250) 10%, rgba(242, 239, 235, 1) 75%, rgba(48, 51, 42, 0.25));
+    background-image: radial-gradient(circle, rgb(254, 254, 254) 10%, rgba(245, 244, 238, 1) 75%, rgba(48, 51, 42, 0.27));
     box-shadow: 0 0 45px rgba(242, 239, 235, 0.6);
     border-radius: 50px;
     margin: 4em auto;
@@ -321,7 +321,7 @@ button.has-white-stroke:hover {
 }
 
 #navigation-boxes rect:hover {
-    fill: #181914;
+    fill: #171611;
     cursor: pointer;
 }
 
@@ -348,15 +348,15 @@ button.has-white-stroke:hover {
 }
 
 .notification, .toast {
-    filter: drop-shadow(10px 10px 0 #30332A);
-    border: 4px solid #30332A;
+    filter: drop-shadow(10px 10px 0 #171611);
+    border: 4px solid #171611;
     border-radius: 0 !important;
-    color: #181914 !important;
+    color: #171611 !important;
 }
 
 button {
-    filter: drop-shadow(5px 5px 0 #30332A);
-    border: 2px solid #30332A !important;
+    filter: drop-shadow(5px 5px 0 #171611);
+    border: 2px solid #171611 !important;
     border-radius: 0 !important;
     z-index: 10;
 }
@@ -513,7 +513,7 @@ Screen Size Compatibility
         background-color: #F2EFEB;
     }
     to {
-        background-color: #30332A;
+        background-color: #171611;
     }
 }
 
@@ -522,7 +522,7 @@ Screen Size Compatibility
         background-color: #F2EFEB;
     }
     to {
-        background-color: #30332A;
+        background-color: #171611;
     }
 }
 
@@ -531,7 +531,7 @@ Screen Size Compatibility
         background-color: #F2EFEB;
     }
     to {
-        background-color: #30332A;
+        background-color: #171611;
     }
 }
 
@@ -540,7 +540,7 @@ Screen Size Compatibility
         background-color: #F2EFEB;
     }
     to {
-        background-color: #30332A;
+        background-color: #171611;
     }
 }
 
@@ -549,7 +549,7 @@ Screen Size Compatibility
         background-color: #F2EFEB;
     }
     to {
-        background-color: #30332A;
+        background-color: #171611;
     }
 }
 
@@ -558,7 +558,7 @@ Screen Size Compatibility
         background-color: #F2EFEB;
     }
     to {
-        background-color: #30332A;
+        background-color: #171611;
     }
 }
 
@@ -718,7 +718,7 @@ Screen Size Compatibility
         fill: #F2EFEB;
     }
     to {
-        fill: #30332A;
+        fill: #171611;
     }
 }
 
@@ -727,7 +727,7 @@ Screen Size Compatibility
         fill: #F2EFEB;
     }
     to {
-        fill: #30332A;
+        fill: #171611;
     }
 }
 
@@ -736,7 +736,7 @@ Screen Size Compatibility
         fill: #F2EFEB;
     }
     to {
-        fill: #30332A;
+        fill: #171611;
     }
 }
 
@@ -745,7 +745,7 @@ Screen Size Compatibility
         fill: #F2EFEB;
     }
     to {
-        fill: #30332A;
+        fill: #171611;
     }
 }
 
@@ -754,7 +754,7 @@ Screen Size Compatibility
         fill: #F2EFEB;
     }
     to {
-        fill: #30332A;
+        fill: #171611;
     }
 }
 
@@ -763,7 +763,7 @@ Screen Size Compatibility
         fill: #F2EFEB;
     }
     to {
-        fill: #30332A;
+        fill: #171611;
     }
 }
 
@@ -865,7 +865,7 @@ Standardized colors
 }
 
 .dark-grey {
-    fill: #30332a;
+    fill: #171611;
 }
 
 .grey {
@@ -877,17 +877,17 @@ Standardized colors
 }
 
 .black {
-    fill: #181914;
+    fill: #171611;
 }
 
 .black-stroke {
-    stroke: #181914;
+    stroke: #171611;
     stroke-miterlimit: 10;
     stroke-width: 4px;
 }
 
 .dark-grey-stroke {
-    stroke: #30332a;
+    stroke: #171611;
     stroke-miterlimit: 10;
     stroke-width: 2px;
 }
@@ -941,7 +941,7 @@ Standardized colors
 
 .text-stroke {
     paint-order: stroke;
-    stroke: #30332a;
+    stroke: #171611;
     stroke-width: 5px;
     stroke-linecap: butt;
     stroke-linejoin: miter;

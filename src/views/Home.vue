@@ -58,8 +58,8 @@
               <line class="blue-stroke" x1="502.05" y1="454.89" x2="134.74" y2="556.39"/>
               <line class="blue-stroke" x1="518.23" y1="513.46" x2="150.92" y2="614.95"/>
             </g>
-            <g id="rect">
-              <rect class="blue dark-grey-stroke animate__animated animate__fadeIn _3 animate__slow" x="408.52"
+            <g id="rect" class="blue dark-grey-stroke animate__animated animate__fadeIn _3 animate__slow">
+              <rect x="408.52"
                     y="83.87" width="270.38" height="411.32"
                     transform="translate(-20.23 41.7) rotate(-4.31)"/>
             </g>
