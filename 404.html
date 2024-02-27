@@ -1,0 +1,60 @@
+<!-- Duplicate for github pages SPA workaround -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#efe7dc">
+    <meta name="msapplication-config" content="./favicon/browserconfig.xml">
+    <meta name="theme-color" content="#171611">
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@_sam_antics"/>
+    <meta name="twitter:title" content="Sam Jimenez"/>
+    <meta name="twitter:description" content="UI Designer & Frontend Engineer"/>
+    <meta property="og:title" content="Sam Jimenez: UI Designer & Frontend Engineer" />
+    <title>Sam Jimenez: UI Designer & Frontend Engineer</title>
+    <meta property="og:description" content="UI Designer & Frontend Engineer"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Sam Jimenez"/>
+
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+        // Single Page Apps for GitHub Pages
+        // MIT License
+        // https://github.com/rafgraph/spa-github-pages
+        // This script checks to see if a redirect is present in the query string,
+        // converts it back into the correct url and adds it to the
+        // browser's history using window.history.replaceState(...),
+        // which won't cause the browser to attempt to load the new url.
+        // When the single page app is loaded further down in this file,
+        // the correct url will be waiting in the browser's history for
+        // the single page app to route accordingly.
+        var pathSegmentsToKeep = 0;
+
+        var l = window.location;
+        l.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+        );
+    </script>
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
